@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "HR Analytics Staging", "HR Analytics Staging\HR Analytics Staging.dtproj", "{3BE0F33D-DA12-99E3-3088-A952DE6AAAC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BE0F33D-DA12-99E3-3088-A952DE6AAAC4}.Development|Default.ActiveCfg = Development
+		{3BE0F33D-DA12-99E3-3088-A952DE6AAAC4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F7346BC-F671-4AC1-B2FF-4661178A81EF}
+	EndGlobalSection
+EndGlobal

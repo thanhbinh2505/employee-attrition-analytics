@@ -1,0 +1,2177 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="7/28/2026 5:26:28 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="THANH_BINH"
+  DTS:CreatorName="THANH_BINH\thanh"
+  DTS:DTSID="{6B1F57F4-0BA4-42A0-8546-6830BD526451}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1016.0"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="28"
+  DTS:VersionGUID="{CF7F8251-ED63-4D03-84D2-10001801A27B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{CA36BB52-576E-4DEC-9FD8-5D488815C524}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="D:\HR Analytics\data\raw_data\Employee_Attrition.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RecordID"
+              DTS:DTSID="{67F987E7-6F1B-489D-B37F-D12789832F3C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EmployeeNumber"
+              DTS:DTSID="{7D3D730F-6110-4165-B31A-737E8B77DE32}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SnapshotYear"
+              DTS:DTSID="{B1310F21-E532-46E0-9B9B-FD1A86F733D4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SnapshotDate"
+              DTS:DTSID="{F5CBD970-8E68-4D21-AC39-9842CFCDDFC5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BatchID"
+              DTS:DTSID="{B8B69F60-1969-4A28-B4AE-BB0B2DE33761}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Age"
+              DTS:DTSID="{D6C74517-16F9-4DF8-A674-E344DAC8FEB0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="30"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{64BCADAF-CE6D-48C1-8793-D3C612B4024A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="30"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MaritalStatus"
+              DTS:DTSID="{57BD4C57-95D3-42A5-AB56-74D0F08BCA9C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Department"
+              DTS:DTSID="{7790857A-E895-4552-8398-95B4653B093C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobRole"
+              DTS:DTSID="{5BFB239C-D3C5-4D9F-B50D-35118B1666E3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobLevel"
+              DTS:DTSID="{CCB94F95-9705-4E5E-B82C-2CFF36247B3A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DistanceFromHome"
+              DTS:DTSID="{6301998C-A623-42B6-8C07-954E70978C57}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NumberProject"
+              DTS:DTSID="{5E0A957E-5F84-4166-9B4A-FC6A0A0A49DC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AverageMonthlyHours"
+              DTS:DTSID="{AEF779DB-C3A4-4BFC-9556-FD1E5EF3AA61}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OverTime"
+              DTS:DTSID="{5A602ED8-64C5-4322-8AB4-98D6E2464521}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PerformanceRating"
+              DTS:DTSID="{11F7E78C-7C8B-4360-92E3-6F25087099EC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobSatisfaction"
+              DTS:DTSID="{F97B0772-D6A7-4B70-A956-9C299F52934E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EnvironmentSatisfaction"
+              DTS:DTSID="{79EDA0D2-28E2-4400-AB93-32C999AA5B40}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MonthlyIncome_VND"
+              DTS:DTSID="{18E2BAEE-1E94-41B0-9CF7-0BAA74FC0583}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="YearsAtCompany"
+              DTS:DTSID="{8AC97338-4334-460F-8C9A-4CD55FBC052B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="YearsSinceLastPromotion"
+              DTS:DTSID="{265329BC-43DE-4396-9646-EDE598929249}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PromotionLastYear"
+              DTS:DTSID="{6DE85E16-8C05-46F5-A368-1B5E7D509A1D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Attrition"
+              DTS:DTSID="{FF9D94E1-4C45-4BD4-AFB6-1CD437229D49}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LeaveDate"
+              DTS:DTSID="{113EFACD-EA92-44CA-A597-108463069DE3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Start_Date"
+              DTS:DTSID="{30F328AE-8B39-4661-9D5D-DE65F81E69C4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="End_Date"
+              DTS:DTSID="{67686A2A-0404-463B-B9B2-E3C88C3F503C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Is_Active"
+              DTS:DTSID="{EBD3CEA2-8294-482B-B147-FB7D44311A1C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ChangeType"
+              DTS:DTSID="{2474A683-0C2E-43C0-91C0-01E284B1D6DD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SCD_Version"
+              DTS:DTSID="{7F582B09-0488-4DC2-BC7A-FC9A5658142A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Is_Current"
+              DTS:DTSID="{A3194925-E09F-4EE7-9DEF-14B88E9DABBF}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[THANH_BINH\MSSQLSERVER01.sa 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{94B78E64-27B5-49CE-BAB2-F0D2D12B8271}"
+      DTS:ObjectName="THANH_BINH\MSSQLSERVER01.sa 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=THANH_BINH\MSSQLSERVER01;User ID=sa;Initial Catalog=PTNhanSu_Staging;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{94B78E64-27B5-49CE-BAB2-F0D2D12B8271}THANH_BINH\MSSQLSERVER01.sa 1;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABoH+6IDTVuGqn7moTPgRMfyw8nL1MznDNiYqF05Lce3gAAAAAOgAAAAAIAACAAAACohpS6e7uvkVFZSj/xED5qK9fK8OyC28ObLdL8yiLl+xAAAABoHjkC8axb8S/OotUPp+91QAAAAK89/Em/GmZheooWA40+s2xE6f76L15Ej9RLWRPLDVbuLsz2Mmu4lg36BhNxezv9WtCQ/GoPgQE7oiaNzwgIX7Q</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{22805066-560E-4135-96A1-6F2D3F68A002}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="DuongDanFile">
+      <DTS:VariableValue
+        DTS:DataType="8">D:\HR Analytics\Data\raw_data\Employee_Attrition.csv</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{3FEDABED-951B-4F7E-B919-9B6B75ADCD68}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="MaNK">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{EA2D598E-66E5-4B35-800D-24E12654CFE5}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="SoDongDoc">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{6A0466A4-73FA-487F-80D7-2161FEFB4113}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="TenFile">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Cập nhật kết quả"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{012B4CD3-E2E9-4679-A0C1-23CD11D48434}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Cập nhật kết quả"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{94B78E64-27B5-49CE-BAB2-F0D2D12B8271}"
+          SQLTask:SqlStatementSource="UPDATE etl.NhatKyTaiDuLieu&#xA;&#xA;set TrangThai = 'RUNNING',&#xA;ThoiGianKetThuc = getdate()&#xA;&#xA;where MaNK = ?;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::MaNK"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Cập nhật số dòng"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{4BCB56AE-D82B-4FC3-9326-52C862B6D3A4}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Cập nhật số dòng"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{94B78E64-27B5-49CE-BAB2-F0D2D12B8271}"
+          SQLTask:SqlStatementSource="update etl.NhatKyTaiDuLieu&#xA;set SoDongDoc = ?&#xA;where MaNK = ?;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::SoDongDoc"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="1"
+            SQLTask:DtsVariableName="User::MaNK"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Nạp CSV vào bảng DL thô"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{287DEB38-FF8F-4CA1-855D-02857D8BD64B}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Nạp CSV vào bảng DL thô"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Nạp CSV vào bảng DL thô\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Nạp CSV vào bảng DL thô\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Nạp CSV vào bảng DL thô\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Output].Columns[MaNK]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Output].Columns[MaNK]"
+                      name="MaNK"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">@[User::MaNK]</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">@[User::MaNK]</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Output].Columns[TenFile]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Output].Columns[TenFile]"
+                      name="TenFile"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">@[User::TenFile]</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">@[User::TenFile]</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Nạp CSV vào bảng DL thô\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Nạp CSV vào bảng DL thô\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[RecordID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[RecordID]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[RecordID]"
+                      name="RecordID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[EmployeeNumber]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[EmployeeNumber]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[EmployeeNumber]"
+                      name="EmployeeNumber"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SnapshotYear]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SnapshotYear]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SnapshotYear]"
+                      name="SnapshotYear"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SnapshotDate]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SnapshotDate]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SnapshotDate]"
+                      name="SnapshotDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[BatchID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[BatchID]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[BatchID]"
+                      name="BatchID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Age]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Age]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Age]"
+                      name="Age"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Gender]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Gender]"
+                      length="30"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Gender]"
+                      name="Gender"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[MaritalStatus]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[MaritalStatus]"
+                      length="30"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[MaritalStatus]"
+                      name="MaritalStatus"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Department]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Department]"
+                      name="Department"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobRole]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobRole]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobRole]"
+                      name="JobRole"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobLevel]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobLevel]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobLevel]"
+                      name="JobLevel"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[DistanceFromHome]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DistanceFromHome]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[DistanceFromHome]"
+                      name="DistanceFromHome"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[NumberProject]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NumberProject]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[NumberProject]"
+                      name="NumberProject"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[AverageMonthlyHours]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AverageMonthlyHours]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[AverageMonthlyHours]"
+                      name="AverageMonthlyHours"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[OverTime]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[OverTime]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[OverTime]"
+                      name="OverTime"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[PerformanceRating]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PerformanceRating]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[PerformanceRating]"
+                      name="PerformanceRating"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobSatisfaction]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobSatisfaction]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobSatisfaction]"
+                      name="JobSatisfaction"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[EnvironmentSatisfaction]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[EnvironmentSatisfaction]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[EnvironmentSatisfaction]"
+                      name="EnvironmentSatisfaction"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[MonthlyIncome_VND]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[MonthlyIncome_VND]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[MonthlyIncome_VND]"
+                      name="MonthlyIncome_VND"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[YearsAtCompany]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[YearsAtCompany]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[YearsAtCompany]"
+                      name="YearsAtCompany"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[YearsSinceLastPromotion]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[YearsSinceLastPromotion]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[YearsSinceLastPromotion]"
+                      name="YearsSinceLastPromotion"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[PromotionLastYear]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PromotionLastYear]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[PromotionLastYear]"
+                      name="PromotionLastYear"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Attrition]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Attrition]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Attrition]"
+                      name="Attrition"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[LeaveDate]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LeaveDate]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[LeaveDate]"
+                      name="LeaveDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Start_Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Start_Date]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Start_Date]"
+                      name="Start_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[End_Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[End_Date]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[End_Date]"
+                      name="End_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Active]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Is_Active]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Active]"
+                      name="Is_Active"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[ChangeType]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ChangeType]"
+                      length="50"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[ChangeType]"
+                      name="ChangeType"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SCD_Version]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SCD_Version]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SCD_Version]"
+                      name="SCD_Version"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Current]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Is_Current]"
+                      length="20"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Current]"
+                      name="Is_Current"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[RecordID]"
+                      dataType="wstr"
+                      length="50"
+                      name="RecordID" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[EmployeeNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="EmployeeNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SnapshotYear]"
+                      dataType="wstr"
+                      length="20"
+                      name="SnapshotYear" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SnapshotDate]"
+                      dataType="wstr"
+                      length="50"
+                      name="SnapshotDate" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[BatchID]"
+                      dataType="wstr"
+                      length="20"
+                      name="BatchID" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Age]"
+                      dataType="wstr"
+                      length="20"
+                      name="Age" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Gender]"
+                      dataType="wstr"
+                      length="30"
+                      name="Gender" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[MaritalStatus]"
+                      dataType="wstr"
+                      length="30"
+                      name="MaritalStatus" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      dataType="wstr"
+                      length="50"
+                      name="Department" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobRole]"
+                      dataType="wstr"
+                      length="50"
+                      name="JobRole" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobLevel]"
+                      dataType="wstr"
+                      length="20"
+                      name="JobLevel" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DistanceFromHome]"
+                      dataType="wstr"
+                      length="20"
+                      name="DistanceFromHome" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NumberProject]"
+                      dataType="wstr"
+                      length="20"
+                      name="NumberProject" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AverageMonthlyHours]"
+                      dataType="wstr"
+                      length="20"
+                      name="AverageMonthlyHours" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[OverTime]"
+                      dataType="wstr"
+                      length="20"
+                      name="OverTime" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PerformanceRating]"
+                      dataType="wstr"
+                      length="20"
+                      name="PerformanceRating" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobSatisfaction]"
+                      dataType="wstr"
+                      length="20"
+                      name="JobSatisfaction" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[EnvironmentSatisfaction]"
+                      dataType="wstr"
+                      length="20"
+                      name="EnvironmentSatisfaction" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[MonthlyIncome_VND]"
+                      dataType="wstr"
+                      length="50"
+                      name="MonthlyIncome_VND" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[YearsAtCompany]"
+                      dataType="wstr"
+                      length="20"
+                      name="YearsAtCompany" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[YearsSinceLastPromotion]"
+                      dataType="wstr"
+                      length="20"
+                      name="YearsSinceLastPromotion" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PromotionLastYear]"
+                      dataType="wstr"
+                      length="20"
+                      name="PromotionLastYear" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Attrition]"
+                      dataType="wstr"
+                      length="20"
+                      name="Attrition" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LeaveDate]"
+                      dataType="wstr"
+                      length="50"
+                      name="LeaveDate" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Start_Date]"
+                      dataType="wstr"
+                      length="50"
+                      name="Start_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[End_Date]"
+                      dataType="wstr"
+                      length="50"
+                      name="End_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Is_Active]"
+                      dataType="wstr"
+                      length="20"
+                      name="Is_Active" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ChangeType]"
+                      dataType="wstr"
+                      length="50"
+                      name="ChangeType" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SCD_Version]"
+                      dataType="wstr"
+                      length="20"
+                      name="SCD_Version" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Is_Current]"
+                      dataType="wstr"
+                      length="20"
+                      name="Is_Current" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[stg].[DuLieuTho_NV]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[THANH_BINH\MSSQLSERVER01.sa 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[THANH_BINH\MSSQLSERVER01.sa 1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[EmployeeNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="EmployeeNumber"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaNV]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[EmployeeNumber]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SnapshotYear]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="SnapshotYear"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NamChotDuLieu]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SnapshotYear]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SnapshotDate]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="SnapshotDate"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayChotDuLieu]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SnapshotDate]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Age]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Age"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Tuoi]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Age]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Gender]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="Gender"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GioiTinh]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Gender]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MaritalStatus]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="MaritalStatus"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TinhTrangHonNhan]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[MaritalStatus]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Department]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Department"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhongBan]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Department]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[JobRole]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="JobRole"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ChucDanh]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobRole]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[JobLevel]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="JobLevel"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CapBacCongViec]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobLevel]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DistanceFromHome]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="DistanceFromHome"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[KhoangCachTuNha]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[DistanceFromHome]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NumberProject]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="NumberProject"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SoLuongDuAn]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[NumberProject]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AverageMonthlyHours]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="AverageMonthlyHours"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SoGioTrungBinhThang]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[AverageMonthlyHours]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[OverTime]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="OverTime"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LamThemGio]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[OverTime]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PerformanceRating]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="PerformanceRating"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DiemDanhGiaHieuSuat]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[PerformanceRating]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[JobSatisfaction]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="JobSatisfaction"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DiemHaiLongCongViec]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[JobSatisfaction]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[EnvironmentSatisfaction]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="EnvironmentSatisfaction"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DiemHaiLongMoiTruong]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[EnvironmentSatisfaction]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MonthlyIncome_VND]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="MonthlyIncome_VND"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ThuNhapThang]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[MonthlyIncome_VND]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[YearsAtCompany]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="YearsAtCompany"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SoNamTaiCongTy]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[YearsAtCompany]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[YearsSinceLastPromotion]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="YearsSinceLastPromotion"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SoNamTuLanThangChuc]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[YearsSinceLastPromotion]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PromotionLastYear]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="PromotionLastYear"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DuocThangChucNamTruoc]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[PromotionLastYear]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Attrition]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Attrition"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DuBaoNghiViec]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Attrition]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LeaveDate]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="LeaveDate"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayNghiViec]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[LeaveDate]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Start_Date]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Start_Date"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayBatDau]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Start_Date]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[End_Date]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="End_Date"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayKetThuc]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[End_Date]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Is_Active]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Is_Active"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrangThaiHoatDong]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Active]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ChangeType]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ChangeType"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoaiThayDoi]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[ChangeType]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SCD_Version]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="SCD_Version"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhienBan_SCD]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SCD_Version]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[BatchID]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="BatchID"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaNK_Nguon]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[BatchID]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MaNK]"
+                      cachedDataType="i4"
+                      cachedName="MaNK"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaNK]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Output].Columns[MaNK]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TenFile]"
+                      cachedDataType="wstr"
+                      cachedName="TenFile"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TenFile]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Output].Columns[TenFile]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[RecordID]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="RecordID"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaBanGhi]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[RecordID]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Is_Current]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Is_Current"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LaBanGhiHienTai]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Current]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaDL]"
+                      dataType="i8"
+                      name="MaDL" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaNK]"
+                      dataType="i4"
+                      name="MaNK" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TenFile]"
+                      dataType="wstr"
+                      length="250"
+                      name="TenFile" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaBanGhi]"
+                      dataType="wstr"
+                      length="50"
+                      name="MaBanGhi" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaNV]"
+                      dataType="wstr"
+                      length="50"
+                      name="MaNV" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NamChotDuLieu]"
+                      dataType="wstr"
+                      length="20"
+                      name="NamChotDuLieu" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayChotDuLieu]"
+                      dataType="wstr"
+                      length="50"
+                      name="NgayChotDuLieu" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MaNK_Nguon]"
+                      dataType="wstr"
+                      length="20"
+                      name="MaNK_Nguon" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Tuoi]"
+                      dataType="wstr"
+                      length="20"
+                      name="Tuoi" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GioiTinh]"
+                      dataType="wstr"
+                      length="30"
+                      name="GioiTinh" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TinhTrangHonNhan]"
+                      dataType="wstr"
+                      length="30"
+                      name="TinhTrangHonNhan" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhongBan]"
+                      dataType="wstr"
+                      length="100"
+                      name="PhongBan" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ChucDanh]"
+                      dataType="wstr"
+                      length="150"
+                      name="ChucDanh" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CapBacCongViec]"
+                      dataType="wstr"
+                      length="20"
+                      name="CapBacCongViec" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[KhoangCachTuNha]"
+                      dataType="wstr"
+                      length="20"
+                      name="KhoangCachTuNha" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SoLuongDuAn]"
+                      dataType="wstr"
+                      length="20"
+                      name="SoLuongDuAn" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SoGioTrungBinhThang]"
+                      dataType="wstr"
+                      length="20"
+                      name="SoGioTrungBinhThang" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LamThemGio]"
+                      dataType="wstr"
+                      length="20"
+                      name="LamThemGio" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DiemDanhGiaHieuSuat]"
+                      dataType="wstr"
+                      length="20"
+                      name="DiemDanhGiaHieuSuat" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DiemHaiLongCongViec]"
+                      dataType="wstr"
+                      length="20"
+                      name="DiemHaiLongCongViec" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DiemHaiLongMoiTruong]"
+                      dataType="wstr"
+                      length="20"
+                      name="DiemHaiLongMoiTruong" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ThuNhapThang]"
+                      dataType="wstr"
+                      length="50"
+                      name="ThuNhapThang" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SoNamTaiCongTy]"
+                      dataType="wstr"
+                      length="20"
+                      name="SoNamTaiCongTy" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SoNamTuLanThangChuc]"
+                      dataType="wstr"
+                      length="20"
+                      name="SoNamTuLanThangChuc" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DuocThangChucNamTruoc]"
+                      dataType="wstr"
+                      length="20"
+                      name="DuocThangChucNamTruoc" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DuBaoNghiViec]"
+                      dataType="wstr"
+                      length="20"
+                      name="DuBaoNghiViec" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayNghiViec]"
+                      dataType="wstr"
+                      length="50"
+                      name="NgayNghiViec" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayBatDau]"
+                      dataType="wstr"
+                      length="50"
+                      name="NgayBatDau" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayKetThuc]"
+                      dataType="wstr"
+                      length="50"
+                      name="NgayKetThuc" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrangThaiHoatDong]"
+                      dataType="wstr"
+                      length="20"
+                      name="TrangThaiHoatDong" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoaiThayDoi]"
+                      dataType="wstr"
+                      length="50"
+                      name="LoaiThayDoi" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhienBan_SCD]"
+                      dataType="wstr"
+                      length="20"
+                      name="PhienBan_SCD" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LaBanGhiHienTai]"
+                      dataType="wstr"
+                      length="20"
+                      name="LaBanGhiHienTai" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ThoiGianTaiDL]"
+                      dataType="dbTimeStamp2"
+                      name="ThoiGianTaiDL" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DaXuLy]"
+                      dataType="bool"
+                      name="DaXuLy" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Nạp CSV vào bảng DL thô\Row Count"
+              componentClassID="Microsoft.RowCount"
+              contactInfo="Row Count;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Counts rows as they pass through a data flow. For example, use the number of rows processed to determine whether or not to perform cleanup operations, or update text in an e-mail message to communicate processing status."
+              name="Row Count">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable to hold the row count."
+                  name="VariableName">User::SoDongDoc</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Nạp CSV vào bảng DL thô\Row Count.Inputs[Row Count Input 1]"
+                  hasSideEffects="true"
+                  name="Row Count Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Nạp CSV vào bảng DL thô\Row Count.Outputs[Row Count Output 1]"
+                  name="Row Count Output 1"
+                  synchronousInputId="Package\Nạp CSV vào bảng DL thô\Row Count.Inputs[Row Count Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Nạp CSV vào bảng DL thô.Paths[Derived Column Output]"
+              endId="Package\Nạp CSV vào bảng DL thô\Row Count.Inputs[Row Count Input 1]"
+              name="Derived Column Output"
+              startId="Package\Nạp CSV vào bảng DL thô\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Nạp CSV vào bảng DL thô.Paths[Flat File Source Output]"
+              endId="Package\Nạp CSV vào bảng DL thô\Derived Column.Inputs[Derived Column Input]"
+              name="Flat File Source Output"
+              startId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Nạp CSV vào bảng DL thô.Paths[Row Count Output 1]"
+              endId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Row Count Output 1"
+              startId="Package\Nạp CSV vào bảng DL thô\Row Count.Outputs[Row Count Output 1]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tạo nhật ký"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{0507A792-FD9B-4332-A313-5928F7AF9E99}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tạo nhật ký"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{94B78E64-27B5-49CE-BAB2-F0D2D12B8271}"
+          SQLTask:SqlStatementSource="insert into etl.NhatKyTaiDuLieu (TenFile, HeThong) values (?, N'CSV');&#xA;select cast(scope_identity() as int) as MaNK;"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="0"
+            SQLTask:DtsVariableName="User::MaNK" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::TenFile"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="130"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{D74C2763-3CF5-4F6E-8257-6CF7E8DA5798}"
+      DTS:From="Package\Nạp CSV vào bảng DL thô"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Cập nhật số dòng" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{2A255AA7-C656-4CEC-8905-37D41112FC16}"
+      DTS:From="Package\Tạo nhật ký"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Nạp CSV vào bảng DL thô" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{F104265D-5714-4A49-97E2-A7480D2AF7CE}"
+      DTS:From="Package\Cập nhật số dòng"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Cập nhật kết quả" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="157.6,41.6"
+          Id="Package\Cập nhật kết quả"
+          TopLeft="722.499960524342,152.533332272636" />
+        <NodeLayout
+          Size="160,41.6"
+          Id="Package\Cập nhật số dòng"
+          TopLeft="433.333309657045,146.466665648156" />
+        <NodeLayout
+          Size="200,41.6"
+          Id="Package\Nạp CSV vào bảng DL thô"
+          TopLeft="68.3333295997649,150.799998951356" />
+        <NodeLayout
+          Size="132.8,41.6"
+          Id="Package\Tạo nhật ký"
+          TopLeft="106.666660838657,36.3999997468789" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="268.333329599765,169.433332299756">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="164.99998005728,0"
+              Start="0,0"
+              End="157.49998005728,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="157.49998005728,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="170.699995219211,77.999999746879">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,72.7999992044767"
+              Start="0,0"
+              End="0,65.2999992044767">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.2999992044767" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="593.333309657045,170.299998960396">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="129.166650867297,0"
+              Start="0,0"
+              End="121.666650867297,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="121.666650867297,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Nạp CSV vào bảng DL thô">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\Nạp CSV vào bảng DL thô\Row Count"
+          TopLeft="420.833310340015,174.199998788635" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Nạp CSV vào bảng DL thô\OLE DB Destination"
+          TopLeft="673.333296544024,176.799998770555" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Nạp CSV vào bảng DL thô\Derived Column"
+          TopLeft="149.16665851656,169.866665485435" />
+        <NodeLayout
+          Size="151.2,41.6"
+          Id="Package\Nạp CSV vào bảng DL thô\Flat File Source"
+          TopLeft="144.99999207755,32.0666664436791" />
+        <EdgeLayout
+          Id="Package\Nạp CSV vào bảng DL thô.Paths[Row Count Output 1]"
+          TopLeft="550.433310340015,196.299998779595">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="122.899986204009,0"
+              Start="0,0"
+              End="115.399986204009,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="115.399986204009,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nạp CSV vào bảng DL thô.Paths[Flat File Source Output]"
+          TopLeft="223.083325297055,73.6666664436791">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,96.199999041756"
+              Start="0,0"
+              End="0,88.699999041756">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,88.699999041756" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nạp CSV vào bảng DL thô.Paths[Derived Column Output]"
+          TopLeft="301.96665851656,192.833332137035">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="118.866651823455,0"
+              Start="0,0"
+              End="111.366651823455,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="111.366651823455,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nạp CSV vào bảng DL thô\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
