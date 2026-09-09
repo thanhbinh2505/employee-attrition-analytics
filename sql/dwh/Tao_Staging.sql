@@ -74,13 +74,11 @@ create table stg.DuLieuTho_NV(
 	SoNamTaiCongTy nvarchar(20) null,
 	SoNamTuLanThangChuc nvarchar(20) null,
 	DuocThangChucNamTruoc nvarchar(20) null,
-	DuBaoNghiViec nvarchar(20) null,
+	CoNghiViec nvarchar(20) null,
 	NgayNghiViec  nvarchar(50) null,
 	NgayBatDau  nvarchar(50) null,
 	NgayKetThuc nvarchar(50) null,
 	TrangThaiHoatDong nvarchar(20) null,
-	LoaiThayDoi nvarchar(50) null,
-	PhienBan_SCD nvarchar(20) null,
 	LaBanGhiHienTai nvarchar(20) null,
 
 	ThoiGianTaiDL datetime2(0) not null
@@ -124,14 +122,12 @@ create table stg.NhanVienChuanHoa(
 	SoNamTaiCongTy               tinyint not null,
 	SoNamTuLanThangChucCuoi      tinyint not null,
 	DuocThangChucNamTruoc        bit not null,
-	NghiViecTrongKy      bit not null,
+	CoNghiViec      bit not null,
 	NgayNghiViec                 date null,
 
 	NgayBatDauNguon           date null,
 	NgayKetThucNguon       date null,
 	TrangThaiHoatDongNguon            bit null,
-	LoaiThayDoiNguon          varchar(50) null,
-	PhienBanNguon         int null,
 	LaBanGhiHienTaiNguon        bit null,
 
 	MaBam varbinary(32) null, -- Phục vụ so sánh SCD
@@ -158,6 +154,7 @@ create table stg.NhanVienChuanHoa(
 	constraint ck_chuanhoa_hailongcv check (DiemHaiLongCongViec between 1 and 4), 
 	constraint ck_chuanhoa_hailongmt check (DiemHaiLongMoiTruong between 1 and 4), 
 	constraint ck_chuanhoa_thunhap check (ThuNhapThang > 0), 
+	constraint ck_chuanhoa_conghiviec check (CoNghiViec in (0,1)),
 	constraint ck_chuanhoa_trangthaichatluong check (TrangThaiChatLuong in ('VALID', 'WARNING'))
 
 );

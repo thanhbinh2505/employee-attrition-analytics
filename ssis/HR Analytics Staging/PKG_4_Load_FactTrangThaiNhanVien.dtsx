@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="10"
-  DTS:VersionGUID="{153F2FB5-95E7-4F28-8B51-C984768A7BFD}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{605D579F-3E16-470F-8550-778910D1D29B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAiMkzMGnSyQU7FwF94QYdwFKoZU9YwOR6BCXik9rbGCwAAAAAOgAAAAAIAACAAAACKj85RjburJYxRJQ/sYhxWxsLIsokKGxGZD+VpnnY5uRAAAACR7UvOfgnlf/EHEfQhei2sQAAAAKButjZtBD3nFSEvFHlGGBxFmWbzf/Ecn7CMkxiqiWwbYG4XYUwv6gzVPLwpe8Voi1H3HBFCwwpil4bexZ4N1vA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACzKoLgVJE7pN0pAQDtSif+8kEwlUNEsjR7pGFh9WMRGgAAAAAOgAAAAAIAACAAAACoKH0+mLDqR5UDHM5caIHenlEIUOseGbF6umhdgNnmCxAAAACn3xJB4n+5mkQirKUPHAseQAAAAOVAp9y/sB8Y9oOnfVM9dTx1hiG7/eMiO0b0RS9tra/qnAi+S2T63DFBtz0zY26osmtTIPLbKgzz6eIoz5KT0Jk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA5WgZW4YN8+oDcAnA/t7lD4qGjwFdAaj0Uz3SaVNt0rQAAAAAOgAAAAAIAACAAAAAjjZBnBWhbobvKlHNinMkpZQL4KR9MdnDsMZK0u9mfFRAAAAAGOUH9NwJe9ArLP3bkVRVOQAAAALDu0QX0IJlwP1Eb+CC7WgT6aUrPOlg35UnjX6X5x3E7JbmimJzwmo6pf6+d7wvNCEodEgEM4LObJ3W+hWyU5QE</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAx823SO19M0F2+KT/ARoEhKQtlEGqDljFa+VK7u26RuwAAAAAOgAAAAAIAACAAAABcI4MGsprDrPXHtbimzofsXZO4tZc/7gigQ9II1o2L4xAAAAAGJ12KTBmJysdCS/rBHhHPQAAAAI29lH7K68d0xb77qEtKbGGB1u34bTkt9/3aL9fg4TV668+RihCspyjHdRP+8Yud5OR9vdxfDTQwfNh9rA5IUmw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -819,10 +819,10 @@ where [refTable].[MaNV] = ? and [refTable].[PhienBan] = ?</property>
                       cachedName="SoNamTaiCongTy"
                       lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[SoNamTaiCongTy]" />
                     <inputColumn
-                      refId="Package\Load_FactTrangThai NV\TinhKhoaVaMeasure.Inputs[Derived Column Input].Columns[NghiViecTrongKy]"
+                      refId="Package\Load_FactTrangThai NV\TinhKhoaVaMeasure.Inputs[Derived Column Input].Columns[CoNghiViec]"
                       cachedDataType="bool"
-                      cachedName="NghiViecTrongKy"
-                      lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[NghiViecTrongKy]" />
+                      cachedName="CoNghiViec"
+                      lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[CoNghiViec]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -892,13 +892,13 @@ where [refTable].[MaNV] = ? and [refTable].[PhienBan] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">#{Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[NghiViecTrongKy]} ? (DT_I4)2 : (DT_I4)1</property>
+                          name="Expression">#{Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[CoNghiViec]} ? (DT_I4)2 : (DT_I4)1</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">NghiViecTrongKy ? (DT_I4)2 : (DT_I4)1</property>
+                          name="FriendlyExpression">CoNghiViec ? (DT_I4)2 : (DT_I4)1</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -936,13 +936,13 @@ where [refTable].[MaNV] = ? and [refTable].[PhienBan] = ?</property>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">#{Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[NghiViecTrongKy]} ? (DT_UI1)1 : (DT_UI1)0</property>
+                          name="Expression">#{Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[CoNghiViec]} ? (DT_UI1)1 : (DT_UI1)0</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">NghiViecTrongKy ? (DT_UI1)1 : (DT_UI1)0</property>
+                          name="FriendlyExpression">CoNghiViec ? (DT_UI1)1 : (DT_UI1)0</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -1032,7 +1032,7 @@ where [refTable].[MaNV] = ? and [refTable].[PhienBan] = ?</property>
     SoNamTaiCongTy,
     SoNamTuLanThangChucCuoi,
     DuocThangChucNamTruoc,
-    NghiViecTrongKy
+    CoNghiViec
 
 from stg.NhanVienChuanHoa
 
@@ -1254,15 +1254,6 @@ where TrangThaiChatLuong = 'VALID'
                       name="SoNamTuLanThangChucCuoi"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[NghiViecTrongKy]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].ExternalColumns[NghiViecTrongKy]"
-                      lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[NghiViecTrongKy]"
-                      name="NghiViecTrongKy"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
                       refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[DuocThangChucNamTruoc]"
                       dataType="bool"
                       errorOrTruncationOperation="Conversion"
@@ -1270,6 +1261,15 @@ where TrangThaiChatLuong = 'VALID'
                       externalMetadataColumnId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].ExternalColumns[DuocThangChucNamTruoc]"
                       lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[DuocThangChucNamTruoc]"
                       name="DuocThangChucNamTruoc"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[CoNghiViec]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].ExternalColumns[CoNghiViec]"
+                      lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].Columns[CoNghiViec]"
+                      name="CoNghiViec"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
@@ -1355,13 +1355,13 @@ where TrangThaiChatLuong = 'VALID'
                       dataType="ui1"
                       name="SoNamTuLanThangChucCuoi" />
                     <externalMetadataColumn
-                      refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].ExternalColumns[NghiViecTrongKy]"
-                      dataType="bool"
-                      name="NghiViecTrongKy" />
-                    <externalMetadataColumn
                       refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].ExternalColumns[DuocThangChucNamTruoc]"
                       dataType="bool"
                       name="DuocThangChucNamTruoc" />
+                    <externalMetadataColumn
+                      refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Output].ExternalColumns[CoNghiViec]"
+                      dataType="bool"
+                      name="CoNghiViec" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -1475,10 +1475,10 @@ where TrangThaiChatLuong = 'VALID'
                       lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Error Output].Columns[DuocThangChucNamTruoc]"
                       name="DuocThangChucNamTruoc" />
                     <outputColumn
-                      refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Error Output].Columns[NghiViecTrongKy]"
+                      refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Error Output].Columns[CoNghiViec]"
                       dataType="bool"
-                      lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Error Output].Columns[NghiViecTrongKy]"
-                      name="NghiViecTrongKy" />
+                      lineageId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Error Output].Columns[CoNghiViec]"
+                      name="CoNghiViec" />
                     <outputColumn
                       refId="Package\Load_FactTrangThai NV\TrangThaiNV.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
@@ -1553,13 +1553,29 @@ where TrangThaiChatLuong = 'VALID'
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load_FactTrangThai NV\DimNhanVien_SCD"
+          TopLeft="173.333323862818,207.133331892954" />
+        <NodeLayout
           Size="140,41.6"
           Id="Package\Load_FactTrangThai NV\TrangThaiNV"
           TopLeft="197.499989209076,62.3999995660782" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load_FactTrangThai NV\DimNhanVien_SCD"
-          TopLeft="173.333323862818,207.133331892954" />
+          Size="160.8,41.6"
+          Id="Package\Load_FactTrangThai NV\FactTrangThaiNV"
+          TopLeft="711.666627782916,254.799998228153" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\Load_FactTrangThai NV\TinhKhoaVaMeasure"
+          TopLeft="189.999989618858,350.99999755919" />
+        <NodeLayout
+          Size="136,41.6"
+          Id="Package\Load_FactTrangThai NV\ChongTrung"
+          TopLeft="505.83330569582,358.79999750495" />
+        <NodeLayout
+          Size="181.6,41.6"
+          Id="Package\Load_FactTrangThai NV\KhongTimThayDimNV"
+          TopLeft="468.333307744729,69.3333328511979" />
         <EdgeLayout
           Id="Package\Load_FactTrangThai NV.Paths[OLE DB Source Output]"
           TopLeft="267.499989209076,103.999999566078">
@@ -1594,116 +1610,6 @@ where TrangThaiChatLuong = 'VALID'
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="181.6,41.6"
-          Id="Package\Load_FactTrangThai NV\KhongTimThayDimNV"
-          TopLeft="468.333307744729,69.3333328511979" />
-        <EdgeLayout
-          Id="Package\Load_FactTrangThai NV.Paths[Lookup No Match Output]"
-          TopLeft="285.599990529485,207.133331892954">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="273.533317215245,-96.1999990417561"
-              Start="0,0"
-              End="273.533317215245,-88.6999990417561">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-35.0169298439122" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-35.0169298439122"
-                    Point2="0,-39.0169298439122"
-                    Point3="4,-39.0169298439122" />
-                  <mssgle:LineSegment
-                    End="269.533317215245,-39.0169298439122" />
-                  <mssgle:CubicBezierSegment
-                    Point1="269.533317215245,-39.0169298439122"
-                    Point2="273.533317215245,-39.0169298439122"
-                    Point3="273.533317215245,-43.0169298439122" />
-                  <mssgle:LineSegment
-                    End="273.533317215245,-88.6999990417561" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="80.9602718888724,-34.0169298439122,111.6127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="176,41.6"
-          Id="Package\Load_FactTrangThai NV\TinhKhoaVaMeasure"
-          TopLeft="189.999989618858,350.99999755919" />
-        <EdgeLayout
-          Id="Package\Load_FactTrangThai NV.Paths[Lookup Match Output]"
-          TopLeft="258.533323862818,248.733331892954">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="19.4666657560402,102.266665666236"
-              Start="0,0"
-              End="19.4666657560402,94.766665666236">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,47.133332833118" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,47.133332833118"
-                    Point2="0,51.133332833118"
-                    Point3="4,51.133332833118" />
-                  <mssgle:LineSegment
-                    End="15.4666657560402,51.133332833118" />
-                  <mssgle:CubicBezierSegment
-                    Point1="15.4666657560402,51.133332833118"
-                    Point2="19.4666657560402,51.133332833118"
-                    Point3="19.4666657560402,55.133332833118" />
-                  <mssgle:LineSegment
-                    End="19.4666657560402,94.766665666236" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-38.4580538407299,56.133332833118,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="136,41.6"
-          Id="Package\Load_FactTrangThai NV\ChongTrung"
-          TopLeft="505.83330569582,358.79999750495" />
-        <EdgeLayout
-          Id="Package\Load_FactTrangThai NV.Paths[Derived Column Output]"
-          TopLeft="365.999989618858,375.69999753207">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="139.833316076962,0"
-              Start="0,0"
-              End="132.333316076962,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="132.333316076962,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\Load_FactTrangThai NV\FactTrangThaiNV"
-          TopLeft="711.666627782916,254.799998228153" />
         <EdgeLayout
           Id="Package\Load_FactTrangThai NV.Paths[Lookup No Match Output1]"
           TopLeft="573.83330569582,358.79999750495">
@@ -1740,24 +1646,110 @@ where TrangThaiChatLuong = 'VALID'
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_FactTrangThai NV.Paths[Lookup No Match Output]"
+          TopLeft="285.599990529485,207.133331892954">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="273.533317215245,-96.1999990417561"
+              Start="0,0"
+              End="273.533317215245,-88.6999990417561">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-35.0169298439122" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-35.0169298439122"
+                    Point2="0,-39.0169298439122"
+                    Point3="4,-39.0169298439122" />
+                  <mssgle:LineSegment
+                    End="269.533317215245,-39.0169298439122" />
+                  <mssgle:CubicBezierSegment
+                    Point1="269.533317215245,-39.0169298439122"
+                    Point2="273.533317215245,-39.0169298439122"
+                    Point3="273.533317215245,-43.0169298439122" />
+                  <mssgle:LineSegment
+                    End="273.533317215245,-88.6999990417561" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="80.9602718888724,-34.0169298439122,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_FactTrangThai NV.Paths[Lookup Match Output]"
+          TopLeft="258.533323862818,248.733331892954">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="18.66666575604,102.266665666236"
+              Start="0,0"
+              End="18.66666575604,94.766665666236">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.133332833118" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,47.133332833118"
+                    Point2="0,51.133332833118"
+                    Point3="4,51.133332833118" />
+                  <mssgle:LineSegment
+                    End="14.66666575604,51.133332833118" />
+                  <mssgle:CubicBezierSegment
+                    Point1="14.66666575604,51.133332833118"
+                    Point2="18.66666575604,51.133332833118"
+                    Point3="18.66666575604,55.133332833118" />
+                  <mssgle:LineSegment
+                    End="18.66666575604,94.766665666236" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-38.85805384073,56.133332833118,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load_FactTrangThai NV.Paths[Derived Column Output]"
+          TopLeft="364.399989618858,375.69999753207">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="141.433316076962,0"
+              Start="0,0"
+              End="133.933316076962,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="133.933316076962,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load_FactTrangThai NV\TrangThaiNV">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load_FactTrangThai NV\DimNhanVien_SCD">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1767,7 +1759,7 @@ where TrangThaiChatLuong = 'VALID'
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1775,23 +1767,8 @@ where TrangThaiChatLuong = 'VALID'
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load_FactTrangThai NV\ChongTrung">
+    design-time-name="Package\Load_FactTrangThai NV\TrangThaiNV">
     <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -1807,6 +1784,29 @@ where TrangThaiChatLuong = 'VALID'
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load_FactTrangThai NV\ChongTrung">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

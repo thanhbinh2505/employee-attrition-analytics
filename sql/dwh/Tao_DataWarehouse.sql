@@ -134,7 +134,7 @@ go
 
 create table dw.DimTrangThaiNghiViec(
     KhoaTrangThaiNghiViec int not null primary key,
-    NghiViecTrong12Thang bit null,
+    CoNghiViec bit null,
     TenTrangThai nvarchar(100) not null unique
 );
 go
@@ -143,11 +143,11 @@ go
 if not exists (select 1 from dw.DimTrangThaiNghiViec)
 begin
     insert into dw.DimTrangThaiNghiViec
-    (KhoaTrangThaiNghiViec, NghiViecTrong12Thang, TenTrangThai)
+    (KhoaTrangThaiNghiViec, CoNghiViec, TenTrangThai)
     values
     (0, null, N'Khong xac dinh'),
-    (1, 0, N'Khong nghi trong 12 thang tiep theo'),
-    (2, 1, N'Nghi trong 12 thang tiep theo');
+    (1, 0, N'Khong nghi viec'),
+    (2, 1, N'Co nghi viec');
 end;
 go
 

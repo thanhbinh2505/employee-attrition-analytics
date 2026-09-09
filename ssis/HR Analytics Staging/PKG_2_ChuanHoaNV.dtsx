@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="PKG_2_ChuanHoaNV"
   DTS:PackageType="5"
-  DTS:VersionBuild="79"
-  DTS:VersionGUID="{545D0C62-5D80-4D0C-9015-7A791F87CBFB}">
+  DTS:VersionBuild="85"
+  DTS:VersionGUID="{6CF68AFC-57A1-4812-AF19-D1F2B4BB466B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABZ9bxY5uLfVFUcCVyOh5Gi1BfrZXzOQB9jknIn5kwjIAAAAAAOgAAAAAIAACAAAADVW+7zV9gPouKGEzlrEea5UVU9bT6Lkx4iCrB369nbHBAAAAAGhQuNMRuJqvnrPVHVCSNVQAAAALucJSaz8pVyIZP8WR1wCDQqcTRXzX7easURe1Xq7HYZxUEC3ckEVPJAficCOcjpVC5VOextzObA2aDZfOUmeqI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAxu7s746FDlnvv1GlynD3wS/YFJFMKUhsx+KV6g5UVKgAAAAAOgAAAAAIAACAAAAB45Ll3ViRKCjC0AA7OWoLxPlg4OVl7tDR9cgGRQsHRiBAAAADUyefFbl10fwad/6nrnkA8QAAAAJSRIeP4PdzFBQDuyf4YvwXK92af0SEn9vo8gxey3QtVmvmjx7mkrweHKsc5UP+jLyZSIaM9ybhwvMLABpBoUQU</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -341,12 +341,6 @@
                       cachedLength="20"
                       cachedName="SoNamTuLanThangChuc"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoNamTuLanThangChuc]" />
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Inputs[Data Conversion Input].Columns[PhienBan_SCD]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="PhienBan_SCD"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[PhienBan_SCD]" />
                     <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Inputs[Data Conversion Input].Columns[ThoiGianTaiDL]"
                       cachedDataType="dbTimeStamp2"
@@ -736,26 +730,6 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PhienBan_SCD]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PhienBan_SCD]"
-                      name="Copy of PhienBan_SCD"
-                      truncationRowDisposition="RedirectRow">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[PhienBan_SCD]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ThoiGianTaiDL]"
                       dataType="dbTimeStamp2"
                       errorOrTruncationOperation="Conversion"
@@ -898,12 +872,6 @@
                       cachedName="DuocThangChucNamTruoc"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuocThangChucNamTruoc]" />
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Inputs[Derived Column Input].Columns[DuBaoNghiViec]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="DuBaoNghiViec"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuBaoNghiViec]" />
-                    <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Inputs[Derived Column Input].Columns[NgayNghiViec]"
                       cachedDataType="wstr"
                       cachedLength="50"
@@ -928,17 +896,17 @@
                       cachedName="TrangThaiHoatDong"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[TrangThaiHoatDong]" />
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Inputs[Derived Column Input].Columns[LoaiThayDoi]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="LoaiThayDoi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoaiThayDoi]" />
-                    <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Inputs[Derived Column Input].Columns[LaBanGhiHienTai]"
                       cachedDataType="wstr"
                       cachedLength="20"
                       cachedName="LaBanGhiHienTai"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LaBanGhiHienTai]" />
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Inputs[Derived Column Input].Columns[CoNghiViec]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CoNghiViec"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CoNghiViec]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1046,30 +1014,6 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LoaiThayDoi_CH]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      length="50"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LoaiThayDoi_CH]"
-                      name="LoaiThayDoi_CH"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">(DT_STR,50,1252)([ISNULL](#{Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoaiThayDoi]}) ? NULL(DT_WSTR,50) : [TRIM](#{Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoaiThayDoi]}))</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">(DT_STR,50,1252)(ISNULL(LoaiThayDoi) ? NULL(DT_WSTR,50) : TRIM(LoaiThayDoi))</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LamThemGio_CH]"
                       dataType="bool"
                       errorOrTruncationOperation="Computation"
@@ -1114,25 +1058,25 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[DuBaoNghiViec_CH]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[CoNghiViec_CH]"
                       dataType="bool"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[DuBaoNghiViec_CH]"
-                      name="DuBaoNghiViec_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[CoNghiViec_CH]"
+                      name="CoNghiViec_CH"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[TRIM](#{Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuBaoNghiViec]}) == "1" ? (DT_BOOL)1 : [TRIM](#{Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuBaoNghiViec]}) == "0" ? (DT_BOOL)0 : NULL(DT_BOOL)</property>
+                          name="Expression">[TRIM](#{Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CoNghiViec]}) == "1" ? (DT_BOOL)1 : [TRIM](#{Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CoNghiViec]}) == "0" ? (DT_BOOL)0 : NULL(DT_BOOL)</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">TRIM(DuBaoNghiViec) == "1" ? (DT_BOOL)1 : TRIM(DuBaoNghiViec) == "0" ? (DT_BOOL)0 : NULL(DT_BOOL)</property>
+                          name="FriendlyExpression">TRIM(CoNghiViec) == "1" ? (DT_BOOL)1 : TRIM(CoNghiViec) == "0" ? (DT_BOOL)0 : NULL(DT_BOOL)</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -1530,12 +1474,6 @@
                       externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[NamChotDuLieu]"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of NamChotDuLieu]" />
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].Columns[Copy of PhienBan_SCD]"
-                      cachedDataType="i4"
-                      cachedName="Copy of PhienBan_SCD"
-                      externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[PhienBanNguon]"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of PhienBan_SCD]" />
-                    <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].Columns[NgayBatDau_CH]"
                       cachedDataType="wstr"
                       cachedLength="50"
@@ -1556,25 +1494,18 @@
                       externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[TrangThaiHoatDongNguon]"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[TrangThaiHoatDong_CH]" />
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].Columns[LoaiThayDoi_CH]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LoaiThayDoi_CH"
-                      externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[LoaiThayDoiNguon]"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LoaiThayDoi_CH]" />
-                    <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].Columns[LaBanGhiHienTai_CH]"
                       cachedDataType="bool"
                       cachedName="LaBanGhiHienTai_CH"
                       externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[LaBanGhiHienTaiNguon]"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LaBanGhiHienTai_CH]" />
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].Columns[DuBaoNghiViec_CH]"
-                      cachedDataType="bool"
-                      cachedName="DuBaoNghiViec_CH"
-                      externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[NghiViecTrongKy]"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[DuBaoNghiViec_CH]" />
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].Columns[CoNghiViec]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CoNghiViec"
+                      externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[CoNghiViec]"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CoNghiViec]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1725,16 +1656,6 @@
                       dataType="bool"
                       name="TrangThaiHoatDongNguon" />
                     <externalMetadataColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[LoaiThayDoiNguon]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="LoaiThayDoiNguon" />
-                    <externalMetadataColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[PhienBanNguon]"
-                      dataType="i4"
-                      name="PhienBanNguon" />
-                    <externalMetadataColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[LaBanGhiHienTaiNguon]"
                       dataType="bool"
                       name="LaBanGhiHienTaiNguon" />
@@ -1751,9 +1672,9 @@
                       dataType="bool"
                       name="LaPhienBanHienTai" />
                     <externalMetadataColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[NghiViecTrongKy]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa.Inputs[OLE DB Destination Input].ExternalColumns[CoNghiViec]"
                       dataType="bool"
-                      name="NghiViecTrongKy" />
+                      name="CoNghiViec" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2503,16 +2424,6 @@
                       name="DuocThangChucNamTruoc"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuBaoNghiViec]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[DuBaoNghiViec]"
-                      length="20"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuBaoNghiViec]"
-                      name="DuBaoNghiViec"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayNghiViec]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
@@ -2553,26 +2464,6 @@
                       name="TrangThaiHoatDong"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoaiThayDoi]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LoaiThayDoi]"
-                      length="50"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoaiThayDoi]"
-                      name="LoaiThayDoi"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[PhienBan_SCD]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PhienBan_SCD]"
-                      length="20"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[PhienBan_SCD]"
-                      name="PhienBan_SCD"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LaBanGhiHienTai]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
@@ -2599,6 +2490,16 @@
                       externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[DaXuLy]"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DaXuLy]"
                       name="DaXuLy"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CoNghiViec]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CoNghiViec]"
+                      length="20"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CoNghiViec]"
+                      name="CoNghiViec"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
@@ -2727,11 +2628,6 @@
                       length="20"
                       name="DuocThangChucNamTruoc" />
                     <externalMetadataColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[DuBaoNghiViec]"
-                      dataType="wstr"
-                      length="20"
-                      name="DuBaoNghiViec" />
-                    <externalMetadataColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NgayNghiViec]"
                       dataType="wstr"
                       length="50"
@@ -2752,16 +2648,6 @@
                       length="20"
                       name="TrangThaiHoatDong" />
                     <externalMetadataColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LoaiThayDoi]"
-                      dataType="wstr"
-                      length="50"
-                      name="LoaiThayDoi" />
-                    <externalMetadataColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PhienBan_SCD]"
-                      dataType="wstr"
-                      length="20"
-                      name="PhienBan_SCD" />
-                    <externalMetadataColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LaBanGhiHienTai]"
                       dataType="wstr"
                       length="20"
@@ -2774,6 +2660,11 @@
                       refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[DaXuLy]"
                       dataType="bool"
                       name="DaXuLy" />
+                    <externalMetadataColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CoNghiViec]"
+                      dataType="wstr"
+                      length="20"
+                      name="CoNghiViec" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2930,11 +2821,11 @@
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[DuocThangChucNamTruoc]"
                       name="DuocThangChucNamTruoc" />
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[DuBaoNghiViec]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CoNghiViec]"
                       dataType="wstr"
                       length="20"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[DuBaoNghiViec]"
-                      name="DuBaoNghiViec" />
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CoNghiViec]"
+                      name="CoNghiViec" />
                     <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NgayNghiViec]"
                       dataType="wstr"
@@ -2959,18 +2850,6 @@
                       length="20"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[TrangThaiHoatDong]"
                       name="TrangThaiHoatDong" />
-                    <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LoaiThayDoi]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LoaiThayDoi]"
-                      name="LoaiThayDoi" />
-                    <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PhienBan_SCD]"
-                      dataType="wstr"
-                      length="20"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PhienBan_SCD]"
-                      name="PhienBan_SCD" />
                     <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LaBanGhiHienTai]"
                       dataType="wstr"
@@ -3271,802 +3150,6 @@
               name="Union All"
               version="1">
               <inputs>
-                <input
-                  refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1]"
-                  name="Union All Input 1">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[MaDL]"
-                      cachedDataType="i8"
-                      cachedName="MaDL"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaDL]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaDL]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[MaNK]"
-                      cachedDataType="i4"
-                      cachedName="MaNK"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaNK]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaNK]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[TenFile]"
-                      cachedDataType="wstr"
-                      cachedLength="250"
-                      cachedName="TenFile"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[TenFile]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TenFile]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[MaBanGhi]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="MaBanGhi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaBanGhi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaBanGhi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[MaNV]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="MaNV"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaNV]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaNV]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NamChotDuLieu]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="NamChotDuLieu"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NamChotDuLieu]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NamChotDuLieu]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NgayChotDuLieu]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="NgayChotDuLieu"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayChotDuLieu]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayChotDuLieu]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[MaNK_Nguon]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="MaNK_Nguon"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaNK_Nguon]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaNK_Nguon]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[Tuoi]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="Tuoi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[Tuoi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[Tuoi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[GioiTinh]"
-                      cachedDataType="wstr"
-                      cachedLength="30"
-                      cachedName="GioiTinh"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[GioiTinh]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[GioiTinh]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[TinhTrangHonNhan]"
-                      cachedDataType="wstr"
-                      cachedLength="30"
-                      cachedName="TinhTrangHonNhan"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[TinhTrangHonNhan]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TinhTrangHonNhan]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[PhongBan]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="PhongBan"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[PhongBan]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[PhongBan]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[ChucDanh]"
-                      cachedDataType="wstr"
-                      cachedLength="150"
-                      cachedName="ChucDanh"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[ChucDanh]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ChucDanh]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[CapBacCongViec]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="CapBacCongViec"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CapBacCongViec]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CapBacCongViec]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[KhoangCachTuNha]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="KhoangCachTuNha"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[KhoangCachTuNha]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[KhoangCachTuNha]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[SoLuongDuAn]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="SoLuongDuAn"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoLuongDuAn]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[SoLuongDuAn]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[SoGioTrungBinhThang]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="SoGioTrungBinhThang"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoGioTrungBinhThang]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[SoGioTrungBinhThang]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[LamThemGio]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="LamThemGio"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LamThemGio]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LamThemGio]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DiemDanhGiaHieuSuat]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="DiemDanhGiaHieuSuat"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DiemDanhGiaHieuSuat]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DiemDanhGiaHieuSuat]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DiemHaiLongCongViec]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="DiemHaiLongCongViec"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DiemHaiLongCongViec]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DiemHaiLongCongViec]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DiemHaiLongMoiTruong]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="DiemHaiLongMoiTruong"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DiemHaiLongMoiTruong]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DiemHaiLongMoiTruong]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[ThuNhapThang]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="ThuNhapThang"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[ThuNhapThang]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ThuNhapThang]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[SoNamTaiCongTy]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="SoNamTaiCongTy"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoNamTaiCongTy]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[SoNamTaiCongTy]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[SoNamTuLanThangChuc]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="SoNamTuLanThangChuc"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoNamTuLanThangChuc]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[SoNamTuLanThangChuc]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DuocThangChucNamTruoc]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="DuocThangChucNamTruoc"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuocThangChucNamTruoc]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuocThangChucNamTruoc]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DuBaoNghiViec]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="DuBaoNghiViec"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuBaoNghiViec]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuBaoNghiViec]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NgayNghiViec]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="NgayNghiViec"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayNghiViec]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayNghiViec]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NgayBatDau]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="NgayBatDau"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayBatDau]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayBatDau]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NgayKetThuc]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="NgayKetThuc"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayKetThuc]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayKetThuc]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[TrangThaiHoatDong]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="TrangThaiHoatDong"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[TrangThaiHoatDong]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TrangThaiHoatDong]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[LoaiThayDoi]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="LoaiThayDoi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoaiThayDoi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LoaiThayDoi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[PhienBan_SCD]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="PhienBan_SCD"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[PhienBan_SCD]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[PhienBan_SCD]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[LaBanGhiHienTai]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="LaBanGhiHienTai"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LaBanGhiHienTai]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LaBanGhiHienTai]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[ThoiGianTaiDL]"
-                      cachedDataType="dbTimeStamp2"
-                      cachedName="ThoiGianTaiDL"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[ThoiGianTaiDL]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ThoiGianTaiDL]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DaXuLy]"
-                      cachedDataType="bool"
-                      cachedName="DaXuLy"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DaXuLy]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DaXuLy]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[GioiTinh_CH]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="10"
-                      cachedName="GioiTinh_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[GioiTinh_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[GioiTinh_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[TinhTrangHonNhan_CH]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="20"
-                      cachedName="TinhTrangHonNhan_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[TinhTrangHonNhan_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TinhTrangHonNhan_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[PhongBan_CH]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="PhongBan_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[PhongBan_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[PhongBan_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[ChucDanh_CH]"
-                      cachedDataType="wstr"
-                      cachedLength="150"
-                      cachedName="ChucDanh_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[ChucDanh_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ChucDanh_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[LoaiThayDoi_CH]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LoaiThayDoi_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LoaiThayDoi_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LoaiThayDoi_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[LamThemGio_CH]"
-                      cachedDataType="bool"
-                      cachedName="LamThemGio_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LamThemGio_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LamThemGio_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DuocThangChucNamTruoc_CH]"
-                      cachedDataType="bool"
-                      cachedName="DuocThangChucNamTruoc_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[DuocThangChucNamTruoc_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuocThangChucNamTruoc_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DuBaoNghiViec_CH]"
-                      cachedDataType="bool"
-                      cachedName="DuBaoNghiViec_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[DuBaoNghiViec_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuBaoNghiViec_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[TrangThaiHoatDong_CH]"
-                      cachedDataType="bool"
-                      cachedName="TrangThaiHoatDong_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[TrangThaiHoatDong_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TrangThaiHoatDong_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[LaBanGhiHienTai_CH]"
-                      cachedDataType="bool"
-                      cachedName="LaBanGhiHienTai_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LaBanGhiHienTai_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LaBanGhiHienTai_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NgayChotDuLieu_CH]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="NgayChotDuLieu_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[NgayChotDuLieu_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayChotDuLieu_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NgayNghiViec_CH]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="NgayNghiViec_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[NgayNghiViec_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayNghiViec_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NgayBatDau_CH]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="NgayBatDau_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[NgayBatDau_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayBatDau_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[NgayKetThuc_CH]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="NgayKetThuc_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[NgayKetThuc_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayKetThuc_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[ErrorCode]"
-                      cachedDataType="i4"
-                      cachedName="ErrorCode"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ErrorCode]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[ErrorColumn]"
-                      cachedDataType="i4"
-                      cachedName="ErrorColumn"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ErrorColumn]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[TenGoiSSIS_Loi]"
-                      cachedDataType="wstr"
-                      cachedLength="16"
-                      cachedName="TenGoiSSIS_Loi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[TenGoiSSIS_Loi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TenGoiSSIS_Loi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[TenTacVu_Loi]"
-                      cachedDataType="wstr"
-                      cachedLength="17"
-                      cachedName="TenTacVu_Loi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[TenTacVu_Loi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TenTacVu_Loi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[CotLoi]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="CotLoi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[CotLoi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CotLoi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[ThongBaoLoi]"
-                      cachedDataType="wstr"
-                      cachedLength="27"
-                      cachedName="ThongBaoLoi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[ThongBaoLoi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ThongBaoLoi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[DuLieuLoi]"
-                      cachedDataType="wstr"
-                      cachedLength="82"
-                      cachedName="DuLieuLoi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[DuLieuLoi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuLieuLoi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1].Columns[MaLoiSSIS]"
-                      cachedDataType="i4"
-                      cachedName="MaLoiSSIS"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[MaLoiSSIS]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaLoiSSIS]}</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
                 <input
                   refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2]"
                   hasSideEffects="true"
@@ -4421,20 +3504,6 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[DuBaoNghiViec]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="DuBaoNghiViec"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuBaoNghiViec]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuBaoNghiViec]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[NgayNghiViec]"
                       cachedDataType="wstr"
                       cachedLength="50"
@@ -4491,34 +3560,6 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[LoaiThayDoi]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="LoaiThayDoi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoaiThayDoi]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LoaiThayDoi]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[PhienBan_SCD]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="PhienBan_SCD"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[PhienBan_SCD]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[PhienBan_SCD]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[LaBanGhiHienTai]"
                       cachedDataType="wstr"
                       cachedLength="20"
@@ -4556,6 +3597,20 @@
                           dataType="System.Int32"
                           description="Output column lineage ID"
                           name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DaXuLy]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[CoNghiViec]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CoNghiViec"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CoNghiViec]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CoNghiViec]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -4617,21 +3672,6 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[LoaiThayDoi_CH]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LoaiThayDoi_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LoaiThayDoi_CH]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LoaiThayDoi_CH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[LamThemGio_CH]"
                       cachedDataType="bool"
                       cachedName="LamThemGio_CH"
@@ -4658,16 +3698,16 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[DuBaoNghiViec_CH]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[CoNghiViec_CH]"
                       cachedDataType="bool"
-                      cachedName="DuBaoNghiViec_CH"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[DuBaoNghiViec_CH]">
+                      cachedName="CoNghiViec_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[CoNghiViec_CH]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuBaoNghiViec_CH]}</property>
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CoNghiViec_CH]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -4753,11 +3793,37 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ErrorCode]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ErrorColumn]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[TenGoiSSIS_Loi]"
                       cachedDataType="wstr"
                       cachedLength="16"
                       cachedName="TenGoiSSIS_Loi"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Thông tin lỗi nghiệp vụ.Outputs[Derived Column Output].Columns[TenGoiSSIS_Loi]">
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[TenGoiSSIS_Loi]">
                       <properties>
                         <property
                           containsID="true"
@@ -4771,6 +3837,734 @@
                       cachedDataType="wstr"
                       cachedLength="17"
                       cachedName="TenTacVu_Loi"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[TenTacVu_Loi]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TenTacVu_Loi]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[CotLoi]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="CotLoi"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[CotLoi]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CotLoi]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[ThongBaoLoi]"
+                      cachedDataType="wstr"
+                      cachedLength="27"
+                      cachedName="ThongBaoLoi"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[ThongBaoLoi]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ThongBaoLoi]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[DuLieuLoi]"
+                      cachedDataType="wstr"
+                      cachedLength="82"
+                      cachedName="DuLieuLoi"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[DuLieuLoi]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuLieuLoi]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[MaLoiSSIS]"
+                      cachedDataType="i4"
+                      cachedName="MaLoiSSIS"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output].Columns[MaLoiSSIS]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaLoiSSIS]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3]"
+                  hasSideEffects="true"
+                  name="Union All Input 3">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[MaDL]"
+                      cachedDataType="i8"
+                      cachedName="MaDL"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaDL]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaDL]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[MaNK]"
+                      cachedDataType="i4"
+                      cachedName="MaNK"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaNK]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaNK]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[TenFile]"
+                      cachedDataType="wstr"
+                      cachedLength="250"
+                      cachedName="TenFile"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[TenFile]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TenFile]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[MaBanGhi]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="MaBanGhi"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaBanGhi]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaBanGhi]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[MaNV]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="MaNV"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaNV]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaNV]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NamChotDuLieu]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="NamChotDuLieu"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NamChotDuLieu]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NamChotDuLieu]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NgayChotDuLieu]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="NgayChotDuLieu"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayChotDuLieu]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayChotDuLieu]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[MaNK_Nguon]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="MaNK_Nguon"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[MaNK_Nguon]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[MaNK_Nguon]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[Tuoi]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Tuoi"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[Tuoi]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[Tuoi]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[GioiTinh]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="GioiTinh"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[GioiTinh]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[GioiTinh]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[TinhTrangHonNhan]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="TinhTrangHonNhan"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[TinhTrangHonNhan]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TinhTrangHonNhan]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[PhongBan]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="PhongBan"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[PhongBan]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[PhongBan]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[ChucDanh]"
+                      cachedDataType="wstr"
+                      cachedLength="150"
+                      cachedName="ChucDanh"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[ChucDanh]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ChucDanh]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[CapBacCongViec]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CapBacCongViec"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CapBacCongViec]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CapBacCongViec]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[KhoangCachTuNha]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="KhoangCachTuNha"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[KhoangCachTuNha]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[KhoangCachTuNha]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[SoLuongDuAn]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="SoLuongDuAn"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoLuongDuAn]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[SoLuongDuAn]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[SoGioTrungBinhThang]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="SoGioTrungBinhThang"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoGioTrungBinhThang]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[SoGioTrungBinhThang]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[LamThemGio]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="LamThemGio"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LamThemGio]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LamThemGio]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[DiemDanhGiaHieuSuat]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="DiemDanhGiaHieuSuat"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DiemDanhGiaHieuSuat]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DiemDanhGiaHieuSuat]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[DiemHaiLongCongViec]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="DiemHaiLongCongViec"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DiemHaiLongCongViec]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DiemHaiLongCongViec]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[DiemHaiLongMoiTruong]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="DiemHaiLongMoiTruong"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DiemHaiLongMoiTruong]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DiemHaiLongMoiTruong]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[ThuNhapThang]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="ThuNhapThang"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[ThuNhapThang]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ThuNhapThang]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[SoNamTaiCongTy]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="SoNamTaiCongTy"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoNamTaiCongTy]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[SoNamTaiCongTy]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[SoNamTuLanThangChuc]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="SoNamTuLanThangChuc"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[SoNamTuLanThangChuc]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[SoNamTuLanThangChuc]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[DuocThangChucNamTruoc]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="DuocThangChucNamTruoc"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DuocThangChucNamTruoc]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuocThangChucNamTruoc]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NgayNghiViec]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="NgayNghiViec"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayNghiViec]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayNghiViec]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NgayBatDau]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="NgayBatDau"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayBatDau]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayBatDau]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NgayKetThuc]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="NgayKetThuc"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[NgayKetThuc]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayKetThuc]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[TrangThaiHoatDong]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="TrangThaiHoatDong"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[TrangThaiHoatDong]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TrangThaiHoatDong]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[LaBanGhiHienTai]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="LaBanGhiHienTai"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[LaBanGhiHienTai]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LaBanGhiHienTai]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[ThoiGianTaiDL]"
+                      cachedDataType="dbTimeStamp2"
+                      cachedName="ThoiGianTaiDL"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[ThoiGianTaiDL]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ThoiGianTaiDL]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[DaXuLy]"
+                      cachedDataType="bool"
+                      cachedName="DaXuLy"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[DaXuLy]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DaXuLy]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[CoNghiViec]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="CoNghiViec"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source.Outputs[OLE DB Source Output].Columns[CoNghiViec]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CoNghiViec]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[GioiTinh_CH]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="GioiTinh_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[GioiTinh_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[GioiTinh_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[TinhTrangHonNhan_CH]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="TinhTrangHonNhan_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[TinhTrangHonNhan_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TinhTrangHonNhan_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[PhongBan_CH]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="PhongBan_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[PhongBan_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[PhongBan_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[ChucDanh_CH]"
+                      cachedDataType="wstr"
+                      cachedLength="150"
+                      cachedName="ChucDanh_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[ChucDanh_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ChucDanh_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[LamThemGio_CH]"
+                      cachedDataType="bool"
+                      cachedName="LamThemGio_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LamThemGio_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LamThemGio_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[DuocThangChucNamTruoc_CH]"
+                      cachedDataType="bool"
+                      cachedName="DuocThangChucNamTruoc_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[DuocThangChucNamTruoc_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuocThangChucNamTruoc_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[CoNghiViec_CH]"
+                      cachedDataType="bool"
+                      cachedName="CoNghiViec_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[CoNghiViec_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CoNghiViec_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[TrangThaiHoatDong_CH]"
+                      cachedDataType="bool"
+                      cachedName="TrangThaiHoatDong_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[TrangThaiHoatDong_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TrangThaiHoatDong_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[LaBanGhiHienTai_CH]"
+                      cachedDataType="bool"
+                      cachedName="LaBanGhiHienTai_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[LaBanGhiHienTai_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LaBanGhiHienTai_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NgayChotDuLieu_CH]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="NgayChotDuLieu_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[NgayChotDuLieu_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayChotDuLieu_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NgayNghiViec_CH]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="NgayNghiViec_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[NgayNghiViec_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayNghiViec_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NgayBatDau_CH]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="NgayBatDau_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[NgayBatDau_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayBatDau_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[NgayKetThuc_CH]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="NgayKetThuc_CH"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output].Columns[NgayKetThuc_CH]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayKetThuc_CH]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[TenGoiSSIS_Loi]"
+                      cachedDataType="wstr"
+                      cachedLength="16"
+                      cachedName="TenGoiSSIS_Loi"
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Thông tin lỗi nghiệp vụ.Outputs[Derived Column Output].Columns[TenGoiSSIS_Loi]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TenGoiSSIS_Loi]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[TenTacVu_Loi]"
+                      cachedDataType="wstr"
+                      cachedLength="17"
+                      cachedName="TenTacVu_Loi"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Thông tin lỗi nghiệp vụ.Outputs[Derived Column Output].Columns[TenTacVu_Loi]">
                       <properties>
                         <property
@@ -4781,7 +4575,7 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[DuLieuLoi]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[DuLieuLoi]"
                       cachedDataType="wstr"
                       cachedLength="82"
                       cachedName="DuLieuLoi"
@@ -4795,7 +4589,7 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[CotLoi]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[CotLoi]"
                       cachedDataType="wstr"
                       cachedLength="13"
                       cachedName="CotLoi"
@@ -4809,7 +4603,7 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2].Columns[MaLoiSSIS]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3].Columns[MaLoiSSIS]"
                       cachedDataType="i4"
                       cachedName="MaLoiSSIS"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Thông tin lỗi nghiệp vụ.Outputs[Derived Column Output].Columns[MaLoiSSIS]">
@@ -4825,10 +4619,10 @@
                   <externalMetadataColumns />
                 </input>
                 <input
-                  refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3]"
+                  refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1]"
                   dangling="true"
                   hasSideEffects="true"
-                  name="Union All Input 3">
+                  name="Union All Input 1">
                   <externalMetadataColumns />
                 </input>
               </inputs>
@@ -4986,11 +4780,11 @@
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuocThangChucNamTruoc]"
                       name="DuocThangChucNamTruoc" />
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuBaoNghiViec]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CoNghiViec]"
                       dataType="wstr"
                       length="20"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuBaoNghiViec]"
-                      name="DuBaoNghiViec" />
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CoNghiViec]"
+                      name="CoNghiViec" />
                     <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[NgayNghiViec]"
                       dataType="wstr"
@@ -5015,18 +4809,6 @@
                       length="20"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TrangThaiHoatDong]"
                       name="TrangThaiHoatDong" />
-                    <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LoaiThayDoi]"
-                      dataType="wstr"
-                      length="50"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LoaiThayDoi]"
-                      name="LoaiThayDoi" />
-                    <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[PhienBan_SCD]"
-                      dataType="wstr"
-                      length="20"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[PhienBan_SCD]"
-                      name="PhienBan_SCD" />
                     <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LaBanGhiHienTai]"
                       dataType="wstr"
@@ -5070,13 +4852,6 @@
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[ChucDanh_CH]"
                       name="ChucDanh_CH" />
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LoaiThayDoi_CH]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LoaiThayDoi_CH]"
-                      name="LoaiThayDoi_CH" />
-                    <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LamThemGio_CH]"
                       dataType="bool"
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[LamThemGio_CH]"
@@ -5087,10 +4862,10 @@
                       lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuocThangChucNamTruoc_CH]"
                       name="DuocThangChucNamTruoc_CH" />
                     <outputColumn
-                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuBaoNghiViec_CH]"
+                      refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CoNghiViec_CH]"
                       dataType="bool"
-                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[DuBaoNghiViec_CH]"
-                      name="DuBaoNghiViec_CH" />
+                      lineageId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[CoNghiViec_CH]"
+                      name="CoNghiViec_CH" />
                     <outputColumn
                       refId="Package\Chuẩn Hóa Dữ Liệu\Union All.Outputs[Union All Output 1].Columns[TrangThaiHoatDong_CH]"
                       dataType="bool"
@@ -5194,12 +4969,12 @@
               startId="Package\Chuẩn Hóa Dữ Liệu\Derived Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\Chuẩn Hóa Dữ Liệu.Paths[Derived Column Output1]"
-              endId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 1]"
+              endId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2]"
               name="Derived Column Output"
               startId="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL.Outputs[Derived Column Output]" />
             <path
               refId="Package\Chuẩn Hóa Dữ Liệu.Paths[Derived Column Output2]"
-              endId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 2]"
+              endId="Package\Chuẩn Hóa Dữ Liệu\Union All.Inputs[Union All Input 3]"
               name="Derived Column Output"
               startId="Package\Chuẩn Hóa Dữ Liệu\Thông tin lỗi nghiệp vụ.Outputs[Derived Column Output]" />
             <path
@@ -5482,6 +5257,10 @@
           Size="161.6,41.6"
           Id="Package\Tạo mã băm SCD"
           TopLeft="285.833317716089,246.999998282393" />
+        <NodeLayout
+          Size="123.2,41.6"
+          Id="Package\Tính SCD"
+          TopLeft="607.499966807665,245.266664961113" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="173.466664663288,80.1666662538383">
@@ -5496,6 +5275,28 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="128.199985111258,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="447.433317716089,266.933331621753">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="160.066649091576,0"
+              Start="0,0"
+              End="152.566649091576,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="152.566649091576,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5560,32 +5361,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="123.2,41.6"
-          Id="Package\Tính SCD"
-          TopLeft="607.499966807665,245.266664961113" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="447.433317716089,266.933331621753">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="160.066649091576,0"
-              Start="0,0"
-              End="152.566649091576,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="152.566649091576,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="669.499967080853,245.266664961113">
@@ -5629,39 +5404,35 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="120,41.6"
-          Id="Package\Chuẩn Hóa Dữ Liệu\Union All"
-          TopLeft="662.499963802598,96.6666665340794" />
-        <NodeLayout
-          Size="138.4,41.6"
-          Id="Package\Chuẩn Hóa Dữ Liệu\Row Count 1"
-          TopLeft="647.499964622161,411.999997468789" />
+          Size="182.4,41.6"
+          Id="Package\Chuẩn Hóa Dữ Liệu\Thông tin lỗi nghiệp vụ"
+          TopLeft="426.666643354629,288.866665141914" />
         <NodeLayout
           Size="152.8,41.6"
           Id="Package\Chuẩn Hóa Dữ Liệu\Derived Column"
           TopLeft="113.333327141073,229.666665286554" />
         <NodeLayout
-          Size="182.4,41.6"
-          Id="Package\Chuẩn Hóa Dữ Liệu\Thông tin lỗi nghiệp vụ"
-          TopLeft="426.666643354629,288.866665141914" />
+          Size="166.4,41.6"
+          Id="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL"
+          TopLeft="361.666646906072,128.333332652317" />
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\Chuẩn Hóa Dữ Liệu\Row Count"
           TopLeft="672.499963256222,284.399998300473" />
         <NodeLayout
-          Size="166.4,41.6"
-          Id="Package\Chuẩn Hóa Dữ Liệu\Lỗi chuyển kiểu DL"
-          TopLeft="361.666646906072,128.333332652317" />
-        <NodeLayout
           Size="163.2,41.6"
           Id="Package\Chuẩn Hóa Dữ Liệu\Ghi DLChuan Hoa"
           TopLeft="878.333285343318,422.53333086239" />
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source"
-          TopLeft="126.666659745905,104.933332815038" />
+          Size="159.2,41.6"
+          Id="Package\Chuẩn Hóa Dữ Liệu\Nhat ky ghi loi DL"
+          TopLeft="879.16661863112,299.866664653752" />
         <NodeLayout
-          Size="156,41.6"
+          Size="138.4,41.6"
+          Id="Package\Chuẩn Hóa Dữ Liệu\Row Count 1"
+          TopLeft="647.499964622161,411.999997468789" />
+        <NodeLayout
+          Size="155.2,41.6"
           Id="Package\Chuẩn Hóa Dữ Liệu\Data Conversion"
           TopLeft="124.999993170301,353.533331097431" />
         <NodeLayout
@@ -5669,79 +5440,13 @@
           Id="Package\Chuẩn Hóa Dữ Liệu\Conditional Split"
           TopLeft="361.666646906073,407.466664111349" />
         <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\Chuẩn Hóa Dữ Liệu\Nhat ky ghi loi DL"
-          TopLeft="879.16661863112,299.866664653752" />
-        <EdgeLayout
-          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Data Conversion Output]"
-          TopLeft="280.999993170301,374.333331097431">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="80.6666537357721,53.933333013918"
-              Start="0,0"
-              End="73.1666537357721,53.933333013918">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="36.333326867886,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="36.333326867886,0"
-                    Point2="40.333326867886,0"
-                    Point3="40.333326867886,4" />
-                  <mssgle:LineSegment
-                    End="40.333326867886,49.933333013918" />
-                  <mssgle:CubicBezierSegment
-                    Point1="40.333326867886,49.933333013918"
-                    Point2="40.333326867886,53.933333013918"
-                    Point3="44.333326867886,53.933333013918" />
-                  <mssgle:LineSegment
-                    End="73.1666537357721,53.933333013918" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Data Conversion Error Output]"
-          TopLeft="227.666659836968,353.533331097431">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="217.199987069104,-183.599998445114"
-              Start="0,0"
-              End="217.199987069104,-176.099998445114">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-70.558375003092" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-70.558375003092"
-                    Point2="0,-74.558375003092"
-                    Point3="4,-74.558375003092" />
-                  <mssgle:LineSegment
-                    End="213.199987069104,-74.558375003092" />
-                  <mssgle:CubicBezierSegment
-                    Point1="213.199987069104,-74.558375003092"
-                    Point2="217.199987069104,-74.558375003092"
-                    Point3="217.199987069104,-78.558375003092" />
-                  <mssgle:LineSegment
-                    End="217.199987069104,-176.099998445114" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="42.5136068158022,-69.558375003092,132.1727734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="120,41.6"
+          Id="Package\Chuẩn Hóa Dữ Liệu\Union All"
+          TopLeft="662.499963802598,96.6666665340794" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source"
+          TopLeft="126.666659745905,104.933332815038" />
         <EdgeLayout
           Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Union All Output 1]"
           TopLeft="739.233296862743,138.266666534079">
@@ -5833,6 +5538,136 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[KhongHopLe]"
+          TopLeft="438.466646906073,407.466664111349">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="79.3999964485564,-76.9999989694355"
+              Start="0,0"
+              End="79.3999964485564,-69.4999989694355">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-34.4999994847178" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-34.4999994847178"
+                    Point2="0,-38.4999994847178"
+                    Point3="4,-38.4999994847178" />
+                  <mssgle:LineSegment
+                    End="75.3999964485564,-38.4999994847178" />
+                  <mssgle:CubicBezierSegment
+                    Point1="75.3999964485564,-38.4999994847178"
+                    Point2="79.3999964485564,-38.4999994847178"
+                    Point3="79.3999964485564,-42.4999994847178" />
+                  <mssgle:LineSegment
+                    End="79.3999964485564,-69.4999989694355" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="11.2236505680282,-33.4999994847178,56.9526953125,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[HopLe]"
+          TopLeft="515.266646906073,430.533330790069">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="132.233317716089,0"
+              Start="0,0"
+              End="124.733317716089,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="124.733317716089,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="47.8903112017945,5,28.9526953125,11.2822265625"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Data Conversion Output]"
+          TopLeft="280.199993170301,374.333331097431">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="81.466653735772,53.933333013918"
+              Start="0,0"
+              End="73.966653735772,53.933333013918">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="36.733326867886,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="36.733326867886,0"
+                    Point2="40.733326867886,0"
+                    Point3="40.733326867886,4" />
+                  <mssgle:LineSegment
+                    End="40.733326867886,49.933333013918" />
+                  <mssgle:CubicBezierSegment
+                    Point1="40.733326867886,49.933333013918"
+                    Point2="40.733326867886,53.933333013918"
+                    Point3="44.733326867886,53.933333013918" />
+                  <mssgle:LineSegment
+                    End="73.966653735772,53.933333013918" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Data Conversion Error Output]"
+          TopLeft="227.133326503634,353.533331097431">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="217.733320402438,-183.599998445114"
+              Start="0,0"
+              End="217.733320402438,-176.099998445114">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-70.564081001179" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-70.564081001179"
+                    Point2="0,-74.564081001179"
+                    Point3="4,-74.564081001179" />
+                  <mssgle:LineSegment
+                    End="213.733320402438,-74.564081001179" />
+                  <mssgle:CubicBezierSegment
+                    Point1="213.733320402438,-74.564081001179"
+                    Point2="217.733320402438,-74.564081001179"
+                    Point3="217.733320402438,-78.564081001179" />
+                  <mssgle:LineSegment
+                    End="217.733320402438,-176.099998445114" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="42.7802734824688,-69.564081001179,132.1727734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Chuẩn Hóa Dữ Liệu.Paths[OLE DB Source Output]"
           TopLeft="202.666659745905,146.533332815038">
           <EdgeLayout.Curve>
@@ -5867,91 +5702,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[KhongHopLe]"
-          TopLeft="438.466646906073,407.466664111349">
+          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Derived Column Output]"
+          TopLeft="189.733327141073,271.266665286554">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="79.3999964485564,-76.9999989694355"
+              EndConnector="-11.6666673041053,82.266665810877"
               Start="0,0"
-              End="79.3999964485564,-69.4999989694355">
+              End="-11.6666673041053,74.766665810877">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-34.4999994847178" />
+                    End="0,44.856326022378" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-34.4999994847178"
-                    Point2="0,-38.4999994847178"
-                    Point3="4,-38.4999994847178" />
+                    Point1="0,44.856326022378"
+                    Point2="0,48.856326022378"
+                    Point3="-4,48.856326022378" />
                   <mssgle:LineSegment
-                    End="75.3999964485564,-38.4999994847178" />
+                    End="-7.66666730410535,48.856326022378" />
                   <mssgle:CubicBezierSegment
-                    Point1="75.3999964485564,-38.4999994847178"
-                    Point2="79.3999964485564,-38.4999994847178"
-                    Point3="79.3999964485564,-42.4999994847178" />
+                    Point1="-7.66666730410535,48.856326022378"
+                    Point2="-11.6666673041053,48.856326022378"
+                    Point3="-11.6666673041053,52.856326022378" />
                   <mssgle:LineSegment
-                    End="79.3999964485564,-69.4999989694355" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8.7867400569718,-33.4999994847178,56.9526953125,11.6630859375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[HopLe]"
-          TopLeft="515.266646906073,430.533330790069">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="132.233317716089,0"
-              Start="0,0"
-              End="124.733317716089,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="124.733317716089,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="47.8903112017945,5,28.9526953125,11.2822265625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Derived Column Output2]"
-          TopLeft="517.866643354629,288.866665141914">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="204.633320447969,-150.599998607835"
-              Start="0,0"
-              End="204.633320447969,-143.099998607835">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-71.2999993039173" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-71.2999993039173"
-                    Point2="0,-75.2999993039173"
-                    Point3="4,-75.2999993039173" />
-                  <mssgle:LineSegment
-                    End="200.633320447969,-75.2999993039173" />
-                  <mssgle:CubicBezierSegment
-                    Point1="200.633320447969,-75.2999993039173"
-                    Point2="204.633320447969,-75.2999993039173"
-                    Point3="204.633320447969,-79.2999993039173" />
-                  <mssgle:LineSegment
-                    End="204.633320447969,-143.099998607835" />
+                    End="-11.6666673041053,74.766665810877" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5973,17 +5748,17 @@
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="63.2166584482628,0" />
+                    End="63.216658448263,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="63.2166584482628,0"
-                    Point2="67.2166584482628,0"
-                    Point3="67.2166584482628,-4" />
+                    Point1="63.216658448263,0"
+                    Point2="67.216658448263,0"
+                    Point3="67.216658448263,-4" />
                   <mssgle:LineSegment
-                    End="67.2166584482628,-27.6666661182376" />
+                    End="67.216658448263,-27.6666661182376" />
                   <mssgle:CubicBezierSegment
-                    Point1="67.2166584482628,-27.6666661182376"
-                    Point2="67.2166584482628,-31.6666661182376"
-                    Point3="71.2166584482628,-31.6666661182376" />
+                    Point1="67.216658448263,-27.6666661182376"
+                    Point2="67.216658448263,-31.6666661182376"
+                    Point3="71.216658448263,-31.6666661182376" />
                   <mssgle:LineSegment
                     End="126.933316896526,-31.6666661182376" />
                 </mssgle:SegmentCollection>
@@ -5995,31 +5770,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Derived Column Output]"
-          TopLeft="189.733327141073,271.266665286554">
+          Id="Package\Chuẩn Hóa Dữ Liệu.Paths[Derived Column Output2]"
+          TopLeft="517.866643354629,288.866665141914">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-11.4000006374387,82.266665810877"
+              EndConnector="185.966653781302,-150.599998607835"
               Start="0,0"
-              End="-11.4000006374387,74.766665810877">
+              End="185.966653781302,-143.099998607835">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.8588827404701" />
+                    End="0,-85.1710518072704" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,44.8588827404701"
-                    Point2="0,48.8588827404701"
-                    Point3="-4,48.8588827404701" />
+                    Point1="0,-85.1710518072704"
+                    Point2="0,-89.1710518072704"
+                    Point3="4,-89.1710518072704" />
                   <mssgle:LineSegment
-                    End="-7.40000063743867,48.8588827404701" />
+                    End="181.966653781302,-89.1710518072704" />
                   <mssgle:CubicBezierSegment
-                    Point1="-7.40000063743867,48.8588827404701"
-                    Point2="-11.4000006374387,48.8588827404701"
-                    Point3="-11.4000006374387,52.8588827404701" />
+                    Point1="181.966653781302,-89.1710518072704"
+                    Point2="185.966653781302,-89.1710518072704"
+                    Point3="185.966653781302,-93.1710518072704" />
                   <mssgle:LineSegment
-                    End="-11.4000006374387,74.766665810877" />
+                    End="185.966653781302,-143.099998607835" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6045,7 +5820,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source">
+    design-time-name="Package\Chuẩn Hóa Dữ Liệu\Nhat ky ghi loi DL">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6058,7 +5833,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Chuẩn Hóa Dữ Liệu\Nhat ky ghi loi DL">
+    design-time-name="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="28"
-  DTS:VersionGUID="{CF7F8251-ED63-4D03-84D2-10001801A27B}">
+  DTS:VersionBuild="31"
+  DTS:VersionGUID="{9E6D7EE7-BFD4-4093-905A-1E5A66C39CCE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -36,271 +36,253 @@
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="RecordID"
-              DTS:DTSID="{67F987E7-6F1B-489D-B37F-D12789832F3C}"
+              DTS:DTSID="{EB79CF9B-9D69-429C-B808-DB8E25289697}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="EmployeeNumber"
-              DTS:DTSID="{7D3D730F-6110-4165-B31A-737E8B77DE32}"
+              DTS:DTSID="{D68C9B46-92F7-4EF3-B7FF-3EA7197F7CEC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SnapshotYear"
-              DTS:DTSID="{B1310F21-E532-46E0-9B9B-FD1A86F733D4}"
+              DTS:DTSID="{35CDEA0E-EAC0-408E-8934-2DE83E5CF2AF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SnapshotDate"
-              DTS:DTSID="{F5CBD970-8E68-4D21-AC39-9842CFCDDFC5}"
+              DTS:DTSID="{99B277B7-02B4-484A-A87E-64ADF9115289}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BatchID"
-              DTS:DTSID="{B8B69F60-1969-4A28-B4AE-BB0B2DE33761}"
+              DTS:DTSID="{3CFBD8B0-4C39-4397-AF01-CEA2C6EC6058}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Age"
-              DTS:DTSID="{D6C74517-16F9-4DF8-A674-E344DAC8FEB0}"
+              DTS:DTSID="{2CC0276D-A73E-4449-A134-217E0EE6C07A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="30"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Gender"
-              DTS:DTSID="{64BCADAF-CE6D-48C1-8793-D3C612B4024A}"
+              DTS:DTSID="{2DA51969-89A9-4ABF-8C23-5C6B9136A385}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="30"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MaritalStatus"
-              DTS:DTSID="{57BD4C57-95D3-42A5-AB56-74D0F08BCA9C}"
+              DTS:DTSID="{EDF45154-D96F-4909-BA3A-3F0275288D89}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Department"
-              DTS:DTSID="{7790857A-E895-4552-8398-95B4653B093C}"
+              DTS:DTSID="{E8B25562-5F48-457A-82B8-BEA59610618C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="JobRole"
-              DTS:DTSID="{5BFB239C-D3C5-4D9F-B50D-35118B1666E3}"
+              DTS:DTSID="{46860964-67BD-4745-BF2A-EA12AC2252DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="JobLevel"
-              DTS:DTSID="{CCB94F95-9705-4E5E-B82C-2CFF36247B3A}"
+              DTS:DTSID="{BE0219ED-F0F9-40BC-B947-3F7DCA70F154}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DistanceFromHome"
-              DTS:DTSID="{6301998C-A623-42B6-8C07-954E70978C57}"
+              DTS:DTSID="{F7E3093E-19CE-4BA9-BD1F-D95DACC8C9DC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NumberProject"
-              DTS:DTSID="{5E0A957E-5F84-4166-9B4A-FC6A0A0A49DC}"
+              DTS:DTSID="{0F6D5DDB-18B0-474C-9D57-CDD5429DF2DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageMonthlyHours"
-              DTS:DTSID="{AEF779DB-C3A4-4BFC-9556-FD1E5EF3AA61}"
+              DTS:DTSID="{75642507-5A6C-411D-B851-852935785974}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="OverTime"
-              DTS:DTSID="{5A602ED8-64C5-4322-8AB4-98D6E2464521}"
+              DTS:DTSID="{EDA37605-FC82-43B0-9AF1-81AA3777D955}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PerformanceRating"
-              DTS:DTSID="{11F7E78C-7C8B-4360-92E3-6F25087099EC}"
+              DTS:DTSID="{A8804650-0615-415C-B9C9-38EA4F0B398A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="JobSatisfaction"
-              DTS:DTSID="{F97B0772-D6A7-4B70-A956-9C299F52934E}"
+              DTS:DTSID="{C31D791E-B913-45D6-8202-03B52B73B06E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="EnvironmentSatisfaction"
-              DTS:DTSID="{79EDA0D2-28E2-4400-AB93-32C999AA5B40}"
+              DTS:DTSID="{616DC3F8-6C4F-4AFD-89C6-7912573D6AE0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MonthlyIncome_VND"
-              DTS:DTSID="{18E2BAEE-1E94-41B0-9CF7-0BAA74FC0583}"
+              DTS:DTSID="{3AC0C6D7-9000-4B7C-AC0D-44529DF6CAA3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="YearsAtCompany"
-              DTS:DTSID="{8AC97338-4334-460F-8C9A-4CD55FBC052B}"
+              DTS:DTSID="{E3052F3A-4C3B-4544-A6A7-E8BDECD5D5DB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="YearsSinceLastPromotion"
-              DTS:DTSID="{265329BC-43DE-4396-9646-EDE598929249}"
+              DTS:DTSID="{F8A21A99-302A-43E9-8D36-7B3C876C955F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PromotionLastYear"
-              DTS:DTSID="{6DE85E16-8C05-46F5-A368-1B5E7D509A1D}"
+              DTS:DTSID="{63752AFE-05C3-466E-98A3-0CFD5756163F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Attrition"
-              DTS:DTSID="{FF9D94E1-4C45-4BD4-AFB6-1CD437229D49}"
+              DTS:DTSID="{5493E635-2054-493F-859D-7C50D00E5DAB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LeaveDate"
-              DTS:DTSID="{113EFACD-EA92-44CA-A597-108463069DE3}"
+              DTS:DTSID="{ECD6EFE5-26D9-483A-9641-8AED5CFAD1C5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Start_Date"
-              DTS:DTSID="{30F328AE-8B39-4661-9D5D-DE65F81E69C4}"
+              DTS:DTSID="{ECFA5AC7-6F41-453C-A78E-F78584F36BB6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="End_Date"
-              DTS:DTSID="{67686A2A-0404-463B-B9B2-E3C88C3F503C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Is_Active"
-              DTS:DTSID="{EBD3CEA2-8294-482B-B147-FB7D44311A1C}"
+              DTS:DTSID="{4B9ACD5A-1468-4C99-8F22-51C5B2F03A6B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="50"
-              DTS:DataType="130"
+              DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="ChangeType"
-              DTS:DTSID="{2474A683-0C2E-43C0-91C0-01E284B1D6DD}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="SCD_Version"
-              DTS:DTSID="{7F582B09-0488-4DC2-BC7A-FC9A5658142A}"
+              DTS:ObjectName="Is_Active"
+              DTS:DTSID="{AAE44BE8-8F08-4FD2-B6F2-A6034224DE17}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="20"
-              DTS:DataType="130"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Is_Current"
-              DTS:DTSID="{A3194925-E09F-4EE7-9DEF-14B88E9DABBF}"
+              DTS:DTSID="{D747900C-1EAD-468B-A596-8C72A9E9D3AD}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -319,7 +301,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABoH+6IDTVuGqn7moTPgRMfyw8nL1MznDNiYqF05Lce3gAAAAAOgAAAAAIAACAAAACohpS6e7uvkVFZSj/xED5qK9fK8OyC28ObLdL8yiLl+xAAAABoHjkC8axb8S/OotUPp+91QAAAAK89/Em/GmZheooWA40+s2xE6f76L15Ej9RLWRPLDVbuLsz2Mmu4lg36BhNxezv9WtCQ/GoPgQE7oiaNzwgIX7Q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABCG0/Skvw5Gv5/ejzG3FmVRfS2DHD6ysXOkYbNu/V1WgAAAAAOgAAAAAIAACAAAACiQXI1tn/VwXBNzYwHPPfqaVkg2ibBZmiVZleWT8XNsBAAAACTwN6aYt82oNWj+k7G1rRyQAAAADEzpfc3tw4lf5FBj0oimFWeTYi81tIMXrXCA9UJ1Hn7fKj62YJnnaI73MeymZAF78+nlzNl9dUbryWRtuxJ6vA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1126,48 +1108,6 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[ChangeType]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ChangeType]"
-                      length="50"
-                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[ChangeType]"
-                      name="ChangeType"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SCD_Version]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SCD_Version]"
-                      length="20"
-                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SCD_Version]"
-                      name="SCD_Version"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Current]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
@@ -1193,153 +1133,171 @@
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[RecordID]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="RecordID" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[EmployeeNumber]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="EmployeeNumber" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SnapshotYear]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="SnapshotYear" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SnapshotDate]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="SnapshotDate" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[BatchID]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="BatchID" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Age]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="Age" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Gender]"
-                      dataType="wstr"
-                      length="30"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="Gender" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[MaritalStatus]"
-                      dataType="wstr"
-                      length="30"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="MaritalStatus" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Department]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="Department" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobRole]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="JobRole" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobLevel]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="JobLevel" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DistanceFromHome]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="DistanceFromHome" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NumberProject]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="NumberProject" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AverageMonthlyHours]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="AverageMonthlyHours" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[OverTime]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="OverTime" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PerformanceRating]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="PerformanceRating" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[JobSatisfaction]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="JobSatisfaction" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[EnvironmentSatisfaction]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="EnvironmentSatisfaction" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[MonthlyIncome_VND]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="MonthlyIncome_VND" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[YearsAtCompany]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="YearsAtCompany" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[YearsSinceLastPromotion]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="YearsSinceLastPromotion" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PromotionLastYear]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="PromotionLastYear" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Attrition]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="Attrition" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LeaveDate]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="LeaveDate" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Start_Date]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="Start_Date" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[End_Date]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="End_Date" />
                     <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Is_Active]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="Is_Active" />
                     <externalMetadataColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ChangeType]"
-                      dataType="wstr"
-                      length="50"
-                      name="ChangeType" />
-                    <externalMetadataColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[SCD_Version]"
-                      dataType="wstr"
-                      length="20"
-                      name="SCD_Version" />
-                    <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Is_Current]"
-                      dataType="wstr"
-                      length="20"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
                       name="Is_Current" />
                   </externalMetadataColumns>
                 </output>
@@ -1585,13 +1543,6 @@
                       externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DuocThangChucNamTruoc]"
                       lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[PromotionLastYear]" />
                     <inputColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Attrition]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="Attrition"
-                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DuBaoNghiViec]"
-                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Attrition]" />
-                    <inputColumn
                       refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LeaveDate]"
                       cachedDataType="wstr"
                       cachedLength="50"
@@ -1619,20 +1570,6 @@
                       cachedName="Is_Active"
                       externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrangThaiHoatDong]"
                       lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Active]" />
-                    <inputColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ChangeType]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="ChangeType"
-                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoaiThayDoi]"
-                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[ChangeType]" />
-                    <inputColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SCD_Version]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="SCD_Version"
-                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhienBan_SCD]"
-                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[SCD_Version]" />
                     <inputColumn
                       refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[BatchID]"
                       cachedDataType="wstr"
@@ -1666,6 +1603,13 @@
                       cachedName="Is_Current"
                       externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LaBanGhiHienTai]"
                       lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Is_Current]" />
+                    <inputColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Attrition]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Attrition"
+                      externalMetadataColumnId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CoNghiViec]"
+                      lineageId="Package\Nạp CSV vào bảng DL thô\Flat File Source.Outputs[Flat File Source Output].Columns[Attrition]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1793,11 +1737,6 @@
                       length="20"
                       name="DuocThangChucNamTruoc" />
                     <externalMetadataColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DuBaoNghiViec]"
-                      dataType="wstr"
-                      length="20"
-                      name="DuBaoNghiViec" />
-                    <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NgayNghiViec]"
                       dataType="wstr"
                       length="50"
@@ -1818,16 +1757,6 @@
                       length="20"
                       name="TrangThaiHoatDong" />
                     <externalMetadataColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoaiThayDoi]"
-                      dataType="wstr"
-                      length="50"
-                      name="LoaiThayDoi" />
-                    <externalMetadataColumn
-                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PhienBan_SCD]"
-                      dataType="wstr"
-                      length="20"
-                      name="PhienBan_SCD" />
-                    <externalMetadataColumn
                       refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LaBanGhiHienTai]"
                       dataType="wstr"
                       length="20"
@@ -1840,6 +1769,11 @@
                       refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DaXuLy]"
                       dataType="bool"
                       name="DaXuLy" />
+                    <externalMetadataColumn
+                      refId="Package\Nạp CSV vào bảng DL thô\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CoNghiViec]"
+                      dataType="wstr"
+                      length="20"
+                      name="CoNghiViec" />
                   </externalMetadataColumns>
                 </input>
               </inputs>

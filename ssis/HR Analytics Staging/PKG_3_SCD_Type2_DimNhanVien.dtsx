@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="PKG_03_SCD_Type2_DimNhanVien"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{5CC565EE-A5FB-40B9-BDDF-B71206800C62}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{2E33BE85-A46A-4E24-B9EF-6D22522DA3DE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADy6WOEr0QGM7SYUDpW6gptZvPWfWWPaAo5d24YIXdC9gAAAAAOgAAAAAIAACAAAAAHb5pWAoY8apX2rX9yXrQryBKhmLJnIAYpX33oyJrJdhAAAAAYdhHEDHXGZBm4e+YmGadbQAAAAFoE1iSYvfDfaWGNAGXQ/DXog/r4nOSRzE8FYSzwapt4I1cgBFK9a+4vTYppNoJADzgKkv76WnD8Gt4d6ppygOM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD6cCaxg1L/RiLCGvXY/e1E5HBhgcT6WZYG8dOSPgh/dgAAAAAOgAAAAAIAACAAAACaiAD5zHm8KZdhR+XjaIDrL44J0dbjw8J+z7Ik362nwhAAAAABx0WCRKjO9N54a8HiGzHZQAAAANWgPdqaC5bE0LkubpVRRDL4hi1MgRhlHW83RhgpSK4dXZlIhbz67SP+EK2k2YR9qLhOH+a0aIaC2dnNZ+zOnnw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABV1Apf1y+qHH5yOGkWRq0GcYDcjolrkXF3xtzK8sK0WgAAAAAOgAAAAAIAACAAAABbfHRVdzDVzDeiLJtaCICJZAHjN6kVF8+CDCRdJWVvyBAAAADFo0dyZUk2Ymk6QEDqfiM8QAAAAFnHPfDqGCvJkrJdmge6MKgPo0GM1C9JeiwmsCuCFgnHu4vD1mGLIazAZGQ903AqwHTRexuyx9q8aVxeWL0U3Dg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuy0uO/DJtMNtV/MKf7kY/FpHpnQ7kcsC0SHzJLZ/qIQAAAAAOgAAAAAIAACAAAACiVacZLuyZ2CRuh7Oxl+iYZANloKpcxHVuYQb+1HqjORAAAACt7LY68sRbkMFNsf6P0izgQAAAAJnBX7R+CyVHJ9RVlFDgf85UKaypWw26V5qk1gQQUD/F+FsaU/dKwCiIwuxPcLiM8uirx4rNfcli4+kFNg4V4aM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -151,7 +151,7 @@ where [refTable].[MaNV] = ? and [refTable].[PhienBan] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\ThemPhienBanMoi\40:invalid};#{Package\ThemPhienBanMoi\130:invalid};</property>
+                  name="ParameterMap">#{Package\ThemPhienBanMoi\778:invalid};#{Package\ThemPhienBanMoi\779:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -932,6 +932,10 @@ where RN = 1;</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\ThemPhienBanMoi\OLE DB Destination"
+          TopLeft="547.49997008592,321.533331097431" />
+        <NodeLayout
           Size="142.4,41.6"
           Id="Package\ThemPhienBanMoi\DimNhanVien"
           TopLeft="569.999968856574,172.466665467355" />
@@ -939,44 +943,6 @@ where RN = 1;</property>
           Size="152,41.6"
           Id="Package\ThemPhienBanMoi\Nhan Vien SCD"
           TopLeft="269.166651960049,141.266665684316" />
-        <EdgeLayout
-          Id="Package\ThemPhienBanMoi.Paths[OLE DB Source Output]"
-          TopLeft="421.166651960049,162.066665684316">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="148.833316896525,31.1999997830391"
-              Start="0,0"
-              End="141.333316896525,31.1999997830391">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="70.4166584482624,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="70.4166584482624,0"
-                    Point2="74.4166584482624,0"
-                    Point3="74.4166584482624,4" />
-                  <mssgle:LineSegment
-                    End="74.4166584482624,27.1999997830391" />
-                  <mssgle:CubicBezierSegment
-                    Point1="74.4166584482624,27.1999997830391"
-                    Point2="74.4166584482624,31.1999997830391"
-                    Point3="78.4166584482624,31.1999997830391" />
-                  <mssgle:LineSegment
-                    End="141.333316896525,31.1999997830391" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\ThemPhienBanMoi\OLE DB Destination"
-          TopLeft="547.49997008592,321.533331097431" />
         <EdgeLayout
           Id="Package\ThemPhienBanMoi.Paths[Lookup No Match Output]"
           TopLeft="641.199968856574,214.066665467355">
@@ -1013,16 +979,63 @@ where RN = 1;</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\ThemPhienBanMoi.Paths[OLE DB Source Output]"
+          TopLeft="421.166651960049,162.066665684316">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="148.833316896525,31.1999997830391"
+              Start="0,0"
+              End="141.333316896525,31.1999997830391">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="70.4166584482624,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="70.4166584482624,0"
+                    Point2="74.4166584482624,0"
+                    Point3="74.4166584482624,4" />
+                  <mssgle:LineSegment
+                    End="74.4166584482624,27.1999997830391" />
+                  <mssgle:CubicBezierSegment
+                    Point1="74.4166584482624,27.1999997830391"
+                    Point2="74.4166584482624,31.1999997830391"
+                    Point3="78.4166584482624,31.1999997830391" />
+                  <mssgle:LineSegment
+                    End="141.333316896525,31.1999997830391" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\ThemPhienBanMoi\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\ThemPhienBanMoi\DimNhanVien">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1032,7 +1045,7 @@ where RN = 1;</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1044,19 +1057,6 @@ where RN = 1;</property>
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\ThemPhienBanMoi\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

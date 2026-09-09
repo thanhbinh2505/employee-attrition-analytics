@@ -21,7 +21,7 @@ select DimNV.MaNV,
     F.SoNamTaiCongTy,
     F.SoNamTuLanThangChucCuoi,
     F.DuocThangChucNamTruoc,
-    F.SoNghiViec AS TargetNghiViec
+    F.SoNghiViec AS CoNghiViec
 from dw.FactTrangThaiNhanVien as F
 	inner join dw.DimNhanVien as DimNV
 		on F.KhoaNhanVien = DimNV.KhoaNhanVien

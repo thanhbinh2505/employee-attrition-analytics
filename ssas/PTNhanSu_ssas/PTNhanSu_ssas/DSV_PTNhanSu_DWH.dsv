@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6a39e0e2-a990-4d4e-8639-18d41cb62d16" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8e167c1d-ffc1-40f8-b68f-f67ed09e3d63" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DSV_PTNhanSu_DWH</ID>
   <Name>DSV_PTNhanSu_DWH</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="27" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-955" scrolltop="1586" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="22670" y="11705" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-955" scrolltop="-10" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="22670" y="12425" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
                   </font>
@@ -164,7 +164,7 @@
                     <point x="8470" y="5419" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11470" top="10119" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="1876" height="2848" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10897" top="10119" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="2848" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -177,14 +177,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="6" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="12946" y="12467" />
-                    <point x="12946" y="11267" />
-                    <point x="11770" y="11267" />
-                    <point x="11770" y="10419" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11296" y="12467" />
+                    <point x="11296" y="11443" />
+                    <point x="11220" y="11443" />
+                    <point x="11220" y="10419" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4060" top="6007" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="3831" height="1662" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4060" top="5419" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="3831" height="837" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -197,17 +197,17 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="17" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="4360" y="6406" />
-                    <point x="6517" y="6406" />
-                    <point x="6517" y="7369" />
-                    <point x="7591" y="7369" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="4360" y="5856" />
+                    <point x="5975" y="5856" />
+                    <point x="5975" y="5719" />
+                    <point x="7591" y="5719" />
                   </connector>
                 </ddscontrol>
                 <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5112" top="10119" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="3108" height="2218" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -229,7 +229,7 @@
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>-955</DiagramViewPortLeft>
-            <DiagramViewPortTop>1586</DiagramViewPortTop>
+            <DiagramViewPortTop>-10</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>84</DiagramZoom>
@@ -329,7 +329,7 @@
                   <xs:element name="ThuNhapToiThieu" msprop:FriendlyName="ThuNhapToiThieu" msprop:DbColumnName="ThuNhapToiThieu" msprop:design-time-name="f5009c5b-9706-4626-a9f5-9e1b0198cab6" type="xs:long" minOccurs="0" />
                   <xs:element name="ThuNhapToiDa" msprop:FriendlyName="ThuNhapToiDa" msprop:DbColumnName="ThuNhapToiDa" msprop:design-time-name="8070ae4c-2ca0-42dd-a812-fb5c70757ab3" type="xs:long" minOccurs="0" />
                   <xs:element name="ThuTu" msprop:FriendlyName="ThuTu" msprop:DbColumnName="ThuTu" msprop:design-time-name="fc1f7e6c-40d8-434c-9ac8-aecfcb39245d" type="xs:int" />
-                  <xs:element name="TenNhomLuongNew" msdata:ReadOnly="true" msprop:DbColumnName="TenNhomLuongNew" msprop:IsLogical="True" msprop:ComputedColumnExpression="CASE &#xD;&#xA;    WHEN TenNhomLuong LIKE '%Duoi 12%' THEN '&lt; 12M'&#xD;&#xA;    WHEN TenNhomLuong LIKE '%12%18%' THEN '12-18M'&#xD;&#xA;    WHEN TenNhomLuong LIKE '%18%30%' THEN '18-30M'&#xD;&#xA;    WHEN TenNhomLuong LIKE '%30%' THEN '&gt;= 30M'&#xD;&#xA;    ELSE TenNhomLuong &#xD;&#xA;END" msprop:design-time-name="af03b587-a5df-4f4e-9c0f-ced43a468e40" msprop:Description="">
+                  <xs:element name="TenNhomLuongNew" msdata:ReadOnly="true" msprop:DbColumnName="TenNhomLuongNew" msprop:IsLogical="True" msprop:ComputedColumnExpression="CASE &#xD;&#xA;    WHEN TenNhomLuong LIKE '%Duoi 12%' THEN '&lt; 12M'&#xD;&#xA;    WHEN TenNhomLuong LIKE '%12%18%' THEN '12-18M'&#xD;&#xA;    WHEN TenNhomLuong LIKE '%18%30%' THEN '18-30M'&#xD;&#xA;    WHEN TenNhomLuong LIKE '%30%' THEN 'Trên 30M'&#xD;&#xA;    ELSE TenNhomLuong &#xD;&#xA;END" msprop:design-time-name="af03b587-a5df-4f4e-9c0f-ced43a468e40" msprop:Description="">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
@@ -367,7 +367,6 @@
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="KhoaTrangThaiNghiViec" msprop:FriendlyName="KhoaTrangThaiNghiViec" msprop:DbColumnName="KhoaTrangThaiNghiViec" msprop:design-time-name="29da3e65-2ef0-4a48-95df-c3be3c0a4213" type="xs:int" />
-                  <xs:element name="NghiViecTrong12Thang" msprop:FriendlyName="NghiViecTrong12Thang" msprop:DbColumnName="NghiViecTrong12Thang" msprop:design-time-name="3a19b88d-4632-4613-9566-7cfebd069df3" type="xs:boolean" minOccurs="0" />
                   <xs:element name="TenTrangThai" msprop:FriendlyName="TenTrangThai" msprop:DbColumnName="TenTrangThai" msprop:design-time-name="493c0362-d43d-4f2d-b1e7-39ec384257bb">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -375,6 +374,7 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="CoNghiViec" msprop:DbColumnName="CoNghiViec" msprop:design-time-name="fb812569-49d5-48ac-8aa7-e08770c7193e" type="xs:boolean" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -416,6 +416,30 @@
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KhoaNhomTuoi" msdata:ReadOnly="true" msprop:DbColumnName="KhoaNhomTuoi" msprop:IsLogical="True" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN Tuoi &lt; 25 THEN 1&#xD;&#xA;    WHEN Tuoi BETWEEN 25 AND 34 THEN 2&#xD;&#xA;    WHEN Tuoi BETWEEN 35 AND 44 THEN 3&#xD;&#xA;    WHEN Tuoi BETWEEN 45 AND 54 THEN 4&#xD;&#xA;    ELSE 5&#xD;&#xA;END" msprop:design-time-name="d6df392d-2454-4b20-8d0c-a9a84d090e37" msprop:Description="" type="xs:int" />
+                  <xs:element name="TenNhomTuoi" msdata:ReadOnly="true" msprop:DbColumnName="TenNhomTuoi" msprop:IsLogical="True" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN Tuoi &lt; 25 THEN N'&lt; 25'&#xD;&#xA;    WHEN Tuoi BETWEEN 25 AND 34 THEN N'25–34'&#xD;&#xA;    WHEN Tuoi BETWEEN 35 AND 44 THEN N'35–44'&#xD;&#xA;    WHEN Tuoi BETWEEN 45 AND 54 THEN N'45–54'&#xD;&#xA;    ELSE N'Trên 55'&#xD;&#xA;END" msprop:design-time-name="1ca5f5bb-4faa-44d9-8739-94ba4da16f76" msprop:Description="">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KhoaNhomKhoangCach" msdata:ReadOnly="true" msprop:DbColumnName="KhoaNhomKhoangCach" msprop:IsLogical="True" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN KhoangCachTuNha &lt;= 5 THEN 1&#xD;&#xA;    WHEN KhoangCachTuNha &lt;= 10 THEN 2&#xD;&#xA;    WHEN KhoangCachTuNha &lt;= 20 THEN 3&#xD;&#xA;    WHEN KhoangCachTuNha &lt;= 30 THEN 4&#xD;&#xA;    ELSE 5&#xD;&#xA;END" msprop:design-time-name="01056a7c-3c0c-4d7b-943e-babd1bbec319" msprop:Description="" type="xs:int" />
+                  <xs:element name="TenNhomKhoangCach" msdata:ReadOnly="true" msprop:DbColumnName="TenNhomKhoangCach" msprop:IsLogical="True" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN KhoangCachTuNha &lt;= 5 THEN N'0–5 Km'&#xD;&#xA;    WHEN KhoangCachTuNha &lt;= 10 THEN N'6–10 Km'&#xD;&#xA;    WHEN KhoangCachTuNha &lt;= 20 THEN N'11–20 Km'&#xD;&#xA;    WHEN KhoangCachTuNha &lt;= 30 THEN N'21–30 Km'&#xD;&#xA;    ELSE N'Trên 30 Km'&#xD;&#xA;END" msprop:design-time-name="e69e80ab-a916-46b2-ab8d-66c57775771f" msprop:Description="">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KhoaNhomGioLam" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="b35b1c47-2d18-4976-8c05-6247a7d1fb5b" msprop:IsLogical="True" msprop:DbColumnName="KhoaNhomGioLam" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 170 THEN 1&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 190 THEN 2&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 210 THEN 3&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 230 THEN 4&#xD;&#xA;    ELSE 5&#xD;&#xA;END" type="xs:int" />
+                  <xs:element name="TenNhomGioLam" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="59cd5328-2955-47b2-8dbb-96a0b0c16e0e" msprop:IsLogical="True" msprop:DbColumnName="TenNhomGioLam" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 170 THEN N'&lt; 170 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 190 THEN N'170–189 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 210 THEN N'190–209 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 230 THEN N'210–229 giờ'&#xD;&#xA;    ELSE N'Trên 230 giờ'&#xD;&#xA;END">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
