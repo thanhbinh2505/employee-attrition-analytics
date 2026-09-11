@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8e167c1d-ffc1-40f8-b68f-f67ed09e3d63" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e474f000-d85c-48f2-b57b-bbec2bb381fd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DSV_PTNhanSu_DWH</ID>
   <Name>DSV_PTNhanSu_DWH</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-955" scrolltop="-10" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="22670" y="12425" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="31" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-272" scrolltop="354" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="22670" y="12425" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
                   </font>
@@ -49,7 +49,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNhanVien" left="15176" top="5067" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="3747" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNhanVien" left="13941" top="682" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="3747" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000a30e000088130000" />
                   </control>
@@ -124,7 +124,7 @@
                     <point x="8470" y="10419" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12350" top="5419" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="3126" height="898" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12350" top="1133" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="1891" height="4886" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -138,9 +138,9 @@
                     </ddsxmlobj>
                   </layoutobject>
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="15176" y="5917" />
-                    <point x="13913" y="5917" />
-                    <point x="13913" y="5719" />
+                    <point x="13941" y="1532" />
+                    <point x="13541" y="1532" />
+                    <point x="13541" y="5719" />
                     <point x="12650" y="5719" />
                   </connector>
                 </ddscontrol>
@@ -224,12 +224,92 @@
                     <point x="7920" y="10419" />
                   </connector>
                 </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactDuBaoNghiViec" left="20655" top="7931" logicalid="26" controlid="14" masterid="0" hint1="0" hint2="0" width="3150" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00004e0c000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dw_FactDuBaoNghiViec" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMucRuiRo" left="15568" top="7195" logicalid="27" controlid="15" masterid="0" hint1="0" hint2="0" width="3000" height="1814" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000016070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dw_DimMucRuiRo" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="17769" top="8510" logicalid="28" controlid="16" masterid="0" hint1="0" hint2="0" width="3186" height="2221" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_DuBao_MucRuiRo]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="15" destid="14" sourceattachpoint="9" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="18168" y="9009" />
+                    <point x="18168" y="10431" />
+                    <point x="20655" y="10431" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6161" top="10681" logicalid="29" controlid="17" masterid="0" hint1="0" hint2="0" width="14794" height="1959" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_DuBao_Ngayb]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="14" sourceattachpoint="11" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6461" y="12240" />
+                    <point x="14175" y="12240" />
+                    <point x="14175" y="10981" />
+                    <point x="20655" y="10981" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="17388" top="3883" logicalid="30" controlid="18" masterid="0" hint1="0" hint2="0" width="5142" height="4348" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_DuBao_NhanVien]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="14" sourceattachpoint="27" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="17688" y="4282" />
+                    <point x="22230" y="4282" />
+                    <point x="22230" y="7931" />
+                  </connector>
+                </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-955</DiagramViewPortLeft>
-            <DiagramViewPortTop>-10</DiagramViewPortTop>
+            <DiagramViewPortLeft>-272</DiagramViewPortLeft>
+            <DiagramViewPortTop>354</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>84</DiagramZoom>
@@ -435,14 +515,64 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="KhoaNhomGioLam" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="b35b1c47-2d18-4976-8c05-6247a7d1fb5b" msprop:IsLogical="True" msprop:DbColumnName="KhoaNhomGioLam" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 170 THEN 1&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 190 THEN 2&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 210 THEN 3&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 230 THEN 4&#xD;&#xA;    ELSE 5&#xD;&#xA;END" type="xs:int" />
-                  <xs:element name="TenNhomGioLam" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="59cd5328-2955-47b2-8dbb-96a0b0c16e0e" msprop:IsLogical="True" msprop:DbColumnName="TenNhomGioLam" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 170 THEN N'&lt; 170 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 190 THEN N'170–189 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 210 THEN N'190–209 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 230 THEN N'210–229 giờ'&#xD;&#xA;    ELSE N'Trên 230 giờ'&#xD;&#xA;END">
+                  <xs:element name="KhoaNhomGioLam" msdata:ReadOnly="true" msprop:DbColumnName="KhoaNhomGioLam" msprop:IsLogical="True" msprop:design-time-name="b35b1c47-2d18-4976-8c05-6247a7d1fb5b" msprop:Description="" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 170 THEN 1&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 190 THEN 2&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 210 THEN 3&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 230 THEN 4&#xD;&#xA;    ELSE 5&#xD;&#xA;END" type="xs:int" />
+                  <xs:element name="TenNhomGioLam" msdata:ReadOnly="true" msprop:DbColumnName="TenNhomGioLam" msprop:IsLogical="True" msprop:design-time-name="59cd5328-2955-47b2-8dbb-96a0b0c16e0e" msprop:Description="" msprop:ComputedColumnExpression="CASE&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 170 THEN N'&lt; 170 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 190 THEN N'170–189 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 210 THEN N'190–209 giờ'&#xD;&#xA;    WHEN SoGioTrungBinhThang &lt; 230 THEN N'210–229 giờ'&#xD;&#xA;    ELSE N'Trên 230 giờ'&#xD;&#xA;END">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="12" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dw_FactDuBaoNghiViec" msprop:DbTableName="FactDuBaoNghiViec" msprop:FriendlyName="FactDuBaoNghiViec" msprop:TableType="Table" msprop:DbSchemaName="dw" msprop:design-time-name="ab7b4e4b-a7a6-40e5-9652-6d4fd7bd1185">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KhoaDuBao" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="KhoaDuBao" msprop:DbColumnName="KhoaDuBao" msprop:design-time-name="9f620132-58f7-4fc4-ba98-c3cc7929b1bb" type="xs:long" />
+                  <xs:element name="KhoaNhanVien" msprop:FriendlyName="KhoaNhanVien" msprop:DbColumnName="KhoaNhanVien" msprop:design-time-name="5d38c36b-1fbf-4b58-9dfa-c204fcf578a4" type="xs:int" />
+                  <xs:element name="KhoaNgayDuBao" msprop:FriendlyName="KhoaNgayDuBao" msprop:DbColumnName="KhoaNgayDuBao" msprop:design-time-name="0eca84de-e3bf-4114-8298-4a6a28b798b4" type="xs:int" />
+                  <xs:element name="KhoaMucRuiRo" msprop:FriendlyName="KhoaMucRuiRo" msprop:DbColumnName="KhoaMucRuiRo" msprop:design-time-name="24ff502b-bc65-4816-9c79-ed404b49f215" type="xs:unsignedByte" />
+                  <xs:element name="ThucTeNghiViec" msprop:FriendlyName="ThucTeNghiViec" msprop:DbColumnName="ThucTeNghiViec" msprop:design-time-name="a4a6a271-63b0-4cdf-b9e6-42856172522a" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="XacSuatNghiViec" msprop:FriendlyName="XacSuatNghiViec" msprop:DbColumnName="XacSuatNghiViec" msprop:design-time-name="1c7156e8-c1ba-43b6-b5d6-e2ea3036786f" type="xs:decimal" />
+                  <xs:element name="DiemNguyCo" msprop:FriendlyName="DiemNguyCo" msprop:DbColumnName="DiemNguyCo" msprop:design-time-name="76374a7f-e2b2-48f6-8f9a-a1075a08b080" type="xs:decimal" />
+                  <xs:element name="DuDoanNghiViec" msprop:FriendlyName="DuDoanNghiViec" msprop:DbColumnName="DuDoanNghiViec" msprop:design-time-name="d4d4c09d-d2d5-4799-a811-4ef0a511a9a7" type="xs:unsignedByte" />
+                  <xs:element name="NguongDuDoan" msprop:FriendlyName="NguongDuDoan" msprop:DbColumnName="NguongDuDoan" msprop:design-time-name="8e49a3a6-88cd-4e0a-a0fd-b49f71f32d52" type="xs:decimal" />
+                  <xs:element name="XepHangNguyCo" msprop:FriendlyName="XepHangNguyCo" msprop:DbColumnName="XepHangNguyCo" msprop:design-time-name="e4e83647-d614-4535-959c-06f8d648fe2c" type="xs:int" minOccurs="0" />
+                  <xs:element name="PhanViNguyCo" msprop:FriendlyName="PhanViNguyCo" msprop:DbColumnName="PhanViNguyCo" msprop:design-time-name="0c956800-2b4a-4831-9b9a-5b10365d53d8" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LaTP" msprop:FriendlyName="LaTP" msprop:DbColumnName="LaTP" msprop:design-time-name="268058f1-91ec-40c5-8f0a-0e9df43b6079" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="LaFP" msprop:FriendlyName="LaFP" msprop:DbColumnName="LaFP" msprop:design-time-name="a7373245-6377-4805-b879-8a1c1dc143a2" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="LaFN" msprop:FriendlyName="LaFN" msprop:DbColumnName="LaFN" msprop:design-time-name="2ce2c510-0487-402c-a425-5205c3bfecd1" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="LaTN" msprop:FriendlyName="LaTN" msprop:DbColumnName="LaTN" msprop:design-time-name="a26a9c28-fd7a-494e-ba78-4ae9f3e2fcbb" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="MoHinh" msprop:FriendlyName="MoHinh" msprop:DbColumnName="MoHinh" msprop:design-time-name="d0e59898-bf29-48d4-9cc9-27a85ba4bd50">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PhienBanMoHinh" msprop:FriendlyName="PhienBanMoHinh" msprop:DbColumnName="PhienBanMoHinh" msprop:design-time-name="21a5dc83-1384-44fa-9818-e01e6daf3890">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dw_DimMucRuiRo" msprop:DbTableName="DimMucRuiRo" msprop:FriendlyName="DimMucRuiRo" msprop:TableType="Table" msprop:DbSchemaName="dw" msprop:design-time-name="96488985-a25c-47e4-b7e0-8b552b5ef5db">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KhoaMucRuiRo" msprop:FriendlyName="KhoaMucRuiRo" msprop:DbColumnName="KhoaMucRuiRo" msprop:design-time-name="7f1c82c9-b4b1-48a8-8edf-6069c6b21922" type="xs:unsignedByte" />
+                  <xs:element name="TenMucRuiRo" msprop:FriendlyName="TenMucRuiRo" msprop:DbColumnName="TenMucRuiRo" msprop:design-time-name="a02e760f-f698-45e7-baab-4430fa89704c">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ThuTuHienThi" msprop:FriendlyName="ThuTuHienThi" msprop:DbColumnName="ThuTuHienThi" msprop:design-time-name="f38982a4-f73a-4e5c-b8bd-950770f9201d" type="xs:unsignedByte" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -472,29 +602,49 @@
           <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
           <xs:field xpath="KhoaTrangThaiNhanVien" />
         </xs:unique>
-        <xs:keyref name="fk_facttrangthai_ngaychot" refer="Constraint1">
-          <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
-          <xs:field xpath="KhoaNgayChot" />
-        </xs:keyref>
-        <xs:keyref name="fk_facttrangthai_nhanvien" refer="dw_DimNhanVien_Constraint1">
-          <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
+        <xs:unique name="dw_FactDuBaoNghiViec_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dw_FactDuBaoNghiViec" />
+          <xs:field xpath="KhoaDuBao" />
+        </xs:unique>
+        <xs:unique name="dw_DimMucRuiRo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dw_DimMucRuiRo" />
+          <xs:field xpath="KhoaMucRuiRo" />
+        </xs:unique>
+        <xs:keyref name="FK_DuBao_NhanVien" refer="dw_DimNhanVien_Constraint1">
+          <xs:selector xpath=".//dw_FactDuBaoNghiViec" />
           <xs:field xpath="KhoaNhanVien" />
         </xs:keyref>
-        <xs:keyref name="fk_facttrangthai_nhomluong" refer="dw_DimNhomLuong_Constraint1">
-          <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
-          <xs:field xpath="KhoaNhomLuong" />
+        <xs:keyref name="FK_DuBao_Ngayb" refer="Constraint1">
+          <xs:selector xpath=".//dw_FactDuBaoNghiViec" />
+          <xs:field xpath="KhoaNgayDuBao" />
         </xs:keyref>
-        <xs:keyref name="fk_facttrangthai_nhomthamnien" refer="dw_DimNhomThamNien_Constraint1">
+        <xs:keyref name="FK_DuBao_MucRuiRo" refer="dw_DimMucRuiRo_Constraint1">
+          <xs:selector xpath=".//dw_FactDuBaoNghiViec" />
+          <xs:field xpath="KhoaMucRuiRo" />
+        </xs:keyref>
+        <xs:keyref name="fk_facttrangthai_ngaynghi" refer="Constraint1">
           <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
-          <xs:field xpath="KhoaNhomThamNien" />
+          <xs:field xpath="KhoaNgayNghi" />
         </xs:keyref>
         <xs:keyref name="fk_facttrangthai_trangthainghi" refer="dw_DimTrangThaiNghiViec_Constraint1">
           <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
           <xs:field xpath="KhoaTrangThaiNghiViec" />
         </xs:keyref>
-        <xs:keyref name="fk_facttrangthai_ngaynghi" refer="Constraint1">
+        <xs:keyref name="fk_facttrangthai_nhomthamnien" refer="dw_DimNhomThamNien_Constraint1">
           <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
-          <xs:field xpath="KhoaNgayNghi" />
+          <xs:field xpath="KhoaNhomThamNien" />
+        </xs:keyref>
+        <xs:keyref name="fk_facttrangthai_nhomluong" refer="dw_DimNhomLuong_Constraint1">
+          <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
+          <xs:field xpath="KhoaNhomLuong" />
+        </xs:keyref>
+        <xs:keyref name="fk_facttrangthai_nhanvien" refer="dw_DimNhanVien_Constraint1">
+          <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
+          <xs:field xpath="KhoaNhanVien" />
+        </xs:keyref>
+        <xs:keyref name="fk_facttrangthai_ngaychot" refer="Constraint1">
+          <xs:selector xpath=".//dw_FactTrangThaiNhanVien" />
+          <xs:field xpath="KhoaNgayChot" />
         </xs:keyref>
       </xs:element>
     </xs:schema>

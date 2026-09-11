@@ -43,6 +43,10 @@
       <Name>Dim Fact Trang Thai Nhan Vien.dim</Name>
       <FullPath>Dim Fact Trang Thai Nhan Vien.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Muc Rui Ro.dim</Name>
+      <FullPath>Dim Muc Rui Ro.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

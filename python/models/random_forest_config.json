@@ -1,0 +1,60 @@
+{
+    "MoHinh": "RandomForestClassifier",
+    "NamTrain": "2018-2024",
+    "NamValidation": 2024,
+    "NamTest": 2025,
+    "NEstimators": 300,
+    "MaxDepth": 10,
+    "MinSamplesLeaf": 20,
+    "MaxFeatures": "sqrt",
+    "ClassWeight": null,
+    "RandomState": 42,
+    "NguongDuDoan": 0.16908819344089202,
+    "MucTieu": "CoNghiViec12Thang",
+    "FeatureSo": [
+        "Tuoi",
+        "KhoangCachTuNha",
+        "SoLuongDuAn",
+        "SoGioTrungBinhThang",
+        "DiemDanhGiaHieuSuat",
+        "DiemHaiLongCongViec",
+        "DiemHaiLongMoiTruong",
+        "ThuNhapThang",
+        "SoNamTaiCongTy",
+        "SoNamTuLanThangChucCuoi",
+        "CapBacCongViec"
+    ],
+    "FeatureNhiPhan": [
+        "LamThemGio",
+        "DuocThangChucNamTruoc"
+    ],
+    "FeatureDanhMuc": [
+        "PhongBan",
+        "ChucDanh"
+    ],
+    "TatCaFeature": [
+        "Tuoi",
+        "KhoangCachTuNha",
+        "SoLuongDuAn",
+        "SoGioTrungBinhThang",
+        "DiemDanhGiaHieuSuat",
+        "DiemHaiLongCongViec",
+        "DiemHaiLongMoiTruong",
+        "ThuNhapThang",
+        "SoNamTaiCongTy",
+        "SoNamTuLanThangChucCuoi",
+        "CapBacCongViec",
+        "LamThemGio",
+        "DuocThangChucNamTruoc",
+        "PhongBan",
+        "ChucDanh"
+    ],
+    "TestMetrics": {
+        "Accuracy": 0.6944256375535997,
+        "Precision": 0.2684563758389262,
+        "Recall": 0.6024096385542169,
+        "F1": 0.3714020427112349,
+        "ROC_AUC": 0.7196640290922117,
+        "PR_AUC": 0.332978858563141
+    }
+}

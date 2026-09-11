@@ -1,0 +1,10 @@
+{
+    "MoHinh": "Random Forest",
+    "NguongTrungBinh": 0.10016217034369168,
+    "NguongCao": 0.16908819344089202,
+    "QuyTac": {
+        "Thap": "score < NguongTrungBinh",
+        "TrungBinh": "NguongTrungBinh <= score < NguongCao",
+        "Cao": "score >= NguongCao"
+    }
+}

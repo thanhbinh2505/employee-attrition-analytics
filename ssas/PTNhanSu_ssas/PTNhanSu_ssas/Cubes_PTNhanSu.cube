@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2e1e29c3-21f6-4be3-85c8-2624be6d4c18" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="18b595c3-2846-4be3-94f0-eca9fd6b87ea" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Cubes_PTNhanSu</ID>
   <Name>Cubes_PTNhanSu</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5958" scrolltop="-716" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="22077" y="11134" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="31" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5958" scrolltop="562" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="22077" y="11134" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -105,7 +105,7 @@
               <point x="6813" y="9347" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9114" top="9047" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9263" top="9047" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="1200" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -118,9 +118,9 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="1" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="9513" y="11747" />
-              <point x="9513" y="10547" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="1" sourceattachpoint="2" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10063" y="11747" />
+              <point x="10063" y="10547" />
               <point x="9563" y="10547" />
               <point x="9563" y="9347" />
             </connector>
@@ -203,6 +203,90 @@
               <point x="6263" y="9347" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactDuBaoNghiViec" left="14958" top="11487" logicalid="26" controlid="14" masterid="0" hint1="0" hint2="0" width="3331" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000030d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dw_FactDuBaoNghiViec" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3891" top="15354" logicalid="27" controlid="15" masterid="0" hint1="0" hint2="0" width="11932" height="2690" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DuBao_Ngayb]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="14" sourceattachpoint="1" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4290" y="15853" />
+              <point x="4290" y="17744" />
+              <point x="15523" y="17744" />
+              <point x="15523" y="16487" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12737" top="12037" logicalid="28" controlid="16" masterid="0" hint1="0" hint2="0" width="2521" height="960" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DuBao_NhanVien]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="14" sourceattachpoint="17" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13037" y="12597" />
+              <point x="14153" y="12597" />
+              <point x="14153" y="12337" />
+              <point x="14958" y="12337" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMucRuiRo" left="18597" top="7938" logicalid="29" controlid="17" masterid="0" hint1="0" hint2="0" width="3020" height="1891" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000cc0b000063070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dw_DimMucRuiRo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="14847" top="9330" logicalid="30" controlid="18" masterid="0" hint1="0" hint2="0" width="6760" height="2457" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DuBao_MucRuiRo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="17" destid="14" sourceattachpoint="9" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="21207" y="9829" />
+              <point x="21207" y="11358" />
+              <point x="15147" y="11358" />
+              <point x="15147" y="11087" />
+              <point x="15523" y="11087" />
+              <point x="15523" y="11487" />
+            </connector>
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -224,7 +308,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-716</Value>
+      <Value>562</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -242,188 +326,237 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="284f2772-22a3-434c-bc44-2a89b6b305a9">
+    <Dimension dwd:design-time-name="c05ca6c4-4e9d-41e9-a53a-f6255ff80479">
       <ID>Khoa Ngay Chot</ID>
       <Name>Khoa Ngay Chot</Name>
       <DimensionID>Dim Ngay</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="30a62d10-b14b-4c33-bb82-c624a99879f7">
+        <Attribute dwd:design-time-name="cc14b174-5dfe-4752-8bbb-76120823c214">
           <AttributeID>Khoa Ngay</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c818f992-e74a-4b70-b29e-d08af8342121">
+        <Attribute dwd:design-time-name="16980c5a-25a7-467d-b50c-25d4313e823c">
           <AttributeID>Ngay Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d797aca0-47cc-4ea6-a00d-38a765a73f77">
+        <Attribute dwd:design-time-name="9b77aa0a-8e74-43f4-8112-1d29edf1a319">
           <AttributeID>Ngay</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="be1da159-f3f1-4047-9141-a7aa1ba4f45b">
+        <Attribute dwd:design-time-name="a43cc35d-249c-4bd6-8a35-42d7e17090e3">
           <AttributeID>Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d31ccd38-397d-4fca-b4df-e14e71129057">
+        <Attribute dwd:design-time-name="a12ab7e1-e969-445f-a581-50cd282c2880">
           <AttributeID>Ten Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e662e0ee-6d48-4a0a-a98b-b947e9212ae3">
+        <Attribute dwd:design-time-name="872acbb9-09bb-4f09-8a0a-7b8bf7e49b64">
           <AttributeID>Quy</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a5ee4b0e-2041-41b1-a74b-c7b4df93a6cb">
+        <Attribute dwd:design-time-name="ed794d7d-62f6-4269-b3c6-3d933b1c277e">
           <AttributeID>Nam</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="227ea813-c7e1-43f9-98f5-46986d809538">
+        <Attribute dwd:design-time-name="a7e5a708-86fb-47b9-b52b-437008dafd80">
           <AttributeID>Nam Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="79c9bfa5-747c-4ac0-9433-d23c0669c1e9">
+        <Attribute dwd:design-time-name="1a3608b9-a00d-4471-a3ae-702ba1ad876a">
           <AttributeID>La Cuoi Tuan</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="00f829f6-7cd0-40fc-8c95-4e409a5148b3">
+        <Hierarchy dwd:design-time-name="83a804ff-67bc-4b73-9a5f-94fc64c9bb12">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="878d18ff-ad15-4057-9513-5eaec355ccdd">
+    <Dimension dwd:design-time-name="57f69f22-c875-46b1-bf11-57b82b745587">
       <ID>Dim Nhan Vien</ID>
       <Name>Dim Nhan Vien</Name>
       <DimensionID>Dim Nhan Vien</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="f05116b4-fd1a-4779-a692-9fdfd5b782a6">
+        <Attribute dwd:design-time-name="d32e23ec-d29e-47f2-900d-c0e4f05f1267">
           <AttributeID>Khoa Nhan Vien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="dd411df0-d9e1-4ddb-8dce-f44b5bd7b602">
+        <Attribute dwd:design-time-name="0ec547bb-1a93-4e04-b3dd-db7dc0a9deed">
           <AttributeID>Ma NV</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7fda516a-0bb8-4587-8812-75f6e853aaef">
+        <Attribute dwd:design-time-name="3ffed615-cbdb-4a1c-ab5e-c796590161ee">
           <AttributeID>Gioi Tinh</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="992e3a2c-a7b4-4bdd-8a12-830aee187b3c">
+        <Attribute dwd:design-time-name="ad70ad08-3e60-4ff7-bd9c-ceb68aa11b3c">
           <AttributeID>Tinh Trang Hon Nhan</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eb2bf96e-c55b-4b48-8025-d86d2328fde8">
+        <Attribute dwd:design-time-name="7fd06760-69ba-4e24-a57c-336d5d61c2f5">
           <AttributeID>Phong Ban</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f00bc266-4d47-486b-95a3-38479a837e0a">
+        <Attribute dwd:design-time-name="dcb1083b-6d5c-44a5-a9a3-a84f47a11566">
           <AttributeID>Chuc Danh</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="66657f64-648c-42b2-9a8d-fbc42bb026e5">
+        <Attribute dwd:design-time-name="95b848a5-bb80-4f83-9191-d6c910d35583">
           <AttributeID>Cap Bac Cong Viec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fd90c221-30c0-49aa-8796-6fe0e2d032e7">
+        <Attribute dwd:design-time-name="b11eece7-ba46-48eb-8ef7-64e22948fcba">
           <AttributeID>Phien Ban</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a64d6bc0-b593-4390-8539-bed49031797f">
+        <Attribute dwd:design-time-name="3c77ac6c-2576-482c-96c8-96e27ea46ac0">
           <AttributeID>La Hien Tai</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a77cfbbb-dbba-41c4-8594-de1485ddba6b">
+        <Attribute dwd:design-time-name="decad8eb-01a9-4f94-b416-c1c27f11e4bc">
           <AttributeID>Ngay Hieu Luc</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e638e45e-173e-4a59-bdad-a97e34359894">
+        <Attribute dwd:design-time-name="126fcbd4-e669-4fa0-8de9-382339fab850">
           <AttributeID>Ngay Het Hieu Luc</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="186143ab-2352-4a05-8ee1-9ab65eca956c">
+    <Dimension dwd:design-time-name="f345642d-1f7c-4057-bd38-963769ffb2f5">
       <ID>Dim Nhom Luong</ID>
       <Name>Dim Nhom Luong</Name>
       <DimensionID>Dim Nhom Luong</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7bde9ecb-710a-4192-b372-1739e3f7a0b9">
+        <Attribute dwd:design-time-name="ff5021b9-39bf-4f6f-822c-2ce97fb83e6d">
           <AttributeID>Khoa Nhom Luong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="255849c2-3ddc-4c34-96c1-cbf51458f90c">
+        <Attribute dwd:design-time-name="97b44518-cce5-4e6c-877a-6208108be369">
           <AttributeID>Ten Nhom Luong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="762fb145-a987-4468-8d64-3ef63279caad">
+        <Attribute dwd:design-time-name="e998b430-278b-4cfb-ab4a-9c8bad8abcc0">
           <AttributeID>Thu Tu</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="cfc7fd96-5b40-4338-aa33-17f9e9ca250a">
+    <Dimension dwd:design-time-name="e6e2d20b-100c-4e33-a378-a0827e9ab5e6">
       <ID>Dim Nhom Tham Nien</ID>
       <Name>Dim Nhom Tham Nien</Name>
       <DimensionID>Dim Nhom Tham Nien</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="8802357e-cd67-481e-a0dc-7887610c99ec">
+        <Attribute dwd:design-time-name="65380522-adfa-47ff-bca1-05a2acfc93bc">
           <AttributeID>Khoa Nhom Tham Nien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="99e0fc15-6280-4702-b99f-f0edcd3387f5">
+        <Attribute dwd:design-time-name="caaf2be5-c363-4ef2-a3f8-5e14a9d52413">
           <AttributeID>Ten Nhom Tham Nien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5d6e8962-3c66-43f1-afbf-8172db454ea7">
+        <Attribute dwd:design-time-name="49c2a455-c919-40ad-84d4-616ce5696419">
           <AttributeID>Thu Tu</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="784acf41-77a7-4ead-9e9d-58ff2fce2b02">
+    <Dimension dwd:design-time-name="01e69cbc-0c73-451d-baf2-4ac8952dd16f">
       <ID>Dim Trang Thai Nghi Viec</ID>
       <Name>Dim Trang Thai Nghi Viec</Name>
       <DimensionID>Dim Trang Thai Nghi Viec</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="6fd1d223-912d-46a7-8e19-58b53bf4b4bf">
+        <Attribute dwd:design-time-name="87476cc3-6061-4fcd-8a65-b156b1b07cce">
           <AttributeID>Khoa Trang Thai Nghi Viec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e9c8731c-0154-4ba0-9934-e5df6f9efc22">
+        <Attribute dwd:design-time-name="f5537cac-2289-4ea6-a237-740b000b5e02">
           <AttributeID>Ten Trang Thai</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="2059c7c7-b919-439b-9be8-cd4e7cce8c5e">
+    <Dimension dwd:design-time-name="9dd9e905-ef05-47c2-92e2-70227a9c27f6">
       <ID>Dim Fact Trang Thai Nhan Vien</ID>
       <Name>Dim Fact Trang Thai Nhan Vien</Name>
       <DimensionID>Dim Fact Trang Thai Nhan Vien</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e3ea4e5f-4ad2-4b8e-8b9b-14e331d7fa67">
+        <Attribute dwd:design-time-name="557b7a8d-02d3-4e5a-9d77-a139e21faa09">
           <AttributeID>Khoa Trang Thai Nhan Vien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ca9f51c9-e958-4f19-a077-23bf0306140f">
+        <Attribute dwd:design-time-name="172db7f4-bb8c-4b9c-989f-7a3733a3c975">
           <AttributeID>Lam Them Gio</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="72293ef1-75aa-4833-be0e-6f94c6de24cc">
+        <Attribute dwd:design-time-name="7d124cf1-f9ba-44f0-99ce-10a6d7fe0e5e">
           <AttributeID>Ten Lam Them Gio</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b7e484bf-41d8-4aad-869e-1d9d1b9a6a35">
+        <Attribute dwd:design-time-name="674a08e4-24c8-4d66-8ff9-ffeaf72e00a6">
           <AttributeID>Khoa Ngay</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ee1c951e-f114-408e-ab6c-e2130e9a32db">
+        <Attribute dwd:design-time-name="31bcef50-cb97-4bdb-b82c-9b9da07365f3">
           <AttributeID>Khoa Trang Thai Nghi Viec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0c678f3c-08e8-43ac-8e64-a687f9f06560">
+        <Attribute dwd:design-time-name="01ead312-659c-429e-ada2-cbf98f8096c2">
           <AttributeID>Khoa Nhom Tham Nien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7b4c2ea2-d839-41f0-9d90-c5adedbdd61b">
+        <Attribute dwd:design-time-name="9e895e22-f74c-4461-9baf-b2ff5e207cab">
           <AttributeID>Khoa Nhom Luong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0ed07c93-1a64-4a7e-9b65-b0c5cbedb3bd">
+        <Attribute dwd:design-time-name="16035e45-b919-46d4-b969-3f3b963ec3e5">
           <AttributeID>Khoa Nhan Vien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d7b4161e-6051-4247-b921-4edb630605c3">
+        <Attribute dwd:design-time-name="225ec175-a4fc-447e-8877-9f4ac2d7202c">
           <AttributeID>Diem Danh Gia Hieu Suat</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="778fe1a1-c71c-4ac3-b772-afce5bc54b13">
+        <Attribute dwd:design-time-name="b2809018-5f65-42e4-88e3-eddd7f769cfc">
           <AttributeID>Diem Hai Long Cong Viec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7fd418cb-f126-41e3-be8f-65f4bdb9216c">
+        <Attribute dwd:design-time-name="9a9505dd-d353-4a17-9b78-ce7f8880bc3a">
           <AttributeID>Diem Hai Long Moi Truong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="caa6b849-7f9a-4456-a942-4d3998353717">
+        <Attribute dwd:design-time-name="c158fb28-7738-4e6d-88d5-43a8e32991b6">
           <AttributeID>Nam Thang Chuc Gan Nhat</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="45574a9c-5c63-4494-87a4-8036736f2bda">
+        <Attribute dwd:design-time-name="eefb94ba-c41a-4e05-972b-2da935e873ec">
           <AttributeID>Khoa Nhom Tuoi</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d73012af-0d38-4b4c-a4e0-e9b1e2d95f3b">
+        <Attribute dwd:design-time-name="0ad5fdd9-f83f-43a4-9c6e-3a2276d1ea85">
           <AttributeID>So Gio Trung Binh Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d520a630-22f5-4211-b1cd-be9f09a15983">
+        <Attribute dwd:design-time-name="60b214f8-f248-4a1b-9d03-4aa303af4209">
           <AttributeID>Khoa Nhom Khoang Cach</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8e425c02-1437-4ed5-9a44-a092a2de970f">
+        <Attribute dwd:design-time-name="674929b1-cb4c-44c1-8600-649ae11eb435">
           <AttributeID>Khoa Nhom Gio Lam</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="687edabd-d944-4fff-9030-b12b5234e039">
+      <ID>Dim Ngay</ID>
+      <Name>Dim Ngay</Name>
+      <DimensionID>Dim Ngay</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="dfc9e68f-b7a3-4d99-8bb7-6381e910ac72">
+          <AttributeID>Khoa Ngay</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="359f5f52-6384-45dd-87a2-ed2968485c91">
+          <AttributeID>Ngay Thang</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c3032bc9-ae76-4026-9a4e-4d3bf4130be1">
+          <AttributeID>Ngay</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f48e7979-3ff7-4fa4-90fe-b34c53a1deb2">
+          <AttributeID>Thang</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf51bf3f-d8b2-43c8-b0e7-936ca99f55e5">
+          <AttributeID>Ten Thang</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="93d53695-ccaa-47a6-b795-cff72551f040">
+          <AttributeID>Quy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f329f47f-cc03-4948-8815-da33a14ea6f6">
+          <AttributeID>Nam</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed1b4856-da78-4d01-8f13-75ef69a47619">
+          <AttributeID>Nam Thang</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1127bb31-dd3b-42ba-bcf3-ad1f9d45bb34">
+          <AttributeID>La Cuoi Tuan</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a665e75b-7cb6-424e-bafb-6ed00e301359">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="f84bb8a4-2cfc-4b54-8a7d-7fde858d09c3">
+      <ID>Dim Muc Rui Ro</ID>
+      <Name>Dim Muc Rui Ro</Name>
+      <DimensionID>Dim Muc Rui Ro</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="78090dd3-6c69-44ea-bef4-217378fc520f">
+          <AttributeID>Khoa Muc Rui Ro</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="4de2313b-6932-4a75-9bc4-ad6cb6542476">
+    <MeasureGroup dwd:design-time-name="6b01dae9-d5d6-411e-9cb2-3147e49857d3">
       <ID>Fact Trang Thai Nhan Vien</ID>
       <Name>Fact Trang Thai Nhan Vien</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -431,78 +564,78 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="bf4be001-2574-43e0-8743-884fa7f924cb">
+        <Measure dwd:design-time-name="4ec58485-5fd7-4068-ad54-d73286165f69">
           <ID>Tuoi</ID>
           <Name>Tuoi</Name>
-          <Source dwd:design-time-name="17f0ff77-667c-4e79-b32b-05cc044c0a48">
+          <Source dwd:design-time-name="ff51f578-f386-4227-a0b9-ccd66b3b527a">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="b9125012-aafc-405f-bbe0-475d72e5dd6e">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aed8497f-eb9e-449c-8ebe-9ae0bbfefb81">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>Tuoi</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="a8dff65d-c892-4882-90af-9435a7276f93">
+        <Measure dwd:design-time-name="680c1687-ddaf-4be5-8e2c-83f9149c9e7b">
           <ID>So Luong Du An</ID>
           <Name>So Luong Du An</Name>
-          <Source dwd:design-time-name="7d607c1b-ee71-474b-b09c-b8ec1dc303d0">
+          <Source dwd:design-time-name="bf9fbf7f-9b5e-4630-a821-fca9a5a9f28c">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="cd013cc7-27f9-4325-8969-05eb47537ce4">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ff28db46-27a6-4e22-9793-9d75618584cf">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoLuongDuAn</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="4b830b1d-b5ab-49c0-83e9-1764e29877f2">
+        <Measure dwd:design-time-name="4d6da219-fa8c-4196-8663-705050b27d21">
           <ID>So Gio Trung Binh Thang</ID>
           <Name>So Gio Trung Binh Thang</Name>
-          <Source dwd:design-time-name="8e3759ed-8b8e-4348-91c7-6fdd05070a34">
+          <Source dwd:design-time-name="040c9451-4e38-47f3-b512-f41f2dc947f7">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a197a578-67f2-4dbc-8bb3-76d159c2c82d">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dce10742-435b-4440-89ab-8fed440f891d">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoGioTrungBinhThang</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="160b063d-f851-4ac5-8220-fef7bb593c1b">
+        <Measure dwd:design-time-name="38e43d59-1e92-4c23-9393-34f0988dec9c">
           <ID>Thu Nhap Thang</ID>
           <Name>Thu Nhap Thang</Name>
-          <Source dwd:design-time-name="ebba294b-0f90-424f-8c6a-10142e29ddc3">
+          <Source dwd:design-time-name="11ccf0ef-d9da-4fbe-84e6-04441347cd18">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c3bb6815-0da4-49a1-94cc-8048dd2597e3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7de1be89-929a-4472-b940-2f214166d5eb">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>ThuNhapThang</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="ec7d5fa2-7ca0-461f-a563-cbf28ed18907">
+        <Measure dwd:design-time-name="1d4a01bf-bc73-4955-b95a-12a4cee4cc25">
           <ID>So Nam Tai Cong Ty</ID>
           <Name>So Nam Tai Cong Ty</Name>
-          <Source dwd:design-time-name="ec485f1c-3a4f-43a9-a99a-6ffa7670bd9e">
+          <Source dwd:design-time-name="528cb89d-be4e-4f25-8fa8-f52b2383dc7e">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="42a82e85-db96-4e3e-8b2b-d8ac8c5c2fb4">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ae3c403b-6fa2-4cbc-8dbb-541513576ade">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoNamTaiCongTy</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="1c47a9e3-e2c0-4791-9a7b-80fce31476a1">
+        <Measure dwd:design-time-name="9bdba1be-a6e0-4987-9a5f-2083b42a948e">
           <ID>So Nhan Vien</ID>
           <Name>So Nhan Vien</Name>
-          <Source dwd:design-time-name="d7c2090a-8d86-4e63-8360-2ca1c372f1a8">
+          <Source dwd:design-time-name="49884d76-fd47-43de-bba4-2e2767917acc">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="09e7c9e1-6171-4146-86d5-766b64798935">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="557126e7-37aa-4e4f-84f6-12c8985349df">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoNhanVien</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="5ee3a4f4-9c35-4f55-8def-74dd06057298">
+        <Measure dwd:design-time-name="5e0ef16b-e742-41b9-a0c6-ff4b885ca56a">
           <ID>So Nghi Viec</ID>
           <Name>So Nghi Viec</Name>
-          <Source dwd:design-time-name="7137e6bc-e7c0-4bec-9fa9-edc26edecd03">
+          <Source dwd:design-time-name="53047af0-6580-4d0c-8eea-27f5aeee8ee2">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="10e492d4-6c9a-40cf-aa96-8170e8b77004">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="015cc9c4-d7ad-4fba-b212-03d63be8980c">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoNghiViec</ColumnID>
             </Source>
@@ -512,15 +645,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9ed4c1ed-0d1c-4ae0-850d-cddae5ccaba1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e54a73c9-7ea5-496d-a3ec-c1b9cddfb54a">
           <CubeDimensionID>Khoa Ngay Chot</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="60f75dba-59da-46b9-a8d3-3b20f752ada2">
+            <Attribute dwd:design-time-name="e38ec44b-61cf-4c69-98bd-b831830d2b3e">
               <AttributeID>Khoa Ngay</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f1121f62-8795-4711-abe6-c0aa35a9404e">
+                <KeyColumn dwd:design-time-name="238d5810-a540-421d-a514-9cb3244ad2db">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1932a7fb-12b3-499a-be9d-4a2a36e44df9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a3553fc6-9fe5-4a8a-9810-33222ef69b8e">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaNgayChot</ColumnID>
                   </Source>
@@ -530,15 +663,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="854000b9-eb32-48b8-847d-e6009b12df08">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cc07b6a2-4826-4894-8dcc-969941085bdf">
           <CubeDimensionID>Dim Nhan Vien</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0edcd8a7-a7fa-42c1-bac5-6f921632789f">
+            <Attribute dwd:design-time-name="17181d20-71cd-4e35-8dda-04409c88c988">
               <AttributeID>Khoa Nhan Vien</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fb155721-d5ef-40f9-9ace-f4642c1df95d">
+                <KeyColumn dwd:design-time-name="e98de4bb-6a5c-4e01-8543-29298f3335e3">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="289376c8-39db-4749-bbd8-452900b8dd5a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d4358ad-09ef-4f4a-9080-325c67199452">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaNhanVien</ColumnID>
                   </Source>
@@ -548,15 +681,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="51b3bcd3-e03d-4686-a30d-6eb86b4337c0">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="763ce5c8-b4ad-4bf3-bb53-189f498da21c">
           <CubeDimensionID>Dim Nhom Luong</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a9c4e89a-4c94-49e2-a568-18bc84ce1470">
+            <Attribute dwd:design-time-name="6e3dd049-c04d-4f09-925e-fc27230c919c">
               <AttributeID>Khoa Nhom Luong</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="cc4f538d-6353-49d1-b020-939388cedf1c">
+                <KeyColumn dwd:design-time-name="40a431d9-b24e-4cb3-beb7-0bfc08c57ccc">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="176bbd46-a79c-4d70-adc0-bcf74568469a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aa31091d-8e04-42af-9eef-6eb4ac16c910">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaNhomLuong</ColumnID>
                   </Source>
@@ -566,15 +699,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a450aa56-103e-454e-8d5f-d1cb829de2c0">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="57ff8cee-78ab-4b99-aeab-16b4c5005b9a">
           <CubeDimensionID>Dim Nhom Tham Nien</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3be2330c-d50d-4ea0-a6de-0fb6c350af29">
+            <Attribute dwd:design-time-name="57ed5afd-a5a1-43de-8703-c2756f17ce32">
               <AttributeID>Khoa Nhom Tham Nien</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="465c521d-fa76-49fa-90b8-bae4a135233e">
+                <KeyColumn dwd:design-time-name="ba01a315-55cb-4525-9c13-5241e8f0aeff">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="543d861e-6037-4190-942c-2833b25a940d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3e23ce4b-8ffc-4053-82d3-c1e74211a453">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaNhomThamNien</ColumnID>
                   </Source>
@@ -584,15 +717,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e3c42a5b-339d-413a-9d7a-bb0d32cc7ad6">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="64ca4b28-21b9-47d3-8e6f-708429fb9f8a">
           <CubeDimensionID>Dim Trang Thai Nghi Viec</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="8e2f5112-a3b7-43f7-a58d-ef74d4530a10">
+            <Attribute dwd:design-time-name="7053ca7a-ccfc-4b13-8da0-e00f0a351ef5">
               <AttributeID>Khoa Trang Thai Nghi Viec</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="cfe851b2-4942-4d96-bf08-18486986ffe8">
+                <KeyColumn dwd:design-time-name="401209ec-ce56-46ee-89a1-37db6acd3349">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2984433b-1aeb-4e6f-9957-c4321d2e1e1f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="249b4737-75a1-4a1d-8a67-1cec89873ad5">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaTrangThaiNghiViec</ColumnID>
                   </Source>
@@ -602,15 +735,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="663de5e7-e433-4d16-b79c-3c82235ac671">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="9986677f-dfec-455d-b8a5-33b5148627ce">
           <CubeDimensionID>Dim Fact Trang Thai Nhan Vien</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="867501d7-dd7f-47ca-9306-d238bb054631">
+            <Attribute dwd:design-time-name="dcc46816-6952-4321-a4c0-51061a971a06">
               <AttributeID>Khoa Trang Thai Nhan Vien</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="720efdbc-8d0d-417c-8846-05d155abd2cc">
+                <KeyColumn dwd:design-time-name="e2695226-7274-4137-af3f-9e2614a671fb">
                   <DataType>BigInt</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a0e89663-4784-401c-b189-1d35f218f6f6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a4956836-a8a6-458b-9069-f13bbd6e0177">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaTrangThaiNhanVien</ColumnID>
                   </Source>
@@ -623,12 +756,203 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="2c62ac6d-1065-4a27-a095-7e9fd77165b3">
+      <ID>Fact Du Bao Nghi Viec</ID>
+      <Name>Fact Du Bao Nghi Viec</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="6d05483e-207a-483d-adfa-0739b80e1521">
+          <ID>Thuc Te Nghi Viec</ID>
+          <Name>So Nghi Viec Thuc Te</Name>
+          <Source dwd:design-time-name="571e9bb3-8c3a-4ccf-a0f2-ab7853823df6">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cae032ee-7016-420e-a37c-9240bda86297">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>ThucTeNghiViec</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2415c900-4448-4d79-9104-c3c69d86f528">
+          <ID>Xac Suat Nghi Viec</ID>
+          <Name>Xac Suat Nghi Viec</Name>
+          <Source dwd:design-time-name="c0d9928f-a548-4547-9d5d-64ca4f502c86">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5b916d67-1f17-4f52-b914-bc73d738f120">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>XacSuatNghiViec</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="48517ffa-9027-452d-bf90-ac63790a4a39">
+          <ID>Diem Nguy Co</ID>
+          <Name>Tong Diem Nguy Co</Name>
+          <Source dwd:design-time-name="c078b4c1-8118-4cd6-9e2c-e3c5f015ec95">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6cfc25f8-e8cd-4822-9923-5dd62c2316f7">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>DiemNguyCo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="003938b1-cdc6-4870-817b-0c927c6d51e0">
+          <ID>Du Doan Nghi Viec</ID>
+          <Name>So Nhan Vien Rui Ro Cao</Name>
+          <Source dwd:design-time-name="3d8dc202-632a-48c2-a426-2f6e49020fbc">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="31699cad-79fd-472d-b8f6-ffe5447fdca3">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>DuDoanNghiViec</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="58ac0e9b-491f-46d1-984a-d92045627719">
+          <ID>Nguong Du Doan</ID>
+          <Name>Nguong Du Doan</Name>
+          <Source dwd:design-time-name="a8937222-2c1e-4bc5-990e-f9b945df83d6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9dab4c32-61d5-4708-aa07-adfed7892a55">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>NguongDuDoan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="40d9994e-3968-46ad-8a60-6a11d6d3b6de">
+          <ID>Phan Vi Nguy Co</ID>
+          <Name>Phan Vi Nguy Co</Name>
+          <Source dwd:design-time-name="f0fdbd01-18f0-4a2f-9401-e98cfffc3866">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="90ddba6d-830b-452f-bd3d-48379ffcac23">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>PhanViNguyCo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b08c4f79-c7cc-4055-a4e5-922601cfff3f">
+          <ID>La TP</ID>
+          <Name>True Positive</Name>
+          <Source dwd:design-time-name="ea8d6014-bb0f-451d-ace0-f7877bc3eb8d">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49303036-a7b4-4deb-b5e1-e32e579b589b">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>LaTP</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="eea96820-4d5f-41a5-aee4-7b34a49f056a">
+          <ID>La FP</ID>
+          <Name>False Positive</Name>
+          <Source dwd:design-time-name="1ffd7b65-9e68-4c0b-85f6-efea55e4901b">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="241f29be-e245-4c18-96f9-fd402bcff19a">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>LaFP</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f853c3a5-7fc2-4a0f-8675-75c20add4689">
+          <ID>La FN</ID>
+          <Name>False Negative</Name>
+          <Source dwd:design-time-name="f2a58fe8-0ae2-4427-a02e-770cef00204a">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b74d2a84-ad38-4dd4-8d2c-538da41d6d33">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>LaFN</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3764898b-b135-46e3-a6b0-fdd4b942cd3f">
+          <ID>La TN</ID>
+          <Name>True Negative</Name>
+          <Source dwd:design-time-name="f592197b-3696-4660-9379-9f1f4f85b90e">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8f4e5d7b-b313-47b1-82e1-a4ad84abe557">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+              <ColumnID>LaTN</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7ba4b3c8-4c22-4a50-b8d6-4ba72ce9e6c4">
+          <ID>Fact Du Bao Nghi Viec Count</ID>
+          <Name>So Ban Ghi Du Bao</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="04fa6a90-0fab-499f-b029-398123901c84">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="a53baae4-a63b-4bdd-ab64-6d1530736803">
+              <TableID>dw_FactDuBaoNghiViec</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8677f9e9-9057-464c-9f6b-323c354ed350">
+          <CubeDimensionID>Dim Ngay</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3dee6d8a-70ab-4057-bc01-156015bcf10c">
+              <AttributeID>Khoa Ngay</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d3959d50-89b9-44bb-a161-ca3f3ff5493c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11bcfd85-32aa-4adf-ac2d-3feb00d71065">
+                    <TableID>dw_FactDuBaoNghiViec</TableID>
+                    <ColumnID>KhoaNgayDuBao</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4e602e6c-87ac-4993-9934-26da1e472823">
+          <CubeDimensionID>Dim Nhan Vien</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cda8c8a5-2abb-4d63-bce4-80c3d1e058aa">
+              <AttributeID>Khoa Nhan Vien</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5242aac6-abdc-473e-ae16-1d818868886d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="036d9508-182e-4724-a074-0d5d15de68bd">
+                    <TableID>dw_FactDuBaoNghiViec</TableID>
+                    <ColumnID>KhoaNhanVien</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b3b732e8-a4a1-4baa-a40d-ee5ced8c754e">
+          <CubeDimensionID>Dim Muc Rui Ro</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="27a1c945-1a19-4c58-9689-5542a486f767">
+              <AttributeID>Khoa Muc Rui Ro</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9894fe55-21ec-4f8e-a9b8-a1af9843b72d">
+                  <DataType>UnsignedTinyInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a67be72f-33a2-4e2e-9df2-d1fa2d59bfe8">
+                    <TableID>dw_FactDuBaoNghiViec</TableID>
+                    <ColumnID>KhoaMucRuiRo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="26892e2f-bfa0-4554-9bda-2b007c9c6aad">
+  <Source dwd:design-time-name="bf2b6985-793f-48f6-8359-2971355d5cc8">
     <DataSourceViewID>DSV_PTNhanSu_DWH</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="321d7b24-187c-4bda-9d94-bd050cf2aa16">
+    <MdxScript dwd:design-time-name="4aa5a01a-c24a-4daf-8dc6-a3cd04b901d1">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -640,7 +964,7 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;    
+CALCULATE;     
 CREATE MEMBER CURRENTCUBE.[Measures].TongNhanVien
  AS COUNT(
     NONEMPTY(
@@ -648,7 +972,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].TongNhanVien
         [Measures].[So Nhan Vien]
     )
 ), 
-VISIBLE = 1;    
+VISIBLE = 1;     
 CREATE MEMBER CURRENTCUBE.[Measures].SoNhanVienNghiViec
  AS COUNT(
     FILTER(
@@ -656,7 +980,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].SoNhanVienNghiViec
         [Measures].[So Nghi Viec] &gt; 0
     )
 ), 
-VISIBLE = 1;         
+VISIBLE = 1;          
 CREATE MEMBER CURRENTCUBE.[Measures].TuoiTrungBinh
  AS IIF(
     [Measures].[So Nhan Vien] = 0,
@@ -665,7 +989,96 @@ CREATE MEMBER CURRENTCUBE.[Measures].TuoiTrungBinh
     /
     [Measures].[So Nhan Vien]
 ), 
-VISIBLE = 1;         
+VISIBLE = 1; 
+CREATE MEMBER CURRENTCUBE.[Measures].DiemNguyCoTrungBinh
+ AS IIF(
+    [Measures].[So Ban Ghi Du Bao] = 0,
+    NULL,
+    1.0
+    * [Measures].[Tong Diem Nguy Co]
+    / [Measures].[So Ban Ghi Du Bao]
+),
+FORMAT_STRING = "0.00",
+VISIBLE = 1, 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].TyLeNhanVienRuiRoCao
+ AS IIF(
+    [Measures].[So Ban Ghi Du Bao] = 0,
+    NULL,
+    1.0
+    * [Measures].[So Nhan Vien Rui Ro Cao]
+    / [Measures].[So Ban Ghi Du Bao]
+),
+FORMAT_STRING = "0.00%",
+VISIBLE = 1, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Trang Thai Nhan Vien'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].TyLeNhanVienTheoMucRuiRo
+ AS IIF(
+    [Dim Muc Rui Ro].[Muc Rui Ro].CurrentMember
+        IS
+    [Dim Muc Rui Ro].[Muc Rui Ro].DefaultMember,
+
+    NULL,
+
+    IIF(
+        (
+            [Measures].[So Ban Ghi Du Bao],
+            [Dim Muc Rui Ro].[Muc Rui Ro].DefaultMember
+        ) = 0,
+
+        NULL,
+
+        1.0
+        * [Measures].[So Ban Ghi Du Bao]
+        /
+        (
+            [Measures].[So Ban Ghi Du Bao],
+            [Dim Muc Rui Ro].[Muc Rui Ro].DefaultMember
+        )
+    )
+), 
+FORMAT_STRING = "0.00%", 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].PrecisionDuBao
+ AS IIF(
+    (
+        [Measures].[True Positive]
+        +
+        [Measures].[False Positive]
+    ) = 0,
+    NULL,
+    1.0
+    * [Measures].[True Positive]
+    /
+    (
+        [Measures].[True Positive]
+        +
+        [Measures].[False Positive]
+    )
+),
+FORMAT_STRING = "0.00%",
+VISIBLE = 1, 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].RecallDuBao
+ AS IIF(
+    (
+        [Measures].[True Positive]
+        +
+        [Measures].[False Negative]
+    ) = 0,
+    NULL,
+    1.0
+    * [Measures].[True Positive]
+    /
+    (
+        [Measures].[True Positive]
+        +
+        [Measures].[False Negative]
+    )
+),
+FORMAT_STRING = "0.00%",
+VISIBLE = 1, 
+VISIBLE = 1  ;          
 CREATE MEMBER CURRENTCUBE.[Measures].ThuNhapTrungBinh
  AS IIF(
     [Measures].[So Nhan Vien] = 0,
@@ -674,7 +1087,18 @@ CREATE MEMBER CURRENTCUBE.[Measures].ThuNhapTrungBinh
     /
     [Measures].[So Nhan Vien]
 ), 
-VISIBLE = 1;      
+VISIBLE = 1; 
+CREATE MEMBER CURRENTCUBE.[Measures].TyLeNghiViecThucTeDuBao
+ AS IIF(
+    [Measures].[So Ban Ghi Du Bao] = 0,
+    NULL,
+    1.0
+    * [Measures].[So Nghi Viec Thuc Te]
+    / [Measures].[So Ban Ghi Du Bao]
+),
+FORMAT_STRING = "0.00%",
+VISIBLE = 1, 
+VISIBLE = 1  ;       
 CREATE MEMBER CURRENTCUBE.[Measures].TylenghiviecSnap
  AS IIF(
     [Measures].[So Nhan Vien] = 0,
@@ -683,7 +1107,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].TylenghiviecSnap
         / [Measures].[So Nhan Vien]
 ), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;    
+VISIBLE = 1;     
 CREATE MEMBER CURRENTCUBE.[Measures].TyLeNVNghiViec
  AS IIF(
     [Measures].[TongNhanVien] = 0,
@@ -694,7 +1118,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].TyLeNVNghiViec
     [Measures].[TongNhanVien]
 ), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].SoDuAnTrungBinh
  AS IIF(
     [Measures].[So Nhan Vien] = 0,
@@ -707,7 +1131,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].SoDuAnTrungBinh
 ),
 FORMAT_STRING = "0.00",
 VISIBLE = 1, 
-VISIBLE = 1  ;  
+VISIBLE = 1;   
 CREATE MEMBER CURRENTCUBE.[Measures].TyLeNghiViecNam
  AS IIF(
     [Measures].[TongNhanVien] = 0,
@@ -720,7 +1144,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].TyLeNghiViecNam
 ),
 FORMAT_STRING = "Percent",
 VISIBLE = 0, 
-VISIBLE = 1;  
+VISIBLE = 1;   
 CREATE MEMBER CURRENTCUBE.[Measures].TyLeNghiViecTrungBinhNam
  AS AVG(
     EXISTING
@@ -730,7 +1154,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].TyLeNghiViecTrungBinhNam
 ),
 FORMAT_STRING = "Percent",
 VISIBLE = 1, 
-VISIBLE = 1; 
+VISIBLE = 1;  
 CREATE MEMBER CURRENTCUBE.[Measures].SoGioLamTrungBinh
  AS IIF(
     [Measures].[So Nhan Vien] = 0,
@@ -743,7 +1167,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].SoGioLamTrungBinh
 ),
 FORMAT_STRING = "0.00",
 VISIBLE = 1, 
-VISIBLE = 1  ; </Text>
+VISIBLE = 1; </Text>
         </Command>
       </Commands>
     </MdxScript>
