@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="31"
-  DTS:VersionGUID="{9E6D7EE7-BFD4-4093-905A-1E5A66C39CCE}">
+  DTS:VersionBuild="32"
+  DTS:VersionGUID="{5E193B75-8001-42A1-B3AD-7B10D0C89C7A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -301,7 +301,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABCG0/Skvw5Gv5/ejzG3FmVRfS2DHD6ysXOkYbNu/V1WgAAAAAOgAAAAAIAACAAAACiQXI1tn/VwXBNzYwHPPfqaVkg2ibBZmiVZleWT8XNsBAAAACTwN6aYt82oNWj+k7G1rRyQAAAADEzpfc3tw4lf5FBj0oimFWeTYi81tIMXrXCA9UJ1Hn7fKj62YJnnaI73MeymZAF78+nlzNl9dUbryWRtuxJ6vA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADiddwLnhNkdLXEgmu/d83Ay+DhKglzsWGdzPUt/DUSQAAAAAAOgAAAAAIAACAAAABZlt25YwFrrPKS8SPq9TjyElLEL9QUuT5NCqNOCezF2RAAAADpHhu7MDlRRfyvhQn/71vJQAAAAI+weCsyXMepfkyIkUyr0HbPaJg4xBPv3BmOGVgyeRId+S6lys2CwLfrG9F6iwq6z+HLH9zCik5bCZl/Qjrq6eY</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1922,33 +1922,33 @@
         <NodeLayout
           Size="157.6,41.6"
           Id="Package\Cập nhật kết quả"
-          TopLeft="722.499960524342,152.533332272636" />
+          TopLeft="94.6428163306561,147.94509698254" />
         <NodeLayout
-          Size="160,41.6"
+          Size="172,41.6"
           Id="Package\Cập nhật số dòng"
-          TopLeft="433.333309657045,146.466665648156" />
+          TopLeft="313.333309401596,149.525489174887" />
         <NodeLayout
           Size="200,41.6"
           Id="Package\Nạp CSV vào bảng DL thô"
-          TopLeft="68.3333295997649,150.799998951356" />
+          TopLeft="301.190472952599,36.8588225806416" />
         <NodeLayout
           Size="132.8,41.6"
           Id="Package\Tạo nhật ký"
           TopLeft="106.666660838657,36.3999997468789" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="268.333329599765,169.433332299756">
+          TopLeft="400.261891177098,78.4588225806416">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="164.99998005728,0"
+              EndConnector="0,71.066666594245"
               Start="0,0"
-              End="157.49998005728,0">
+              End="0,63.566666594245">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="157.49998005728,0" />
+                    End="0,63.566666594245" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1959,18 +1959,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="170.699995219211,77.999999746879">
+          TopLeft="239.466660838657,57.4294111637603">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,72.7999992044767"
+              EndConnector="61.7238121139424,0"
               Start="0,0"
-              End="0,65.2999992044767">
+              End="54.2238121139424,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,65.2999992044767" />
+                    End="54.2238121139424,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1981,18 +1981,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="593.333309657045,170.299998960396">
+          TopLeft="313.333309401596,169.535293078713">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="129.166650867297,0"
+              EndConnector="-61.0904930709404,0"
               Start="0,0"
-              End="121.666650867297,0">
+              End="-53.5904930709404,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="121.666650867297,0" />
+                    End="-53.5904930709404,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2010,13 +2010,13 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\Nạp CSV vào bảng DL thô\Row Count"
-          TopLeft="420.833310340015,174.199998788635" />
-        <NodeLayout
           Size="171.2,41.6"
           Id="Package\Nạp CSV vào bảng DL thô\OLE DB Destination"
           TopLeft="673.333296544024,176.799998770555" />
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\Nạp CSV vào bảng DL thô\Row Count"
+          TopLeft="420.833310340015,174.199998788635" />
         <NodeLayout
           Size="152.8,41.6"
           Id="Package\Nạp CSV vào bảng DL thô\Derived Column"

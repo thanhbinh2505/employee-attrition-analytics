@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="PKG_2_ChuanHoaNV"
   DTS:PackageType="5"
-  DTS:VersionBuild="85"
-  DTS:VersionGUID="{6CF68AFC-57A1-4812-AF19-D1F2B4BB466B}">
+  DTS:VersionBuild="87"
+  DTS:VersionGUID="{16628E2B-0CD0-48D7-AB54-2379C66B6699}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAxu7s746FDlnvv1GlynD3wS/YFJFMKUhsx+KV6g5UVKgAAAAAOgAAAAAIAACAAAAB45Ll3ViRKCjC0AA7OWoLxPlg4OVl7tDR9cgGRQsHRiBAAAADUyefFbl10fwad/6nrnkA8QAAAAJSRIeP4PdzFBQDuyf4YvwXK92af0SEn9vo8gxey3QtVmvmjx7mkrweHKsc5UP+jLyZSIaM9ybhwvMLABpBoUQU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALqonatRjokCc01YYS0LLpwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAmC++3DlkGFOATOSKHyQ9G84lvLZGi6JF2t8GhJ44FSgAAAAAOgAAAAAIAACAAAABn9zIw0SAMf3k2MlP/LPolS8Q9hXKePFdvdudMcxUzJxAAAADvjb0kSvjaxxk5Dq7RZ/06QAAAAMHQCJ/tUNlQaVcQW+Ai7vfSAWYYDag1UwjRYGSvTwu6GxIU/EnZfGFXx92ITI/qC8L10lfOOwExVsxwZ0EjWcs</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5240,41 +5240,41 @@
         <NodeLayout
           Size="156.8,41.6"
           Id="Package\Cập nhật nhật ký"
-          TopLeft="859.166619723872,67.5999995299181" />
+          TopLeft="554.166619074607,181.541175900633" />
         <NodeLayout
           Size="144.8,41.6"
           Id="Package\Cập nhật xử lý"
-          TopLeft="597.499967354041,64.9999995479981" />
+          TopLeft="558.214252984698,58.8823524945369" />
         <NodeLayout
           Size="169.6,41.6"
           Id="Package\Chuẩn Hóa Dữ Liệu"
-          TopLeft="309.166649774546,62.3999995660782" />
+          TopLeft="109.166649348799,170.223528883331" />
         <NodeLayout
           Size="136.8,41.6"
           Id="Package\MaNK Xử Lý"
-          TopLeft="36.6666646632884,56.3333329415984" />
+          TopLeft="129.5238077181,57.8627447049637" />
         <NodeLayout
           Size="161.6,41.6"
           Id="Package\Tạo mã băm SCD"
-          TopLeft="285.833317716089,246.999998282393" />
+          TopLeft="320.833317790595,175.882351285907" />
         <NodeLayout
           Size="123.2,41.6"
           Id="Package\Tính SCD"
-          TopLeft="607.499966807665,245.266664961113" />
+          TopLeft="333.214251938068,60.2078415939124" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="173.466664663288,80.1666662538383">
+          TopLeft="195.945228533449,99.4627447049637">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="135.699985111258,0"
+              EndConnector="0,70.7607841783677"
               Start="0,0"
-              End="128.199985111258,0">
+              End="0,63.2607841783677">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="128.199985111258,0" />
+                    End="0,63.2607841783677" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5285,18 +5285,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="447.433317716089,266.933331621753">
+          TopLeft="398.223784864332,175.882351285907">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="160.066649091576,0"
+              EndConnector="0,-74.0745096919945"
               Start="0,0"
-              End="152.566649091576,0">
+              End="0,-66.5745096919945">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="152.566649091576,0" />
+                    End="0,-66.5745096919945" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5307,18 +5307,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="742.299967354041,87.0999995389581">
+          TopLeft="631.590436029652,100.482352494537">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="116.866652369831,0"
+              EndConnector="0,81.0588234060956"
               Start="0,0"
-              End="109.366652369831,0">
+              End="0,73.5588234060956">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="109.366652369831,0" />
+                    End="0,73.5588234060956" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5329,30 +5329,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="393.966649774546,103.999999566078">
+          TopLeft="278.766649348799,193.852940084619">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-52.9333320584572,142.999998716315"
+              EndConnector="42.0666684417962,0"
               Start="0,0"
-              End="-52.9333320584572,135.499998716315">
+              End="34.5666684417962,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,80.9588227667518" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,80.9588227667518"
-                    Point2="0,84.9588227667518"
-                    Point3="-4,84.9588227667518" />
-                  <mssgle:LineSegment
-                    End="-48.9333320584572,84.9588227667518" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-48.9333320584572,84.9588227667518"
-                    Point2="-52.9333320584572,84.9588227667518"
-                    Point3="-52.9333320584572,88.9588227667518" />
-                  <mssgle:LineSegment
-                    End="-52.9333320584572,135.499998716315" />
+                    End="34.5666684417962,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5363,18 +5351,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="669.499967080853,245.266664961113">
+          TopLeft="456.414251938068,80.3450970442247">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-138.666665413115"
+              EndConnector="101.800001046629,0"
               Start="0,0"
-              End="0,-131.166665413115">
+              End="94.3000010466293,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-131.166665413115" />
+                    End="94.3000010466293,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5820,7 +5808,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Chuẩn Hóa Dữ Liệu\Nhat ky ghi loi DL">
+    design-time-name="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5833,7 +5821,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Chuẩn Hóa Dữ Liệu\OLE DB Source">
+    design-time-name="Package\Chuẩn Hóa Dữ Liệu\Nhat ky ghi loi DL">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
