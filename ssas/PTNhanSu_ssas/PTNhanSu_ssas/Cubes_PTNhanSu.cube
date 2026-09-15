@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="18b595c3-2846-4be3-94f0-eca9fd6b87ea" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="26442c7c-a91e-4963-8d1c-997617f69c48" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Cubes_PTNhanSu</ID>
   <Name>Cubes_PTNhanSu</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="31" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5958" scrolltop="562" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="22077" y="11134" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="36" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4261" scrolltop="-3875" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="22077" y="14647" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactTrangThaiNhanVien" left="5934" top="4347" logicalid="13" controlid="1" masterid="0" hint1="0" hint2="0" width="5059" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactTrangThaiNhanVien" left="2049" top="2355" logicalid="18" controlid="1" masterid="0" hint1="0" hint2="0" width="5059" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000c313000088130000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNhomLuong" left="20" top="5513" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="3514" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNhomLuong" left="-3193" top="2525" logicalid="19" controlid="2" masterid="0" hint1="0" hint2="0" width="3514" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000ba0d00006b0a0000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimTrangThaiNghiViec" left="6283" top="0" logicalid="15" controlid="3" masterid="0" hint1="0" hint2="0" width="4360" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimTrangThaiNghiViec" left="1377" top="-872" logicalid="20" controlid="3" masterid="0" hint1="0" hint2="0" width="4360" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000081100009b070000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNgay" left="3890" top="11747" logicalid="16" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNgay" left="-2709" top="5895" logicalid="21" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00000a100000" />
             </control>
@@ -63,7 +63,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNhanVien" left="9290" top="11747" logicalid="17" controlid="5" masterid="0" hint1="0" hint2="0" width="3747" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNhanVien" left="7945" top="2633" logicalid="22" controlid="5" masterid="0" hint1="0" hint2="0" width="3747" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000a30e000088130000" />
             </control>
@@ -74,7 +74,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNhomThamNien" left="13393" top="5513" logicalid="18" controlid="6" masterid="0" hint1="0" hint2="0" width="3937" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNhomThamNien" left="6794" top="-987" logicalid="23" controlid="6" masterid="0" hint1="0" hint2="0" width="3937" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000610f00006b0a0000" />
             </control>
@@ -85,7 +85,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6091" top="9047" logicalid="19" controlid="7" masterid="0" hint1="0" hint2="0" width="1022" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-9" top="6449" logicalid="24" controlid="7" masterid="0" hint1="0" hint2="0" width="2358" height="906" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -98,14 +98,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="8" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="6490" y="11747" />
-              <point x="6490" y="10547" />
-              <point x="6813" y="10547" />
-              <point x="6813" y="9347" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="13" destattachpoint="34" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="291" y="6848" />
+              <point x="1170" y="6848" />
+              <point x="1170" y="7055" />
+              <point x="2049" y="7055" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9263" top="9047" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="1200" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6808" top="2534" logicalid="25" controlid="8" masterid="0" hint1="0" hint2="0" width="1437" height="971" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -118,14 +118,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="1" sourceattachpoint="2" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="10063" y="11747" />
-              <point x="10063" y="10547" />
-              <point x="9563" y="10547" />
-              <point x="9563" y="9347" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="1" sourceattachpoint="14" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7945" y="2933" />
+              <point x="7545" y="2933" />
+              <point x="7545" y="3205" />
+              <point x="7108" y="3205" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3234" top="5347" logicalid="21" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="21" top="2355" logicalid="26" controlid="9" masterid="0" hint1="0" hint2="0" width="2328" height="803" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -138,14 +138,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="15" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="3534" y="5746" />
-              <point x="4734" y="5746" />
-              <point x="4734" y="5747" />
-              <point x="5934" y="5747" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="321" y="2758" />
+              <point x="1185" y="2758" />
+              <point x="1185" y="2655" />
+              <point x="2049" y="2655" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10693" top="5347" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6478" top="1181" logicalid="27" controlid="10" masterid="0" hint1="0" hint2="0" width="1034" height="1474" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -158,14 +158,16 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="13393" y="5746" />
-              <point x="12193" y="5746" />
-              <point x="12193" y="5747" />
-              <point x="10993" y="5747" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="1" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7112" y="1680" />
+              <point x="7112" y="2080" />
+              <point x="6945" y="2080" />
+              <point x="6945" y="1955" />
+              <point x="6778" y="1955" />
+              <point x="6778" y="2355" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6414" top="1448" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2058" top="576" logicalid="28" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="2079" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -178,12 +180,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="1" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="6813" y="1947" />
-              <point x="6813" y="4347" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="3" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2457" y="1075" />
+              <point x="2457" y="1715" />
+              <point x="2378" y="1715" />
+              <point x="2378" y="2355" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5541" top="9047" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="1022" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-9" top="5899" logicalid="29" controlid="12" masterid="0" hint1="0" hint2="0" width="2358" height="906" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -196,14 +200,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="6" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="5940" y="11747" />
-              <point x="5940" y="10547" />
-              <point x="6263" y="10547" />
-              <point x="6263" y="9347" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="11" destattachpoint="32" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="291" y="6298" />
+              <point x="1170" y="6298" />
+              <point x="1170" y="6505" />
+              <point x="2049" y="6505" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactDuBaoNghiViec" left="14958" top="11487" logicalid="26" controlid="14" masterid="0" hint1="0" hint2="0" width="3331" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactDuBaoNghiViec" left="12567" top="2971" logicalid="30" controlid="13" masterid="0" hint1="0" hint2="0" width="3331" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000030d000088130000" />
             </control>
@@ -214,7 +218,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3891" top="15354" logicalid="27" controlid="15" masterid="0" hint1="0" hint2="0" width="11932" height="2690" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-2708" top="7671" logicalid="31" controlid="14" masterid="0" hint1="0" hint2="0" width="16140" height="3152" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -227,14 +231,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="14" sourceattachpoint="1" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="4290" y="15853" />
-              <point x="4290" y="17744" />
-              <point x="15523" y="17744" />
-              <point x="15523" y="16487" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="13" sourceattachpoint="1" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-2309" y="10001" />
+              <point x="-2309" y="10523" />
+              <point x="13132" y="10523" />
+              <point x="13132" y="7971" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12737" top="12037" logicalid="28" controlid="16" masterid="0" hint1="0" hint2="0" width="2521" height="960" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11392" top="2971" logicalid="32" controlid="15" masterid="0" hint1="0" hint2="0" width="1475" height="912" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -247,14 +251,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="14" sourceattachpoint="17" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="13037" y="12597" />
-              <point x="14153" y="12597" />
-              <point x="14153" y="12337" />
-              <point x="14958" y="12337" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="13" sourceattachpoint="17" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11692" y="3483" />
+              <point x="12092" y="3483" />
+              <point x="12092" y="3271" />
+              <point x="12567" y="3271" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMucRuiRo" left="18597" top="7938" logicalid="29" controlid="17" masterid="0" hint1="0" hint2="0" width="3020" height="1891" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimMucRuiRo" left="12148" top="-479" logicalid="33" controlid="16" masterid="0" hint1="0" hint2="0" width="3020" height="1891" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000cc0b000063070000" />
             </control>
@@ -265,7 +269,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="14847" top="9330" logicalid="30" controlid="18" masterid="0" hint1="0" hint2="0" width="6760" height="2457" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12709" top="913" logicalid="34" controlid="17" masterid="0" hint1="0" hint2="0" width="799" height="2358" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -278,13 +282,11 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="17" destid="14" sourceattachpoint="9" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="21207" y="9829" />
-              <point x="21207" y="11358" />
-              <point x="15147" y="11358" />
-              <point x="15147" y="11087" />
-              <point x="15523" y="11087" />
-              <point x="15523" y="11487" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="16" destid="13" sourceattachpoint="3" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13108" y="1412" />
+              <point x="13108" y="2191" />
+              <point x="13132" y="2191" />
+              <point x="13132" y="2971" />
             </connector>
           </ddscontrol>
         </dds>
@@ -304,259 +306,259 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-5958</Value>
+      <Value>-4261</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>562</Value>
+      <Value>-3875</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>-3193</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-987</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>75</Value>
+      <Value>85</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="c05ca6c4-4e9d-41e9-a53a-f6255ff80479">
+    <Dimension dwd:design-time-name="d81cb16d-e174-4717-aa21-be8989ab6acd">
       <ID>Khoa Ngay Chot</ID>
       <Name>Khoa Ngay Chot</Name>
       <DimensionID>Dim Ngay</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="cc14b174-5dfe-4752-8bbb-76120823c214">
+        <Attribute dwd:design-time-name="98462c79-739a-4778-ae25-192363e127cd">
           <AttributeID>Khoa Ngay</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="16980c5a-25a7-467d-b50c-25d4313e823c">
+        <Attribute dwd:design-time-name="01dd0350-f071-4d00-aae7-b89c14fd299f">
           <AttributeID>Ngay Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9b77aa0a-8e74-43f4-8112-1d29edf1a319">
+        <Attribute dwd:design-time-name="1fe410af-03d2-4624-bff9-1951f58415c5">
           <AttributeID>Ngay</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a43cc35d-249c-4bd6-8a35-42d7e17090e3">
+        <Attribute dwd:design-time-name="e8b5b43d-c149-4b54-ae3f-635de1c09462">
           <AttributeID>Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a12ab7e1-e969-445f-a581-50cd282c2880">
+        <Attribute dwd:design-time-name="a00dc078-d099-431a-bee2-91152170dd85">
           <AttributeID>Ten Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="872acbb9-09bb-4f09-8a0a-7b8bf7e49b64">
+        <Attribute dwd:design-time-name="a81cd38b-9acd-4d42-8243-e61eac36222f">
           <AttributeID>Quy</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ed794d7d-62f6-4269-b3c6-3d933b1c277e">
+        <Attribute dwd:design-time-name="a089bcfc-9871-40c2-81fe-8d80e1487409">
           <AttributeID>Nam</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a7e5a708-86fb-47b9-b52b-437008dafd80">
+        <Attribute dwd:design-time-name="346fe314-4c10-4bdf-bcd7-23800bb5d0c2">
           <AttributeID>Nam Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1a3608b9-a00d-4471-a3ae-702ba1ad876a">
+        <Attribute dwd:design-time-name="8777d33c-61e1-4dc3-b9c4-6acae1c85680">
           <AttributeID>La Cuoi Tuan</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="83a804ff-67bc-4b73-9a5f-94fc64c9bb12">
+        <Hierarchy dwd:design-time-name="a33f44bc-e20e-42cd-9a7e-163ba72b0c3f">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="57f69f22-c875-46b1-bf11-57b82b745587">
+    <Dimension dwd:design-time-name="e94343fb-5fbf-469f-b3a5-33af9627346d">
       <ID>Dim Nhan Vien</ID>
       <Name>Dim Nhan Vien</Name>
       <DimensionID>Dim Nhan Vien</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d32e23ec-d29e-47f2-900d-c0e4f05f1267">
+        <Attribute dwd:design-time-name="424410a2-47e3-4147-b9f1-9282726e630c">
           <AttributeID>Khoa Nhan Vien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0ec547bb-1a93-4e04-b3dd-db7dc0a9deed">
+        <Attribute dwd:design-time-name="1ff8e8a4-f6be-4fcd-b809-1b43985b2eeb">
           <AttributeID>Ma NV</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3ffed615-cbdb-4a1c-ab5e-c796590161ee">
+        <Attribute dwd:design-time-name="0ab33e59-45ca-4f4b-b4a9-50d69a080107">
           <AttributeID>Gioi Tinh</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ad70ad08-3e60-4ff7-bd9c-ceb68aa11b3c">
+        <Attribute dwd:design-time-name="fe51667d-59ea-4777-a21a-4958c09c374d">
           <AttributeID>Tinh Trang Hon Nhan</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7fd06760-69ba-4e24-a57c-336d5d61c2f5">
+        <Attribute dwd:design-time-name="1c1f4c31-e4a1-4315-bb8c-e323fbfc737c">
           <AttributeID>Phong Ban</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="dcb1083b-6d5c-44a5-a9a3-a84f47a11566">
+        <Attribute dwd:design-time-name="d359ff7e-9eb7-49f4-a447-2e6a49caeea5">
           <AttributeID>Chuc Danh</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="95b848a5-bb80-4f83-9191-d6c910d35583">
+        <Attribute dwd:design-time-name="d2d8203c-7650-4f3a-a97b-8d1d9f5a1d9a">
           <AttributeID>Cap Bac Cong Viec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b11eece7-ba46-48eb-8ef7-64e22948fcba">
+        <Attribute dwd:design-time-name="afe00965-c7a4-4cd2-a3e5-dc5606fc6683">
           <AttributeID>Phien Ban</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3c77ac6c-2576-482c-96c8-96e27ea46ac0">
+        <Attribute dwd:design-time-name="f5290fd9-b864-4e2f-895e-16ba8ea97cb4">
           <AttributeID>La Hien Tai</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="decad8eb-01a9-4f94-b416-c1c27f11e4bc">
+        <Attribute dwd:design-time-name="c3c5060f-2a7c-4188-8b40-f2431034165a">
           <AttributeID>Ngay Hieu Luc</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="126fcbd4-e669-4fa0-8de9-382339fab850">
+        <Attribute dwd:design-time-name="080112de-b387-4fd0-879b-d1e19c13ce93">
           <AttributeID>Ngay Het Hieu Luc</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="f345642d-1f7c-4057-bd38-963769ffb2f5">
+    <Dimension dwd:design-time-name="f01c37a3-cbc5-4e4d-ae20-973e237bc59c">
       <ID>Dim Nhom Luong</ID>
       <Name>Dim Nhom Luong</Name>
       <DimensionID>Dim Nhom Luong</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ff5021b9-39bf-4f6f-822c-2ce97fb83e6d">
+        <Attribute dwd:design-time-name="ebf8383a-6793-4eaa-9b7e-5b5dccf4c329">
           <AttributeID>Khoa Nhom Luong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="97b44518-cce5-4e6c-877a-6208108be369">
+        <Attribute dwd:design-time-name="692d1fec-261f-4004-a6c8-6f58c7da75e3">
           <AttributeID>Ten Nhom Luong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e998b430-278b-4cfb-ab4a-9c8bad8abcc0">
+        <Attribute dwd:design-time-name="13de9564-a56a-4f0c-adcf-fe2deeed598c">
           <AttributeID>Thu Tu</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="e6e2d20b-100c-4e33-a378-a0827e9ab5e6">
+    <Dimension dwd:design-time-name="3fc67a79-6636-4a23-b6d6-341a37bb17f1">
       <ID>Dim Nhom Tham Nien</ID>
       <Name>Dim Nhom Tham Nien</Name>
       <DimensionID>Dim Nhom Tham Nien</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="65380522-adfa-47ff-bca1-05a2acfc93bc">
+        <Attribute dwd:design-time-name="7a18207d-9944-454e-8add-06a2ab04ed4f">
           <AttributeID>Khoa Nhom Tham Nien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="caaf2be5-c363-4ef2-a3f8-5e14a9d52413">
+        <Attribute dwd:design-time-name="1283c6db-d702-4b83-bd39-3c54a435dff0">
           <AttributeID>Ten Nhom Tham Nien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="49c2a455-c919-40ad-84d4-616ce5696419">
+        <Attribute dwd:design-time-name="4bf2d9ea-940d-4f5e-8f55-707c7c2fd371">
           <AttributeID>Thu Tu</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="01e69cbc-0c73-451d-baf2-4ac8952dd16f">
+    <Dimension dwd:design-time-name="2b7156b0-da3a-4b9e-9fce-6a06f4b7cae9">
       <ID>Dim Trang Thai Nghi Viec</ID>
       <Name>Dim Trang Thai Nghi Viec</Name>
       <DimensionID>Dim Trang Thai Nghi Viec</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="87476cc3-6061-4fcd-8a65-b156b1b07cce">
+        <Attribute dwd:design-time-name="85a3f6de-ab66-4e42-8573-bdad68c7c188">
           <AttributeID>Khoa Trang Thai Nghi Viec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f5537cac-2289-4ea6-a237-740b000b5e02">
+        <Attribute dwd:design-time-name="65a019ed-03ee-46ce-929c-e12bd64d03a0">
           <AttributeID>Ten Trang Thai</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="9dd9e905-ef05-47c2-92e2-70227a9c27f6">
+    <Dimension dwd:design-time-name="5ab592bd-5c36-415e-a151-bb705780153f">
       <ID>Dim Fact Trang Thai Nhan Vien</ID>
       <Name>Dim Fact Trang Thai Nhan Vien</Name>
       <DimensionID>Dim Fact Trang Thai Nhan Vien</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="557b7a8d-02d3-4e5a-9d77-a139e21faa09">
+        <Attribute dwd:design-time-name="1c9c5fc9-326c-473c-b3ba-0b2878853278">
           <AttributeID>Khoa Trang Thai Nhan Vien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="172db7f4-bb8c-4b9c-989f-7a3733a3c975">
+        <Attribute dwd:design-time-name="4c646474-2cbc-4f7c-975b-dcc4e9032e61">
           <AttributeID>Lam Them Gio</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7d124cf1-f9ba-44f0-99ce-10a6d7fe0e5e">
+        <Attribute dwd:design-time-name="79914c02-083c-40d5-985a-26201a3d010a">
           <AttributeID>Ten Lam Them Gio</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="674a08e4-24c8-4d66-8ff9-ffeaf72e00a6">
+        <Attribute dwd:design-time-name="dd6158c8-d0da-400a-bd9c-bacff8f1eccf">
           <AttributeID>Khoa Ngay</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="31bcef50-cb97-4bdb-b82c-9b9da07365f3">
+        <Attribute dwd:design-time-name="4a74d9c4-f9f8-4873-99c6-1f6adb68dfbb">
           <AttributeID>Khoa Trang Thai Nghi Viec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="01ead312-659c-429e-ada2-cbf98f8096c2">
+        <Attribute dwd:design-time-name="c1d6055d-6874-4140-ad23-51ba78b9f9eb">
           <AttributeID>Khoa Nhom Tham Nien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9e895e22-f74c-4461-9baf-b2ff5e207cab">
+        <Attribute dwd:design-time-name="1342c348-2be8-400f-8221-2e1c5a51bcbe">
           <AttributeID>Khoa Nhom Luong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="16035e45-b919-46d4-b969-3f3b963ec3e5">
+        <Attribute dwd:design-time-name="9950ad92-3430-4935-a451-c4c04ca48c7b">
           <AttributeID>Khoa Nhan Vien</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="225ec175-a4fc-447e-8877-9f4ac2d7202c">
+        <Attribute dwd:design-time-name="e4efe2a0-713a-437a-bbe2-c4c2692cc111">
           <AttributeID>Diem Danh Gia Hieu Suat</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b2809018-5f65-42e4-88e3-eddd7f769cfc">
+        <Attribute dwd:design-time-name="b5a44d3f-e928-4224-9230-518ba633bab5">
           <AttributeID>Diem Hai Long Cong Viec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9a9505dd-d353-4a17-9b78-ce7f8880bc3a">
+        <Attribute dwd:design-time-name="b513eb1e-a6e7-4559-926a-53d131173aaa">
           <AttributeID>Diem Hai Long Moi Truong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c158fb28-7738-4e6d-88d5-43a8e32991b6">
+        <Attribute dwd:design-time-name="51fd2922-7980-4957-9ac2-e257b5e5dca3">
           <AttributeID>Nam Thang Chuc Gan Nhat</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eefb94ba-c41a-4e05-972b-2da935e873ec">
+        <Attribute dwd:design-time-name="93bb920c-ff21-42d6-8e35-ff9bf11b4f17">
           <AttributeID>Khoa Nhom Tuoi</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0ad5fdd9-f83f-43a4-9c6e-3a2276d1ea85">
+        <Attribute dwd:design-time-name="960c7294-509d-4cfe-8ae8-976f40ee76a4">
           <AttributeID>So Gio Trung Binh Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="60b214f8-f248-4a1b-9d03-4aa303af4209">
+        <Attribute dwd:design-time-name="f94740f5-727d-4fe4-9912-33afb5270416">
           <AttributeID>Khoa Nhom Khoang Cach</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="674929b1-cb4c-44c1-8600-649ae11eb435">
+        <Attribute dwd:design-time-name="d90e93cd-ddfe-4503-bf81-7b404b02d674">
           <AttributeID>Khoa Nhom Gio Lam</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="687edabd-d944-4fff-9030-b12b5234e039">
+    <Dimension dwd:design-time-name="c651a274-ccf4-4f12-b2d2-4be626e3c048">
       <ID>Dim Ngay</ID>
       <Name>Dim Ngay</Name>
       <DimensionID>Dim Ngay</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="dfc9e68f-b7a3-4d99-8bb7-6381e910ac72">
+        <Attribute dwd:design-time-name="15f0e72c-3ad0-48a3-b807-dfaec392598a">
           <AttributeID>Khoa Ngay</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="359f5f52-6384-45dd-87a2-ed2968485c91">
+        <Attribute dwd:design-time-name="ee1434bd-acbf-4a74-86a9-2678cb3fb332">
           <AttributeID>Ngay Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c3032bc9-ae76-4026-9a4e-4d3bf4130be1">
+        <Attribute dwd:design-time-name="677104e8-0f1a-40b5-9cd2-436125b5c181">
           <AttributeID>Ngay</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f48e7979-3ff7-4fa4-90fe-b34c53a1deb2">
+        <Attribute dwd:design-time-name="b3dc6934-9916-4538-961f-c2ca99ef5ce9">
           <AttributeID>Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cf51bf3f-d8b2-43c8-b0e7-936ca99f55e5">
+        <Attribute dwd:design-time-name="0ad1864b-4726-4c4f-9c82-8228c23ce803">
           <AttributeID>Ten Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="93d53695-ccaa-47a6-b795-cff72551f040">
+        <Attribute dwd:design-time-name="6e356187-0daf-4773-a741-77ba895904fb">
           <AttributeID>Quy</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f329f47f-cc03-4948-8815-da33a14ea6f6">
+        <Attribute dwd:design-time-name="2517da42-0821-4c70-92d5-3de9a1c7e463">
           <AttributeID>Nam</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ed1b4856-da78-4d01-8f13-75ef69a47619">
+        <Attribute dwd:design-time-name="ee807f78-4d7a-4b73-b45c-4db99c5991e9">
           <AttributeID>Nam Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1127bb31-dd3b-42ba-bcf3-ad1f9d45bb34">
+        <Attribute dwd:design-time-name="eb5d240b-7fc8-416c-849f-84c2fc3881cc">
           <AttributeID>La Cuoi Tuan</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="a665e75b-7cb6-424e-bafb-6ed00e301359">
+        <Hierarchy dwd:design-time-name="0e2eadf7-8011-4827-93e0-abc4162bb7a5">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="f84bb8a4-2cfc-4b54-8a7d-7fde858d09c3">
+    <Dimension dwd:design-time-name="f61fdc69-60dd-4e19-bcad-9f51f05c5893">
       <ID>Dim Muc Rui Ro</ID>
       <Name>Dim Muc Rui Ro</Name>
       <DimensionID>Dim Muc Rui Ro</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="78090dd3-6c69-44ea-bef4-217378fc520f">
+        <Attribute dwd:design-time-name="66146a1e-c521-449f-b1a2-e298260560fe">
           <AttributeID>Khoa Muc Rui Ro</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="6b01dae9-d5d6-411e-9cb2-3147e49857d3">
+    <MeasureGroup dwd:design-time-name="1b7a9225-a0e6-4185-81c1-54a7777ffdea">
       <ID>Fact Trang Thai Nhan Vien</ID>
       <Name>Fact Trang Thai Nhan Vien</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -564,78 +566,78 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="4ec58485-5fd7-4068-ad54-d73286165f69">
+        <Measure dwd:design-time-name="10cec5a1-f287-4433-b8aa-bca950411e3a">
           <ID>Tuoi</ID>
           <Name>Tuoi</Name>
-          <Source dwd:design-time-name="ff51f578-f386-4227-a0b9-ccd66b3b527a">
+          <Source dwd:design-time-name="c32f2246-6e45-4898-a811-7f93ebce248a">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="aed8497f-eb9e-449c-8ebe-9ae0bbfefb81">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1a7010b1-2d7e-4c9a-881b-d35130091412">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>Tuoi</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="680c1687-ddaf-4be5-8e2c-83f9149c9e7b">
+        <Measure dwd:design-time-name="e315b5a4-9ec1-418b-a5a9-f33c48eb7b7d">
           <ID>So Luong Du An</ID>
           <Name>So Luong Du An</Name>
-          <Source dwd:design-time-name="bf9fbf7f-9b5e-4630-a821-fca9a5a9f28c">
+          <Source dwd:design-time-name="419d9149-dd8d-4a1a-a230-024997d812da">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ff28db46-27a6-4e22-9793-9d75618584cf">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8b1049d5-bac2-4c91-ac51-90bbb7449323">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoLuongDuAn</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="4d6da219-fa8c-4196-8663-705050b27d21">
+        <Measure dwd:design-time-name="83d952d7-86d0-4ba3-a9e9-2183273110fd">
           <ID>So Gio Trung Binh Thang</ID>
           <Name>So Gio Trung Binh Thang</Name>
-          <Source dwd:design-time-name="040c9451-4e38-47f3-b512-f41f2dc947f7">
+          <Source dwd:design-time-name="460620b8-89b9-4fef-b698-f73765084ef4">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="dce10742-435b-4440-89ab-8fed440f891d">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="39571bea-1be0-4f0c-8e16-5d3ab773f5a6">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoGioTrungBinhThang</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="38e43d59-1e92-4c23-9393-34f0988dec9c">
+        <Measure dwd:design-time-name="b990ed2a-b732-4d5b-9905-1048c2b238c7">
           <ID>Thu Nhap Thang</ID>
           <Name>Thu Nhap Thang</Name>
-          <Source dwd:design-time-name="11ccf0ef-d9da-4fbe-84e6-04441347cd18">
+          <Source dwd:design-time-name="478c7284-4dde-4129-b345-6d527d9b8127">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="7de1be89-929a-4472-b940-2f214166d5eb">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="10b76dd8-bacd-4642-88d7-21a12b46432e">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>ThuNhapThang</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="1d4a01bf-bc73-4955-b95a-12a4cee4cc25">
+        <Measure dwd:design-time-name="b778abf1-4708-4b0a-980c-767a389e83a8">
           <ID>So Nam Tai Cong Ty</ID>
           <Name>So Nam Tai Cong Ty</Name>
-          <Source dwd:design-time-name="528cb89d-be4e-4f25-8fa8-f52b2383dc7e">
+          <Source dwd:design-time-name="c062eb5e-0b22-4f72-8ec3-5f11625abf8e">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ae3c403b-6fa2-4cbc-8dbb-541513576ade">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a123eeb3-dd2f-4f85-8fa1-0b9eab8ba479">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoNamTaiCongTy</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="9bdba1be-a6e0-4987-9a5f-2083b42a948e">
+        <Measure dwd:design-time-name="5253ba8e-7db7-4c0f-aae2-29c89eb99845">
           <ID>So Nhan Vien</ID>
           <Name>So Nhan Vien</Name>
-          <Source dwd:design-time-name="49884d76-fd47-43de-bba4-2e2767917acc">
+          <Source dwd:design-time-name="b9510a56-fed5-4772-ba46-a91d8061e44a">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="557126e7-37aa-4e4f-84f6-12c8985349df">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2a13c04a-cbbf-451c-b6cc-498fbe5c457e">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoNhanVien</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="5e0ef16b-e742-41b9-a0c6-ff4b885ca56a">
+        <Measure dwd:design-time-name="335f2d82-cc64-406c-8cee-6dff758d2335">
           <ID>So Nghi Viec</ID>
           <Name>So Nghi Viec</Name>
-          <Source dwd:design-time-name="53047af0-6580-4d0c-8eea-27f5aeee8ee2">
+          <Source dwd:design-time-name="52648baf-6a3f-41c3-b9be-cb1f7cc732ff">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="015cc9c4-d7ad-4fba-b212-03d63be8980c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4ce3a79d-025e-43f0-ad92-c27168750f95">
               <TableID>dw_FactTrangThaiNhanVien</TableID>
               <ColumnID>SoNghiViec</ColumnID>
             </Source>
@@ -645,15 +647,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e54a73c9-7ea5-496d-a3ec-c1b9cddfb54a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f3db4878-0866-40c3-ab37-2db1ce9851de">
           <CubeDimensionID>Khoa Ngay Chot</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e38ec44b-61cf-4c69-98bd-b831830d2b3e">
+            <Attribute dwd:design-time-name="03827cc6-7a0e-45be-b498-0aa033f69d55">
               <AttributeID>Khoa Ngay</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="238d5810-a540-421d-a514-9cb3244ad2db">
+                <KeyColumn dwd:design-time-name="02d41492-f9eb-45dc-862b-ccfd624964e0">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a3553fc6-9fe5-4a8a-9810-33222ef69b8e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c5f78d49-6952-44eb-8d62-3e40f5618563">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaNgayChot</ColumnID>
                   </Source>
@@ -663,15 +665,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cc07b6a2-4826-4894-8dcc-969941085bdf">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2e7d93c4-1994-4513-95f2-a6c42a4d2b38">
           <CubeDimensionID>Dim Nhan Vien</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="17181d20-71cd-4e35-8dda-04409c88c988">
+            <Attribute dwd:design-time-name="c99f9730-83e4-482b-b0dd-c68f9645b659">
               <AttributeID>Khoa Nhan Vien</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e98de4bb-6a5c-4e01-8543-29298f3335e3">
+                <KeyColumn dwd:design-time-name="0074389e-0cfd-4c0b-8e4b-3988800758cd">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d4358ad-09ef-4f4a-9080-325c67199452">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3153b7ad-9964-4303-8447-be33b67ed26c">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaNhanVien</ColumnID>
                   </Source>
@@ -681,15 +683,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="763ce5c8-b4ad-4bf3-bb53-189f498da21c">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5755cf9d-1dbc-4896-909a-066c32c7d1bf">
           <CubeDimensionID>Dim Nhom Luong</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6e3dd049-c04d-4f09-925e-fc27230c919c">
+            <Attribute dwd:design-time-name="564450be-28d2-4a9d-adfc-a4bfa09370bb">
               <AttributeID>Khoa Nhom Luong</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="40a431d9-b24e-4cb3-beb7-0bfc08c57ccc">
+                <KeyColumn dwd:design-time-name="ffa65231-96c8-44ac-ab1a-f5e64678f3ae">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aa31091d-8e04-42af-9eef-6eb4ac16c910">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a4e7f040-dae7-40b5-a66c-73465bb3098c">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaNhomLuong</ColumnID>
                   </Source>
@@ -699,15 +701,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="57ff8cee-78ab-4b99-aeab-16b4c5005b9a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b37f2faf-e055-455b-839e-43cf102c0dfa">
           <CubeDimensionID>Dim Nhom Tham Nien</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="57ed5afd-a5a1-43de-8703-c2756f17ce32">
+            <Attribute dwd:design-time-name="f4fc48b5-eb65-4377-bfd9-7764e469f4af">
               <AttributeID>Khoa Nhom Tham Nien</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="ba01a315-55cb-4525-9c13-5241e8f0aeff">
+                <KeyColumn dwd:design-time-name="3f694c10-121d-4123-915d-6fe30f3f6800">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3e23ce4b-8ffc-4053-82d3-c1e74211a453">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="78576d42-07a7-4d8b-8979-8c5a629df452">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaNhomThamNien</ColumnID>
                   </Source>
@@ -717,15 +719,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="64ca4b28-21b9-47d3-8e6f-708429fb9f8a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1d363d66-479e-4482-8658-d07d8a2b97c9">
           <CubeDimensionID>Dim Trang Thai Nghi Viec</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="7053ca7a-ccfc-4b13-8da0-e00f0a351ef5">
+            <Attribute dwd:design-time-name="5a97e5c2-1291-4f4b-81b5-83e93b3658e0">
               <AttributeID>Khoa Trang Thai Nghi Viec</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="401209ec-ce56-46ee-89a1-37db6acd3349">
+                <KeyColumn dwd:design-time-name="36ac7305-0d42-4ef4-9d55-2f5940887cd1">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="249b4737-75a1-4a1d-8a67-1cec89873ad5">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="195dabcc-6d52-417b-8698-c64ed2340f7b">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaTrangThaiNghiViec</ColumnID>
                   </Source>
@@ -735,15 +737,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="9986677f-dfec-455d-b8a5-33b5148627ce">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e4a5f950-d691-42a1-869f-65eb4410d4fd">
           <CubeDimensionID>Dim Fact Trang Thai Nhan Vien</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dcc46816-6952-4321-a4c0-51061a971a06">
+            <Attribute dwd:design-time-name="2a7205bc-9a9e-4d7b-991a-f0b8f15f80ee">
               <AttributeID>Khoa Trang Thai Nhan Vien</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e2695226-7274-4137-af3f-9e2614a671fb">
+                <KeyColumn dwd:design-time-name="099b5977-63c1-4c2b-bdd7-a7b83a26be2a">
                   <DataType>BigInt</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a4956836-a8a6-458b-9069-f13bbd6e0177">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="44783e2f-c440-4a78-90de-5394c61058c4">
                     <TableID>dw_FactTrangThaiNhanVien</TableID>
                     <ColumnID>KhoaTrangThaiNhanVien</ColumnID>
                   </Source>
@@ -756,7 +758,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="2c62ac6d-1065-4a27-a095-7e9fd77165b3">
+    <MeasureGroup dwd:design-time-name="56bfad9e-d47a-44bf-93fd-d3fd902031e8">
       <ID>Fact Du Bao Nghi Viec</ID>
       <Name>Fact Du Bao Nghi Viec</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -764,124 +766,124 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="6d05483e-207a-483d-adfa-0739b80e1521">
+        <Measure dwd:design-time-name="5bd012dd-f5c9-403b-9cad-319967131958">
           <ID>Thuc Te Nghi Viec</ID>
           <Name>So Nghi Viec Thuc Te</Name>
-          <Source dwd:design-time-name="571e9bb3-8c3a-4ccf-a0f2-ab7853823df6">
+          <Source dwd:design-time-name="d10cac7c-dbac-44c8-85c2-660d580224ff">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="cae032ee-7016-420e-a37c-9240bda86297">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="59126958-1198-4d1b-8988-3cda3169bdb2">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>ThucTeNghiViec</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="2415c900-4448-4d79-9104-c3c69d86f528">
+        <Measure dwd:design-time-name="c82970e4-c028-49a0-9048-9336ed96b005">
           <ID>Xac Suat Nghi Viec</ID>
           <Name>Xac Suat Nghi Viec</Name>
-          <Source dwd:design-time-name="c0d9928f-a548-4547-9d5d-64ca4f502c86">
+          <Source dwd:design-time-name="d83b0a08-4499-4fe7-9842-c83678eef84b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5b916d67-1f17-4f52-b914-bc73d738f120">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1c314b74-2097-491a-bdf6-b76a28abb761">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>XacSuatNghiViec</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="48517ffa-9027-452d-bf90-ac63790a4a39">
+        <Measure dwd:design-time-name="fb41544d-1006-454c-95c8-edea5fdda8f8">
           <ID>Diem Nguy Co</ID>
           <Name>Tong Diem Nguy Co</Name>
-          <Source dwd:design-time-name="c078b4c1-8118-4cd6-9e2c-e3c5f015ec95">
+          <Source dwd:design-time-name="18d0c2fe-64ad-461c-81b1-5e9a4fd96063">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="6cfc25f8-e8cd-4822-9923-5dd62c2316f7">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a91563b2-5255-4b6e-96b8-06452e1f1b06">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>DiemNguyCo</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="003938b1-cdc6-4870-817b-0c927c6d51e0">
+        <Measure dwd:design-time-name="8004f3db-7245-489d-b1ae-aee6a0face0d">
           <ID>Du Doan Nghi Viec</ID>
           <Name>So Nhan Vien Rui Ro Cao</Name>
-          <Source dwd:design-time-name="3d8dc202-632a-48c2-a426-2f6e49020fbc">
+          <Source dwd:design-time-name="93b9d315-beb5-4080-bc55-067363bd3b88">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="31699cad-79fd-472d-b8f6-ffe5447fdca3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ed32d429-6929-42ba-837b-36b25cb11944">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>DuDoanNghiViec</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="58ac0e9b-491f-46d1-984a-d92045627719">
+        <Measure dwd:design-time-name="bc89d4a2-4451-4caa-8c78-2b29e14cabc3">
           <ID>Nguong Du Doan</ID>
           <Name>Nguong Du Doan</Name>
-          <Source dwd:design-time-name="a8937222-2c1e-4bc5-990e-f9b945df83d6">
+          <Source dwd:design-time-name="4cc59810-fdc9-445f-9b77-02378531696b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9dab4c32-61d5-4708-aa07-adfed7892a55">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5b940204-6b6d-4cb5-858a-0826b96274aa">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>NguongDuDoan</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="40d9994e-3968-46ad-8a60-6a11d6d3b6de">
+        <Measure dwd:design-time-name="53e5d566-378f-4ea9-b33a-529fe442c044">
           <ID>Phan Vi Nguy Co</ID>
           <Name>Phan Vi Nguy Co</Name>
-          <Source dwd:design-time-name="f0fdbd01-18f0-4a2f-9401-e98cfffc3866">
+          <Source dwd:design-time-name="de856cb0-d84c-4b69-b6b4-3102f2cb2e22">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="90ddba6d-830b-452f-bd3d-48379ffcac23">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4a0139a5-041a-4c1e-8a9a-5f05a0b66cfb">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>PhanViNguyCo</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b08c4f79-c7cc-4055-a4e5-922601cfff3f">
+        <Measure dwd:design-time-name="b79324a7-73bb-46b6-a88c-023adc37770a">
           <ID>La TP</ID>
           <Name>True Positive</Name>
-          <Source dwd:design-time-name="ea8d6014-bb0f-451d-ace0-f7877bc3eb8d">
+          <Source dwd:design-time-name="55db1278-2ed8-4c65-8a5c-d47a780fa602">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="49303036-a7b4-4deb-b5e1-e32e579b589b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="104e51e9-6c76-4a78-aa46-865c2b61bffe">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>LaTP</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="eea96820-4d5f-41a5-aee4-7b34a49f056a">
+        <Measure dwd:design-time-name="671b5675-82c2-4e38-b3ba-07b4ce901059">
           <ID>La FP</ID>
           <Name>False Positive</Name>
-          <Source dwd:design-time-name="1ffd7b65-9e68-4c0b-85f6-efea55e4901b">
+          <Source dwd:design-time-name="cb9cb5be-9deb-4e39-8785-fb08810eeef0">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="241f29be-e245-4c18-96f9-fd402bcff19a">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6a205a56-e75a-4663-a3b7-44c0668b156f">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>LaFP</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="f853c3a5-7fc2-4a0f-8675-75c20add4689">
+        <Measure dwd:design-time-name="1d28b15c-abef-4551-b6b5-7ea824c3f3de">
           <ID>La FN</ID>
           <Name>False Negative</Name>
-          <Source dwd:design-time-name="f2a58fe8-0ae2-4427-a02e-770cef00204a">
+          <Source dwd:design-time-name="100ff59c-e680-463f-961c-72b52149fc6f">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="b74d2a84-ad38-4dd4-8d2c-538da41d6d33">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6dfb462f-1670-43da-8bd7-584d778e668b">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>LaFN</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="3764898b-b135-46e3-a6b0-fdd4b942cd3f">
+        <Measure dwd:design-time-name="370095f9-6e1b-4728-92da-542280455197">
           <ID>La TN</ID>
           <Name>True Negative</Name>
-          <Source dwd:design-time-name="f592197b-3696-4660-9379-9f1f4f85b90e">
+          <Source dwd:design-time-name="9aec148d-5957-49d7-a026-cc17537d51e3">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8f4e5d7b-b313-47b1-82e1-a4ad84abe557">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ecaff66b-8994-45d4-a77a-c266f14cc98b">
               <TableID>dw_FactDuBaoNghiViec</TableID>
               <ColumnID>LaTN</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="7ba4b3c8-4c22-4a50-b8d6-4ba72ce9e6c4">
+        <Measure dwd:design-time-name="0e8bb0ae-446e-49cb-8cbe-3e9408009a7b">
           <ID>Fact Du Bao Nghi Viec Count</ID>
           <Name>So Ban Ghi Du Bao</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="04fa6a90-0fab-499f-b029-398123901c84">
+          <Source dwd:design-time-name="b0c7f179-f077-475f-93f7-42b9a67dad2c">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="a53baae4-a63b-4bdd-ab64-6d1530736803">
+            <Source xsi:type="RowBinding" dwd:design-time-name="136f67a0-c403-4d1e-b95e-bea7c0d1feea">
               <TableID>dw_FactDuBaoNghiViec</TableID>
             </Source>
           </Source>
@@ -890,15 +892,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8677f9e9-9057-464c-9f6b-323c354ed350">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ca718341-fc24-436d-852d-e86ecfb54a8f">
           <CubeDimensionID>Dim Ngay</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3dee6d8a-70ab-4057-bc01-156015bcf10c">
+            <Attribute dwd:design-time-name="0e357b53-211f-47fb-90d7-e65381eeb6d3">
               <AttributeID>Khoa Ngay</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d3959d50-89b9-44bb-a161-ca3f3ff5493c">
+                <KeyColumn dwd:design-time-name="0c1db19c-f887-4bec-a43f-97de4d048562">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11bcfd85-32aa-4adf-ac2d-3feb00d71065">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="da1f82bc-408d-48fa-ac27-1ab129d22287">
                     <TableID>dw_FactDuBaoNghiViec</TableID>
                     <ColumnID>KhoaNgayDuBao</ColumnID>
                   </Source>
@@ -908,15 +910,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4e602e6c-87ac-4993-9934-26da1e472823">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8459c218-49ed-44df-8182-af20a08c6847">
           <CubeDimensionID>Dim Nhan Vien</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="cda8c8a5-2abb-4d63-bce4-80c3d1e058aa">
+            <Attribute dwd:design-time-name="4cf47faf-8fab-4545-b950-2129b5f36699">
               <AttributeID>Khoa Nhan Vien</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5242aac6-abdc-473e-ae16-1d818868886d">
+                <KeyColumn dwd:design-time-name="0c977308-827d-45df-bf49-4bf252a1d851">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="036d9508-182e-4724-a074-0d5d15de68bd">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1208bef4-e822-4458-a282-28c8da768f54">
                     <TableID>dw_FactDuBaoNghiViec</TableID>
                     <ColumnID>KhoaNhanVien</ColumnID>
                   </Source>
@@ -926,15 +928,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b3b732e8-a4a1-4baa-a40d-ee5ced8c754e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9e0a897a-472a-454b-b251-25351d6cd50f">
           <CubeDimensionID>Dim Muc Rui Ro</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="27a1c945-1a19-4c58-9689-5542a486f767">
+            <Attribute dwd:design-time-name="d9d3083a-fb9e-4dc9-97c6-1621e3fcd117">
               <AttributeID>Khoa Muc Rui Ro</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9894fe55-21ec-4f8e-a9b8-a1af9843b72d">
+                <KeyColumn dwd:design-time-name="b7302564-a42f-4076-80d4-1ec5dacf99f7">
                   <DataType>UnsignedTinyInt</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a67be72f-33a2-4e2e-9df2-d1fa2d59bfe8">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e83c3538-6355-44c8-8f4a-97e9c6e17d4a">
                     <TableID>dw_FactDuBaoNghiViec</TableID>
                     <ColumnID>KhoaMucRuiRo</ColumnID>
                   </Source>
@@ -948,11 +950,11 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="bf2b6985-793f-48f6-8359-2971355d5cc8">
+  <Source dwd:design-time-name="89efb20a-1bfe-4cfb-9398-1328c622beb5">
     <DataSourceViewID>DSV_PTNhanSu_DWH</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="4aa5a01a-c24a-4daf-8dc6-a3cd04b901d1">
+    <MdxScript dwd:design-time-name="64c2d77e-7412-48d8-b067-33d6390ac01e">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
